@@ -1,0 +1,3275 @@
+[
+  {
+    "timestamp": "2026-09-30T19:41:48.815400+00:00",
+    "url": "https://www.cominvi.com.mx/",
+    "method": "GET",
+    "resource_type": "document",
+    "headers": {
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\""
+    },
+    "post_data": null,
+    "is_navigation_request": true
+  },
+  {
+    "timestamp": "2026-09-30T19:41:51.669444+00:00",
+    "url": "https://cdn.prod.website-files.com/6899a2f3f7995d5e3e31b7c6/css/cominvi-staging.webflow.shared.451204bcb.min.css",
+    "method": "GET",
+    "resource_type": "stylesheet",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:51.670117+00:00",
+    "url": "https://cominvi.netlify.app/home-background.avif",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:51.670443+00:00",
+    "url": "https://cdn.prod.website-files.com/6899a2f3f7995d5e3e31b7c6/68f79ce92fff59326446790a_home_01.avif",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:51.675228+00:00",
+    "url": "https://cdn.prod.website-files.com/6899a2f3f7995d5e3e31b7c6/68f79cff2e7025c4303a928e_home_02.avif",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:51.675798+00:00",
+    "url": "https://cdn.prod.website-files.com/6899a2f3f7995d5e3e31b7c6/690a1cdd0cf003368be1a76a_13-motor-grader.avif",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:51.676466+00:00",
+    "url": "https://cdn.prod.website-files.com/6899a2f3f7995d5e3e31b7c6/690a1fa07ae075df24b55c3f_7-telehandler.avif",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:51.676914+00:00",
+    "url": "https://cdn.prod.website-files.com/6899a2f3f7995d5e3e31b7c6/690a1cdc25f0a03a168c0680_8-compactor.avif",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:51.677217+00:00",
+    "url": "https://cdn.prod.website-files.com/6899a2f3f7995d5e3e31b7c6/690a1cddb0b336c4c83c379b_9-backhoe%20loader%20with%20basket.avif",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:51.677573+00:00",
+    "url": "https://cdn.prod.website-files.com/6899a2f3f7995d5e3e31b7c6/6a82d4c4e384c1766ba95310_face-drilling-rig.avif",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:51.677883+00:00",
+    "url": "https://cdn.prod.website-files.com/6899a2f3f7995d5e3e31b7c6/690a1cdcbe626f6cccd3ad73_5-Load-Haul-Dump%20Loader.avif",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:51.678181+00:00",
+    "url": "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6899a2f3f7995d5e3e31b7c6",
+    "method": "GET",
+    "resource_type": "script",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:51.678683+00:00",
+    "url": "https://cdn.prod.website-files.com/6899a2f3f7995d5e3e31b7c6/js/webflow.schunk.380a9cc3d7b92fe0.js",
+    "method": "GET",
+    "resource_type": "script",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:51.679382+00:00",
+    "url": "https://cdn.prod.website-files.com/6899a2f3f7995d5e3e31b7c6/js/webflow.45db7ba0.6a7654b6d67a8b28.js",
+    "method": "GET",
+    "resource_type": "script",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:51.680096+00:00",
+    "url": "https://cominvi.pages.dev/main.js",
+    "method": "GET",
+    "resource_type": "script",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:51.730007+00:00",
+    "url": "https://www.cominvi.com.mx/",
+    "method": "GET",
+    "resource_type": "other",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-purpose": "prefetch",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:51.730815+00:00",
+    "url": "https://www.cominvi.com.mx/our-services",
+    "method": "GET",
+    "resource_type": "other",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-purpose": "prefetch",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:51.731328+00:00",
+    "url": "https://www.cominvi.com.mx/technology",
+    "method": "GET",
+    "resource_type": "other",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-purpose": "prefetch",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:51.731665+00:00",
+    "url": "https://www.cominvi.com.mx/safety",
+    "method": "GET",
+    "resource_type": "other",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-purpose": "prefetch",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:51.731992+00:00",
+    "url": "https://www.cominvi.com.mx/about-us",
+    "method": "GET",
+    "resource_type": "other",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-purpose": "prefetch",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:51.732334+00:00",
+    "url": "https://www.cominvi.com.mx/blog",
+    "method": "GET",
+    "resource_type": "other",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-purpose": "prefetch",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:51.732649+00:00",
+    "url": "https://www.cominvi.com.mx/join-the-team",
+    "method": "GET",
+    "resource_type": "other",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-purpose": "prefetch",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:51.791332+00:00",
+    "url": "https://cdn.prod.website-files.com/6899a2f3f7995d5e3e31b7c6/6a1064bbf152b2cee690edad_frame_00001.avif",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cdn.prod.website-files.com/6899a2f3f7995d5e3e31b7c6/css/cominvi-staging.webflow.shared.451204bcb.min.css",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:51.791925+00:00",
+    "url": "https://cdn.prod.website-files.com/6899a2f3f7995d5e3e31b7c6/6899baf306f22ae8957e5654_HelveticaNowDisplay-Medium.woff2",
+    "method": "GET",
+    "resource_type": "font",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cdn.prod.website-files.com/6899a2f3f7995d5e3e31b7c6/css/cominvi-staging.webflow.shared.451204bcb.min.css",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:51.792468+00:00",
+    "url": "https://cdn.prod.website-files.com/6899a2f3f7995d5e3e31b7c6/6899ad166b8e51fe05dc4a3d_HelveticaNowDisplay-Bold.woff2",
+    "method": "GET",
+    "resource_type": "font",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cdn.prod.website-files.com/6899a2f3f7995d5e3e31b7c6/css/cominvi-staging.webflow.shared.451204bcb.min.css",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:51.792911+00:00",
+    "url": "https://cdn.prod.website-files.com/6899a2f3f7995d5e3e31b7c6/6899ad2cbb853e01ecffd64d_PPSupplyMono-Light.woff2",
+    "method": "GET",
+    "resource_type": "font",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cdn.prod.website-files.com/6899a2f3f7995d5e3e31b7c6/css/cominvi-staging.webflow.shared.451204bcb.min.css",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:51.793296+00:00",
+    "url": "https://cdn.prod.website-files.com/6899a2f3f7995d5e3e31b7c6/68bea9279852844c803cd970_our-services-sm.avif",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:51.793786+00:00",
+    "url": "https://cdn.prod.website-files.com/6899a2f3f7995d5e3e31b7c6/6a85ba433ab903950f39215d_technology-min.avif",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.089291+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/manifest.json",
+    "method": "GET",
+    "resource_type": "fetch",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.089729+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/manifest.json",
+    "method": "GET",
+    "resource_type": "other",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.090159+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/poster/frame_00000.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.090677+00:00",
+    "url": "https://cominvi.pages.dev/assets/cylinder.js",
+    "method": "GET",
+    "resource_type": "script",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cominvi.pages.dev/main.js",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.118495+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/intro.mp4",
+    "method": "GET",
+    "resource_type": "other",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.119164+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00000.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.119790+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00001.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.120320+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00002.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.120845+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00003.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.122639+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00004.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.123438+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00005.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.123886+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00006.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.124215+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00007.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.124687+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00000.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.125000+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00001.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.125454+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00002.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.125889+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00003.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.126435+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00004.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.126932+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00005.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.127430+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00006.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.128044+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00007.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.128705+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00008.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.129155+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00009.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.129832+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00010.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.130416+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00011.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.131065+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00012.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.131672+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00013.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.132255+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00014.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.132803+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00015.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.133376+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00016.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.134006+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00017.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.134562+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00018.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.135028+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00019.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.135461+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00020.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.135883+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00021.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.136317+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00022.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.136721+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00023.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.137088+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00024.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.137499+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00025.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.137937+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00026.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.138340+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00027.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.138704+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00028.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.139104+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00029.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.139567+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-1/frame_00030.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.139944+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-1/frame_00031.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.140356+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-1/frame_00032.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.140677+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-1/frame_00033.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.140999+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-1/frame_00034.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.141381+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-1/frame_00035.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.141775+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-1/frame_00036.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.142097+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-1/frame_00037.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.142540+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-1/frame_00038.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.142844+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-1/frame_00039.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.143132+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-1/frame_00040.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.143463+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-1/frame_00041.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.143773+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-1/frame_00042.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.144081+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-1/frame_00043.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.144388+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-1/frame_00044.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.144671+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-1/frame_00045.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.144950+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-1/frame_00046.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.145218+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-1/frame_00047.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.145521+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-1/frame_00048.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.145800+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-1/frame_00049.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.146160+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-1/frame_00050.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.146808+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-1/frame_00051.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.147309+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-1/frame_00052.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.147771+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-1/frame_00053.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.148204+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-1/frame_00054.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.149091+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-1/frame_00055.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.149594+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-1/frame_00056.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.150051+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-1/frame_00057.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.150496+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-1/frame_00058.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.150834+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-1/frame_00059.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.222284+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/intro.mp4",
+    "method": "GET",
+    "resource_type": "media",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "accept-encoding": "identity;q=1, *;q=0",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "range": "bytes=0-",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.283821+00:00",
+    "url": "https://cominvi.pages.dev/assets/button-hover.js",
+    "method": "GET",
+    "resource_type": "script",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cominvi.pages.dev/main.js",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.284533+00:00",
+    "url": "https://cominvi.pages.dev/assets/service-cards.js",
+    "method": "GET",
+    "resource_type": "script",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.285109+00:00",
+    "url": "https://cominvi.pages.dev/assets/index.js",
+    "method": "GET",
+    "resource_type": "script",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.330086+00:00",
+    "url": "https://cominvi.pages.dev/assets/minerals.js",
+    "method": "GET",
+    "resource_type": "script",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cominvi.pages.dev/main.js",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.418767+00:00",
+    "url": "https://cominvi.pages.dev/assets/cards-reveal.js",
+    "method": "GET",
+    "resource_type": "script",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cominvi.pages.dev/main.js",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.457580+00:00",
+    "url": "https://cominvi.pages.dev/assets/minerals-canvas-local-debug.js",
+    "method": "GET",
+    "resource_type": "script",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.458100+00:00",
+    "url": "https://cominvi.pages.dev/assets/scroll-performance.js",
+    "method": "GET",
+    "resource_type": "script",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.519225+00:00",
+    "url": "https://cominvi.pages.dev/assets/text-reveal.js",
+    "method": "GET",
+    "resource_type": "script",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.520023+00:00",
+    "url": "https://cominvi.pages.dev/assets/safety-sticky.js",
+    "method": "GET",
+    "resource_type": "script",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cominvi.pages.dev/main.js",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.520583+00:00",
+    "url": "https://cominvi.pages.dev/assets/scroll-list.js",
+    "method": "GET",
+    "resource_type": "script",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cominvi.pages.dev/main.js",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.521113+00:00",
+    "url": "https://cominvi.pages.dev/assets/testimonials.js",
+    "method": "GET",
+    "resource_type": "script",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cominvi.pages.dev/main.js",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.521580+00:00",
+    "url": "https://cominvi.pages.dev/assets/text-display-reveal.js",
+    "method": "GET",
+    "resource_type": "script",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cominvi.pages.dev/main.js",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.563370+00:00",
+    "url": "https://cominvi.pages.dev/minerals/minerals-sequence.af",
+    "method": "GET",
+    "resource_type": "fetch",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:52.564476+00:00",
+    "url": "https://cominvi.pages.dev/minerals/minerals-0001.avif",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:53.880692+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-2/frame_00060.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:53.882274+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-2/frame_00061.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:53.883405+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-2/frame_00062.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:53.884330+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-2/frame_00063.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:53.885244+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-2/frame_00064.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:53.886136+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-2/frame_00065.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:53.886990+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-2/frame_00066.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:53.887842+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-2/frame_00067.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:53.892206+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-2/frame_00068.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:53.962479+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-2/frame_00069.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:54.006845+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-2/frame_00070.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:54.054659+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-2/frame_00071.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:54.097766+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-2/frame_00072.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:54.161653+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-2/frame_00073.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:54.208000+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-2/frame_00074.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:54.254405+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-2/frame_00075.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:54.297107+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-2/frame_00076.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:54.346648+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-2/frame_00077.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:54.405476+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-2/frame_00078.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:54.452681+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-2/frame_00079.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:54.495429+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-2/frame_00080.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:54.562139+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-2/frame_00081.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:54.607706+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-2/frame_00082.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:54.655914+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-2/frame_00083.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:54.700921+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-2/frame_00084.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:54.761934+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-2/frame_00085.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:54.807269+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-2/frame_00086.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:54.853006+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-2/frame_00087.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:54.904702+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-2/frame_00088.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:54.961839+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-2/frame_00089.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:55.011757+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-3/frame_00090.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:55.062543+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-3/frame_00091.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:55.114759+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-3/frame_00092.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:55.179547+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-3/frame_00093.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:55.222812+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-3/frame_00094.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:55.268888+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-3/frame_00095.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:55.313058+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-3/frame_00096.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:55.361694+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-3/frame_00097.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:55.411337+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-3/frame_00098.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:55.455957+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-3/frame_00099.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:55.500489+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-3/frame_00100.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:55.582647+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-3/frame_00101.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:55.626787+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-3/frame_00102.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:55.676120+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-3/frame_00103.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:55.726577+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-3/frame_00104.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:55.780343+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-3/frame_00105.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:55.825104+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-3/frame_00106.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:55.871175+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-3/frame_00107.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:55.920763+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-3/frame_00108.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:55.984200+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-3/frame_00109.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:56.036095+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-3/frame_00110.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:56.083407+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-3/frame_00111.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:56.134319+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-3/frame_00112.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:56.198313+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-3/frame_00113.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:56.245029+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-3/frame_00114.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:56.293590+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-3/frame_00115.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:56.344001+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-3/frame_00116.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:56.410257+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-3/frame_00117.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:56.457559+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-3/frame_00118.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:56.510670+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-3/frame_00119.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:56.558196+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-4/frame_00120.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:56.625921+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-4/frame_00121.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:56.676058+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-4/frame_00122.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:56.725709+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-4/frame_00123.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:56.772536+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-4/frame_00124.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:56.829565+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-4/frame_00125.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:56.871694+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-4/frame_00126.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:56.915063+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-4/frame_00127.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:56.960287+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-4/frame_00128.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:57.032644+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-4/frame_00129.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:57.080011+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-4/frame_00130.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:57.133032+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-4/frame_00131.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:57.180632+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-4/frame_00132.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:57.247113+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-4/frame_00133.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:57.292272+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-4/frame_00134.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:57.451318+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-4/frame_00135.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:57.573050+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-4/frame_00136.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:57.662036+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-4/frame_00137.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:57.742633+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-4/frame_00138.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:57.816180+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-4/frame_00139.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:57.874450+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-4/frame_00140.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:57.946285+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-4/frame_00141.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:57.995680+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-4/frame_00142.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:58.049318+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-4/frame_00143.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:58.099428+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-4/frame_00144.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:58.159939+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-4/frame_00145.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:58.205765+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-4/frame_00146.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:58.252090+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-4/frame_00147.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:58.296213+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-4/frame_00148.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  },
+  {
+    "timestamp": "2026-09-30T19:41:58.359208+00:00",
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-4/frame_00149.webp",
+    "method": "GET",
+    "resource_type": "image",
+    "headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "is_navigation_request": false
+  }
+]

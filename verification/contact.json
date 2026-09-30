@@ -1,0 +1,30 @@
+{
+  "name": "contact",
+  "url": "http://127.0.0.1:8002/contact",
+  "status": 200,
+  "page": {
+    "title": "Contact CoMinVi | Get in Touch with Our Team",
+    "text": 550,
+    "images": 0,
+    "broken": [],
+    "scrollables": [
+      {
+        "tag": "DIV",
+        "cls": "page-wrap lenis",
+        "height": 1957,
+        "client": 1000
+      }
+    ],
+    "after_scroll": [
+      {
+        "cls": "page-wrap lenis",
+        "top": 957,
+        "height": 1957
+      }
+    ]
+  },
+  "errors": [],
+  "failed": [],
+  "external": [],
+  "missing": []
+}

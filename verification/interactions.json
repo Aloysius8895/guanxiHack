@@ -1,0 +1,18 @@
+[
+  {
+    "viewport": "desktop",
+    "menu_aria_expanded": "false",
+    "menu_visible": true,
+    "clicked_services": true,
+    "destination": "http://127.0.0.1:8002/our-services",
+    "title": "Underground Mining Services | CoMinVi"
+  },
+  {
+    "viewport": "mobile",
+    "menu_aria_expanded": "false",
+    "menu_visible": true,
+    "clicked_services": true,
+    "destination": "http://127.0.0.1:8002/our-services",
+    "title": "Underground Mining Services | CoMinVi"
+  }
+]

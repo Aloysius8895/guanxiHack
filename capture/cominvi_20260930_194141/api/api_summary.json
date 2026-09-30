@@ -1,0 +1,21 @@
+{
+  "enabled": true,
+  "total_api_candidates": 3,
+  "rest_candidates": 3,
+  "graphql_candidates": 0,
+  "json_responses": 2,
+  "by_method": {
+    "GET": 3
+  },
+  "by_status_code": {
+    "200": 3
+  },
+  "with_post_data": 0,
+  "with_saved_body": 3,
+  "top_api_hosts": [
+    {
+      "host": "cominvi.pages.dev",
+      "count": 3
+    }
+  ]
+}

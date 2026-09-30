@@ -1,0 +1,152 @@
+[
+  {
+    "name": "desktop",
+    "url": "http://127.0.0.1:8001/",
+    "status": 200,
+    "page": {
+      "title": "CoMinVi | Underground Mining Contractor in Mexico",
+      "text": 4994,
+      "images": 24,
+      "broken": [],
+      "scrollables": [
+        {
+          "tag": "DIV",
+          "cls": "page-wrap lenis",
+          "height": 18074,
+          "client": 1000
+        }
+      ],
+      "after_scroll": [
+        {
+          "cls": "page-wrap lenis",
+          "top": 17074,
+          "height": 18074
+        }
+      ]
+    },
+    "errors": [
+      "Failed to load resource: the server responded with a status of 404 (File not found)",
+      "Failed to load resource: the server responded with a status of 404 (File not found)",
+      "Failed to load resource: the server responded with a status of 404 (File not found)",
+      "Failed to load resource: the server responded with a status of 404 (File not found)",
+      "Failed to load resource: the server responded with a status of 404 (File not found)",
+      "Failed to load resource: the server responded with a status of 404 (File not found)"
+    ],
+    "failed": [],
+    "external": [],
+    "missing": [
+      "http://127.0.0.1:8001/lottie/icon-11.json",
+      "http://127.0.0.1:8001/lottie/icon-12.json",
+      "http://127.0.0.1:8001/lottie/icon-13.json",
+      "http://127.0.0.1:8001/lottie/icon-14.json",
+      "http://127.0.0.1:8001/lottie/icon-15.json",
+      "http://127.0.0.1:8001/lottie/icon-16.json"
+    ]
+  },
+  {
+    "name": "mobile",
+    "url": "http://127.0.0.1:8001/",
+    "status": 200,
+    "page": {
+      "title": "CoMinVi | Underground Mining Contractor in Mexico",
+      "text": 5001,
+      "images": 24,
+      "broken": [],
+      "scrollables": [
+        {
+          "tag": "DIV",
+          "cls": "page-wrap lenis",
+          "height": 18350,
+          "client": 844
+        }
+      ],
+      "after_scroll": [
+        {
+          "cls": "page-wrap lenis",
+          "top": 19162,
+          "height": 20006
+        }
+      ]
+    },
+    "errors": [
+      "Failed to load resource: the server responded with a status of 404 (File not found)",
+      "Failed to load resource: the server responded with a status of 404 (File not found)",
+      "Failed to load resource: the server responded with a status of 404 (File not found)",
+      "Failed to load resource: the server responded with a status of 404 (File not found)",
+      "Failed to load resource: the server responded with a status of 404 (File not found)",
+      "Failed to load resource: the server responded with a status of 404 (File not found)"
+    ],
+    "failed": [],
+    "external": [],
+    "missing": [
+      "http://127.0.0.1:8001/lottie/icon-11.json",
+      "http://127.0.0.1:8001/lottie/icon-12.json",
+      "http://127.0.0.1:8001/lottie/icon-13.json",
+      "http://127.0.0.1:8001/lottie/icon-14.json",
+      "http://127.0.0.1:8001/lottie/icon-15.json",
+      "http://127.0.0.1:8001/lottie/icon-16.json"
+    ]
+  },
+  {
+    "name": "services",
+    "url": "http://127.0.0.1:8001/our-services",
+    "status": 200,
+    "page": {
+      "title": "Underground Mining Services | CoMinVi",
+      "text": 7991,
+      "images": 18,
+      "broken": [],
+      "scrollables": [
+        {
+          "tag": "DIV",
+          "cls": "page-wrap lenis",
+          "height": 12856,
+          "client": 1000
+        }
+      ],
+      "after_scroll": [
+        {
+          "cls": "page-wrap lenis",
+          "top": 11856,
+          "height": 12856
+        }
+      ]
+    },
+    "errors": [],
+    "failed": [
+      {
+        "url": "http://127.0.0.1:8001/_assets/precious-hotteok-8da21f.netlify.app/processes.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "http://127.0.0.1:8001/_assets/cdn.prod.website-files.com/6899a2f3f7995d5e3e31b7c6/6a06d8864ac92dc9571547b1_processes-video_mp4.mp4",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "external": [],
+    "missing": []
+  },
+  {
+    "name": "spanish",
+    "url": "http://127.0.0.1:8001/es",
+    "status": 200,
+    "page": {
+      "title": "CoMinVi | Contratista de Minería Subterránea en México",
+      "text": 5437,
+      "images": 24,
+      "broken": [],
+      "scrollables": [
+        {
+          "tag": "DIV",
+          "cls": "page-wrap lenis",
+          "height": 18218,
+          "client": 1000
+        }
+      ]
+    },
+    "errors": [],
+    "failed": [],
+    "external": [],
+    "missing": []
+  }
+]

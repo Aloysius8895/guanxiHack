@@ -1,0 +1,178 @@
+[
+  {
+    "url": "https://www.cominvi.com.mx/",
+    "status": 200,
+    "errors": [],
+    "missing": [],
+    "external": []
+  },
+  {
+    "url": "https://www.cominvi.com.mx/technology",
+    "status": 200,
+    "errors": [],
+    "missing": [],
+    "external": []
+  },
+  {
+    "url": "https://www.cominvi.com.mx/our-services",
+    "status": 200,
+    "errors": [],
+    "missing": [],
+    "external": []
+  },
+  {
+    "url": "https://www.cominvi.com.mx/about-us",
+    "status": 200,
+    "errors": [],
+    "missing": [],
+    "external": []
+  },
+  {
+    "url": "https://www.cominvi.com.mx/blog",
+    "status": 200,
+    "errors": [],
+    "missing": [],
+    "external": []
+  },
+  {
+    "url": "https://www.cominvi.com.mx/join-the-team",
+    "status": 200,
+    "errors": [],
+    "missing": [],
+    "external": []
+  },
+  {
+    "url": "https://www.cominvi.com.mx/safety",
+    "status": 200,
+    "errors": [],
+    "missing": [],
+    "external": []
+  },
+  {
+    "url": "https://www.cominvi.com.mx/es",
+    "status": 200,
+    "errors": [],
+    "missing": [],
+    "external": []
+  },
+  {
+    "url": "https://www.cominvi.com.mx/notice-of-privacy",
+    "status": 200,
+    "errors": [],
+    "missing": [],
+    "external": []
+  },
+  {
+    "url": "https://www.cominvi.com.mx/contact",
+    "status": 200,
+    "errors": [
+      "Error: Invalid sprite URL \"/_assets/tiles.openfreemap.org/sprites/ofm_f384/ofm\", must be absolute. Modify style specification directly or use TransformStyleFunction to correct the issue dynamically\n    at nr (http://127.0.0.1:8001/_assets/cominvi.pages.dev/assets/contact.js:5:287655)\n    at http://127.0.0.1:8001/_assets/cominvi.pages.dev/assets/contact.js:804:81656\n    at Generator.next (<anonymous>)\n    at http://127.0.0.1:8001/_assets/cominvi.pages.dev/assets/contact.js:4:699\n    at new Promise (<anonymous>)\n    at Object.c [as _] (http://127.0.0.1:8001/_assets/cominvi.pages.dev/assets/contact.js:4:447)\n    at http://127.0.0.1:8001/_assets/cominvi.pages.dev/assets/contact.js:804:81530\n    at Nn._loadSprite (http://127.0.0.1:8001/_assets/cominvi.pages.dev/assets/contact.js:804:82331)\n    at Nn._load (http://127.0.0.1:8001/_assets/cominvi.pages.dev/assets/contact.js:804:80360)\n    at http://127.0.0.1:8001/_assets/cominvi.pages.dev/assets/contact.js:804:79680",
+      "Error",
+      "Error",
+      "Error",
+      "Error",
+      "Error",
+      "Error"
+    ],
+    "missing": [],
+    "external": []
+  },
+  {
+    "url": "https://www.cominvi.com.mx/es/technology",
+    "status": 200,
+    "errors": [],
+    "missing": [],
+    "external": []
+  },
+  {
+    "url": "https://www.cominvi.com.mx/es/our-services",
+    "status": 200,
+    "errors": [],
+    "missing": [],
+    "external": []
+  },
+  {
+    "url": "https://www.cominvi.com.mx/es/about-us",
+    "status": 200,
+    "errors": [],
+    "missing": [],
+    "external": []
+  },
+  {
+    "url": "https://www.cominvi.com.mx/blog/ccrm-bootcamp",
+    "status": 200,
+    "errors": [],
+    "missing": [],
+    "external": []
+  },
+  {
+    "url": "https://www.cominvi.com.mx/es/blog",
+    "status": 200,
+    "errors": [],
+    "missing": [],
+    "external": []
+  },
+  {
+    "url": "https://www.cominvi.com.mx/blog/open-pit-vs-underground-mining",
+    "status": 200,
+    "errors": [],
+    "missing": [],
+    "external": []
+  },
+  {
+    "url": "https://www.cominvi.com.mx/blog/safety-first-how-cominvi-builds-a-culture-of-protection-underground",
+    "status": 200,
+    "errors": [],
+    "missing": [],
+    "external": []
+  },
+  {
+    "url": "https://www.cominvi.com.mx/es/join-the-team",
+    "status": 200,
+    "errors": [],
+    "missing": [],
+    "external": []
+  },
+  {
+    "url": "https://www.cominvi.com.mx/es/safety",
+    "status": 200,
+    "errors": [],
+    "missing": [],
+    "external": []
+  },
+  {
+    "url": "https://www.cominvi.com.mx/es/notice-of-privacy",
+    "status": 200,
+    "errors": [],
+    "missing": [],
+    "external": []
+  },
+  {
+    "url": "https://www.cominvi.com.mx/es/contact",
+    "status": 200,
+    "errors": [],
+    "missing": [],
+    "external": []
+  },
+  {
+    "url": "https://www.cominvi.com.mx/es/blog/ccrm-bootcamp",
+    "status": 200,
+    "errors": [],
+    "missing": [],
+    "external": []
+  },
+  {
+    "url": "https://www.cominvi.com.mx/es/blog/open-pit-vs-underground-mining",
+    "status": 200,
+    "errors": [],
+    "missing": [],
+    "external": []
+  },
+  {
+    "url": "https://www.cominvi.com.mx/es/blog/safety-first-how-cominvi-builds-a-culture-of-protection-underground",
+    "status": 200,
+    "errors": [],
+    "missing": [],
+    "external": []
+  }
+]

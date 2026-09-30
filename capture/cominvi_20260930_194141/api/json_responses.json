@@ -1,0 +1,16 @@
+[
+  {
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/manifest.json",
+    "status": 200,
+    "saved_body_path": "responses/json/0008_manifest_be7d0f0a26.json",
+    "body_size_bytes": 1718,
+    "resource_type": "fetch"
+  },
+  {
+    "url": "https://cominvi.pages.dev/cave-scene/scroll/manifest.json",
+    "status": 200,
+    "saved_body_path": "responses/json/0008_manifest_be7d0f0a26.json",
+    "body_size_bytes": 1718,
+    "resource_type": "other"
+  }
+]

@@ -1,0 +1,241 @@
+{
+  "target_url": "https://www.cominvi.com.mx/",
+  "site_name": "cominvi",
+  "final_url": "https://www.cominvi.com.mx/",
+  "status_code": 200,
+  "started_at": "2026-09-30T19:41:41.676397+00:00",
+  "finished_at": "2026-09-30T19:42:07.058018+00:00",
+  "duration_seconds": 25.382,
+  "output_path": "guanxiHack\\capture\\cominvi_20260930_194141",
+  "headless": true,
+  "total_scrolls": 3,
+  "initial_title": "CoMinVi | Underground Mining Contractor in Mexico",
+  "final_title": "CoMinVi | Underground Mining Contractor in Mexico",
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "page": {
+    "title": "CoMinVi | Underground Mining Contractor in Mexico",
+    "initial_dom_node_count": 3677,
+    "post_interaction_dom_node_count": 3677,
+    "final_dom_node_count": 3677
+  },
+  "interaction_summary": {
+    "enabled": true,
+    "budget": 2,
+    "wait_ms": 1500,
+    "mute_audio": true,
+    "clicked": false,
+    "success": false,
+    "stop_reason": "no_actionable_candidates",
+    "selected_candidate": null,
+    "changes": {
+      "url_changed": false,
+      "title_changed": false,
+      "dom_delta": 0,
+      "text_length_delta": 0,
+      "scroll_height_delta": 0,
+      "entry_prompt_cleared": false,
+      "loader_count_delta": 0,
+      "body_text_changed": false
+    },
+    "before": {
+      "url": "https://www.cominvi.com.mx/",
+      "title": "CoMinVi | Underground Mining Contractor in Mexico",
+      "scroll_y": 0,
+      "scroll_height": 1000,
+      "viewport_height": 1000,
+      "dom_node_count": 3677,
+      "body_text_length": 4946,
+      "body_text_sample": "Menu Menu open menu Our Services Technology Safety About us Blog Contact Join the Team En Es Your trusted partner in underground mining OVER TIME + 1.000.000 LINEAR METERS OUR SERVICES TECHNOLOGY S.01 ABOUT US CoMinVi is a leading underground mining contractor with our Corporate Office and Central W",
+      "entry_prompt_visible": false,
+      "loader_like_count": 2
+    },
+    "after": {
+      "url": "https://www.cominvi.com.mx/",
+      "title": "CoMinVi | Underground Mining Contractor in Mexico",
+      "scroll_y": 0,
+      "scroll_height": 1000,
+      "viewport_height": 1000,
+      "dom_node_count": 3677,
+      "body_text_length": 4946,
+      "body_text_sample": "Menu Menu open menu Our Services Technology Safety About us Blog Contact Join the Team En Es Your trusted partner in underground mining OVER TIME + 1.000.000 LINEAR METERS OUR SERVICES TECHNOLOGY S.01 ABOUT US CoMinVi is a leading underground mining contractor with our Corporate Office and Central W",
+      "entry_prompt_visible": false,
+      "loader_like_count": 2
+    },
+    "attempt_count": 0
+  },
+  "scroll": {
+    "total_scrolls": 3,
+    "snapshots_saved": 3,
+    "reached_bottom": true,
+    "stop_reason": "bottom_no_change",
+    "initial_scroll_height": 1000,
+    "final_scroll_height": 1000,
+    "final_scroll_y": 0
+  },
+  "network_summary": {
+    "total_requests": 206,
+    "total_responses": 206,
+    "total_failed_requests": 0,
+    "by_resource_type": {
+      "document": 1,
+      "script": 17,
+      "stylesheet": 1,
+      "image": 172,
+      "font": 3,
+      "xhr": 0,
+      "fetch": 2,
+      "other": 10
+    },
+    "by_status_code": {
+      "200": 205,
+      "206": 1
+    },
+    "api_like_requests": {
+      "xhr": 0,
+      "fetch": 2
+    },
+    "response_bodies": {
+      "enabled": true,
+      "saved_total": 23,
+      "skipped_total": 183,
+      "saved_by_type": {
+        "html": 1,
+        "json": 2,
+        "js": 17,
+        "css": 1,
+        "xml": 0,
+        "svg": 0,
+        "text": 2
+      },
+      "skipped_by_reason": {
+        "disabled": 0,
+        "non_text_like_content_type": 0,
+        "binary_resource_type": 176,
+        "body_too_large": 0,
+        "body_read_error": 0,
+        "empty_body": 7,
+        "unknown_error": 0
+      },
+      "max_body_size_mb": 20.0
+    }
+  },
+  "scroll_summary": {
+    "total_scrolls": 3,
+    "stop_reason": "bottom_no_change",
+    "final_reached_bottom": true,
+    "total_height_growth": 0,
+    "total_dom_growth": 0,
+    "total_text_growth": 0,
+    "total_request_growth_during_scroll": 0,
+    "total_response_growth_during_scroll": 0,
+    "total_failed_request_growth_during_scroll": 0
+  },
+  "asset_summary": {
+    "enabled": true,
+    "total_assets": 203,
+    "scripts": 17,
+    "stylesheets": 1,
+    "images": 172,
+    "fonts": 3,
+    "media": 2,
+    "documents": 8,
+    "sourcemaps": 0,
+    "others": 3
+  },
+  "api_summary": {
+    "enabled": true,
+    "total_api_candidates": 3,
+    "rest_candidates": 3,
+    "graphql_candidates": 0,
+    "json_responses": 2,
+    "with_post_data": 0,
+    "with_saved_body": 3
+  },
+  "stack_summary": {
+    "enabled": true,
+    "detected_frameworks": [],
+    "detected_bundlers": [
+      "Webpack"
+    ],
+    "detected_styling": [
+      "Tailwind CSS",
+      "Bootstrap"
+    ],
+    "detected_api_styles": [
+      "REST",
+      "JSON API"
+    ],
+    "detected_rendering": [
+      "SSR",
+      "CSR",
+      "SPA"
+    ],
+    "top_confidence": {
+      "framework": null,
+      "confidence": 0.0
+    },
+    "notes": [
+      "Detection is heuristic and may be incomplete.",
+      "No new URLs or sourcemaps were actively requested."
+    ],
+    "error": null
+  },
+  "report_summary": {
+    "enabled": true,
+    "report_path": "report/report.md",
+    "generated_at": "2026-09-30T19:42:07.323204+00:00",
+    "warnings": [],
+    "error": null
+  },
+  "saved_files": {
+    "initial_html": "guanxiHack\\capture\\cominvi_20260930_194141\\html\\initial.html",
+    "post_interaction_html": "guanxiHack\\capture\\cominvi_20260930_194141\\html\\post_interaction.html",
+    "final_html": "guanxiHack\\capture\\cominvi_20260930_194141\\html\\final.html",
+    "initial_screenshot": "guanxiHack\\capture\\cominvi_20260930_194141\\screenshots\\initial.png",
+    "post_interaction_screenshot": "guanxiHack\\capture\\cominvi_20260930_194141\\screenshots\\post_interaction.png",
+    "final_full_page_screenshot": "guanxiHack\\capture\\cominvi_20260930_194141\\screenshots\\final_full_page.png",
+    "interaction_summary": "guanxiHack\\capture\\cominvi_20260930_194141\\interactions\\interaction_summary.json",
+    "interaction_candidates": "guanxiHack\\capture\\cominvi_20260930_194141\\interactions\\candidates.json",
+    "snapshots_dir": "guanxiHack\\capture\\cominvi_20260930_194141\\html\\snapshots",
+    "network_requests": "guanxiHack\\capture\\cominvi_20260930_194141\\network\\requests.json",
+    "network_responses": "guanxiHack\\capture\\cominvi_20260930_194141\\network\\responses.json",
+    "network_failed_requests": "guanxiHack\\capture\\cominvi_20260930_194141\\network\\failed_requests.json",
+    "network_summary": "guanxiHack\\capture\\cominvi_20260930_194141\\network\\network_summary.json",
+    "responses_dir": "guanxiHack\\capture\\cominvi_20260930_194141\\responses",
+    "scroll_summary": "guanxiHack\\capture\\cominvi_20260930_194141\\scroll\\scroll_summary.json",
+    "asset_summary": "guanxiHack\\capture\\cominvi_20260930_194141\\assets\\asset_summary.json",
+    "api_summary": "guanxiHack\\capture\\cominvi_20260930_194141\\api\\api_summary.json",
+    "stack_detection": "guanxiHack\\capture\\cominvi_20260930_194141\\stack\\stack_detection.json",
+    "stack_summary": "guanxiHack\\capture\\cominvi_20260930_194141\\stack\\stack_summary.json",
+    "report": "guanxiHack\\capture\\cominvi_20260930_194141\\report\\report.md",
+    "report_summary": "guanxiHack\\capture\\cominvi_20260930_194141\\report\\report_summary.json",
+    "summary": "guanxiHack\\capture\\cominvi_20260930_194141\\summary.json"
+  },
+  "files": {
+    "initial_html": "guanxiHack\\capture\\cominvi_20260930_194141\\html\\initial.html",
+    "post_interaction_html": "guanxiHack\\capture\\cominvi_20260930_194141\\html\\post_interaction.html",
+    "final_html": "guanxiHack\\capture\\cominvi_20260930_194141\\html\\final.html",
+    "initial_screenshot": "guanxiHack\\capture\\cominvi_20260930_194141\\screenshots\\initial.png",
+    "post_interaction_screenshot": "guanxiHack\\capture\\cominvi_20260930_194141\\screenshots\\post_interaction.png",
+    "final_screenshot": "guanxiHack\\capture\\cominvi_20260930_194141\\screenshots\\final_full_page.png",
+    "interaction_summary": "guanxiHack\\capture\\cominvi_20260930_194141\\interactions\\interaction_summary.json",
+    "interaction_candidates": "guanxiHack\\capture\\cominvi_20260930_194141\\interactions\\candidates.json",
+    "snapshots_dir": "guanxiHack\\capture\\cominvi_20260930_194141\\html\\snapshots",
+    "network_requests": "guanxiHack\\capture\\cominvi_20260930_194141\\network\\requests.json",
+    "network_responses": "guanxiHack\\capture\\cominvi_20260930_194141\\network\\responses.json",
+    "network_failed_requests": "guanxiHack\\capture\\cominvi_20260930_194141\\network\\failed_requests.json",
+    "network_summary": "guanxiHack\\capture\\cominvi_20260930_194141\\network\\network_summary.json",
+    "responses_dir": "guanxiHack\\capture\\cominvi_20260930_194141\\responses",
+    "scroll_summary": "guanxiHack\\capture\\cominvi_20260930_194141\\scroll\\scroll_summary.json",
+    "asset_summary": "guanxiHack\\capture\\cominvi_20260930_194141\\assets\\asset_summary.json",
+    "api_summary": "guanxiHack\\capture\\cominvi_20260930_194141\\api\\api_summary.json",
+    "stack_detection": "guanxiHack\\capture\\cominvi_20260930_194141\\stack\\stack_detection.json",
+    "stack_summary": "guanxiHack\\capture\\cominvi_20260930_194141\\stack\\stack_summary.json",
+    "report": "guanxiHack\\capture\\cominvi_20260930_194141\\report\\report.md",
+    "report_summary": "guanxiHack\\capture\\cominvi_20260930_194141\\report\\report_summary.json"
+  },
+  "scroll_logs": []
+}

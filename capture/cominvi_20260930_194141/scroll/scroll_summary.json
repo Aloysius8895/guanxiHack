@@ -1,0 +1,192 @@
+{
+  "enabled": true,
+  "scroll_step": 700,
+  "scroll_delay": 1.2,
+  "max_scrolls": 100,
+  "stop_after_no_change": 3,
+  "min_dom_growth": 3,
+  "min_height_growth": 20,
+  "wait_after_scroll_ms": 300,
+  "total_scrolls": 3,
+  "stop_reason": "bottom_no_change",
+  "final_reached_bottom": true,
+  "initial_metrics": {
+    "scroll_y": 0,
+    "viewport_height": 1000,
+    "scroll_height": 1000,
+    "dom_node_count": 3677,
+    "body_text_length": 4994,
+    "image_count": 24,
+    "script_count": 6,
+    "link_count": 34,
+    "current_url": "https://www.cominvi.com.mx/",
+    "title": "CoMinVi | Underground Mining Contractor in Mexico"
+  },
+  "final_metrics": {
+    "scroll_y": 0,
+    "viewport_height": 1000,
+    "scroll_height": 1000,
+    "dom_node_count": 3677,
+    "body_text_length": 4994,
+    "image_count": 24,
+    "script_count": 6,
+    "link_count": 34,
+    "current_url": "https://www.cominvi.com.mx/",
+    "title": "CoMinVi | Underground Mining Contractor in Mexico"
+  },
+  "total_height_growth": 0,
+  "total_dom_growth": 0,
+  "total_text_growth": 0,
+  "total_request_growth_during_scroll": 0,
+  "total_response_growth_during_scroll": 0,
+  "total_failed_request_growth_during_scroll": 0,
+  "logs": [
+    {
+      "index": 0,
+      "timestamp": "2026-09-30T19:41:59.937771+00:00",
+      "before": {
+        "scroll_y": 0,
+        "viewport_height": 1000,
+        "scroll_height": 1000,
+        "dom_node_count": 3677,
+        "body_text_length": 4994,
+        "image_count": 24,
+        "script_count": 6,
+        "link_count": 34,
+        "current_url": "https://www.cominvi.com.mx/",
+        "title": "CoMinVi | Underground Mining Contractor in Mexico"
+      },
+      "after": {
+        "scroll_y": 0,
+        "viewport_height": 1000,
+        "scroll_height": 1000,
+        "dom_node_count": 3677,
+        "body_text_length": 4994,
+        "image_count": 24,
+        "script_count": 6,
+        "link_count": 34,
+        "current_url": "https://www.cominvi.com.mx/",
+        "title": "CoMinVi | Underground Mining Contractor in Mexico"
+      },
+      "deltas": {
+        "height_delta": 0,
+        "dom_delta": 0,
+        "text_delta": 0,
+        "request_delta": 0,
+        "response_delta": 0,
+        "failed_request_delta": 0
+      },
+      "change_flags": {
+        "height_changed": false,
+        "dom_changed": false,
+        "text_changed": false,
+        "network_changed": false,
+        "overall_has_change": false
+      },
+      "state": {
+        "reached_bottom": true,
+        "no_change_count": 1,
+        "stop_reason": null
+      },
+      "snapshot_path": "html/snapshots/snapshot_000.html"
+    },
+    {
+      "index": 1,
+      "timestamp": "2026-09-30T19:42:01.520615+00:00",
+      "before": {
+        "scroll_y": 0,
+        "viewport_height": 1000,
+        "scroll_height": 1000,
+        "dom_node_count": 3677,
+        "body_text_length": 4994,
+        "image_count": 24,
+        "script_count": 6,
+        "link_count": 34,
+        "current_url": "https://www.cominvi.com.mx/",
+        "title": "CoMinVi | Underground Mining Contractor in Mexico"
+      },
+      "after": {
+        "scroll_y": 0,
+        "viewport_height": 1000,
+        "scroll_height": 1000,
+        "dom_node_count": 3677,
+        "body_text_length": 4994,
+        "image_count": 24,
+        "script_count": 6,
+        "link_count": 34,
+        "current_url": "https://www.cominvi.com.mx/",
+        "title": "CoMinVi | Underground Mining Contractor in Mexico"
+      },
+      "deltas": {
+        "height_delta": 0,
+        "dom_delta": 0,
+        "text_delta": 0,
+        "request_delta": 0,
+        "response_delta": 0,
+        "failed_request_delta": 0
+      },
+      "change_flags": {
+        "height_changed": false,
+        "dom_changed": false,
+        "text_changed": false,
+        "network_changed": false,
+        "overall_has_change": false
+      },
+      "state": {
+        "reached_bottom": true,
+        "no_change_count": 2,
+        "stop_reason": null
+      },
+      "snapshot_path": "html/snapshots/snapshot_001.html"
+    },
+    {
+      "index": 2,
+      "timestamp": "2026-09-30T19:42:03.095886+00:00",
+      "before": {
+        "scroll_y": 0,
+        "viewport_height": 1000,
+        "scroll_height": 1000,
+        "dom_node_count": 3677,
+        "body_text_length": 4994,
+        "image_count": 24,
+        "script_count": 6,
+        "link_count": 34,
+        "current_url": "https://www.cominvi.com.mx/",
+        "title": "CoMinVi | Underground Mining Contractor in Mexico"
+      },
+      "after": {
+        "scroll_y": 0,
+        "viewport_height": 1000,
+        "scroll_height": 1000,
+        "dom_node_count": 3677,
+        "body_text_length": 4994,
+        "image_count": 24,
+        "script_count": 6,
+        "link_count": 34,
+        "current_url": "https://www.cominvi.com.mx/",
+        "title": "CoMinVi | Underground Mining Contractor in Mexico"
+      },
+      "deltas": {
+        "height_delta": 0,
+        "dom_delta": 0,
+        "text_delta": 0,
+        "request_delta": 0,
+        "response_delta": 0,
+        "failed_request_delta": 0
+      },
+      "change_flags": {
+        "height_changed": false,
+        "dom_changed": false,
+        "text_changed": false,
+        "network_changed": false,
+        "overall_has_change": false
+      },
+      "state": {
+        "reached_bottom": true,
+        "no_change_count": 3,
+        "stop_reason": "bottom_no_change"
+      },
+      "snapshot_path": "html/snapshots/snapshot_002.html"
+    }
+  ]
+}

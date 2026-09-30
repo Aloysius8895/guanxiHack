@@ -1,0 +1,1557 @@
+[
+  {
+    "attempt_index": 0,
+    "order": 24,
+    "tag": "button",
+    "type": "",
+    "role": "",
+    "text": "Precision machines used to level and shape underground or surface roads, ramps, and working platforms, improving safety, drainage, and haulage efficiency. Motor Grader Precision machines used to level and shapeunderground or surface roads, ramps, and workingplatforms, improving safety, drainage, and haulageefficiency.Motor GraderOPENCLOSEPrecision machines used to level and shape underground or surface roads, ramps, and working platforms, improving safety, drainage, and haulage efficiency.",
+    "aria_label": "",
+    "id": "",
+    "class_name": "machine-card",
+    "href": "",
+    "target": "",
+    "score": 5,
+    "actionable": false,
+    "reasons": [
+      "weak_close"
+    ],
+    "reject_reasons": [],
+    "has_overlay_ancestor": false,
+    "has_fixed_ancestor": false,
+    "visible": true,
+    "opacity": 1,
+    "pointer_events": "auto",
+    "rect": {
+      "x": 32,
+      "y": 9552,
+      "width": 448,
+      "height": 589
+    }
+  },
+  {
+    "attempt_index": 0,
+    "order": 25,
+    "tag": "button",
+    "type": "",
+    "role": "",
+    "text": "Versatile material-handling units with extendable booms designed to lift, move, and position heavy components in restricted spaces. Commonly used for assembly, maintenance, and logistics support. Telehandler Versatile material-handling units with extendablebooms designed to lift, move, and position heavycomponents in restricted spaces. Commonly usedfor assembly, maintenance, and logistics support.TelehandlerOPENCLOSEVersatile material-handling units with extendable booms designed to lift, move, and position heavy components in restricted spaces. Commonly used for assembly, maintenance, and logistics support.",
+    "aria_label": "",
+    "id": "",
+    "class_name": "machine-card",
+    "href": "",
+    "target": "",
+    "score": 5,
+    "actionable": false,
+    "reasons": [
+      "weak_close"
+    ],
+    "reject_reasons": [],
+    "has_overlay_ancestor": false,
+    "has_fixed_ancestor": false,
+    "visible": true,
+    "opacity": 1,
+    "pointer_events": "auto",
+    "rect": {
+      "x": 496,
+      "y": 9552,
+      "width": 448,
+      "height": 589
+    }
+  },
+  {
+    "attempt_index": 0,
+    "order": 26,
+    "tag": "button",
+    "type": "",
+    "role": "",
+    "text": "Vibratory machines used to consolidate loose material—essential for constructing ramps, platforms, and other underground infrastructure. Compactor Vibratory machines used to consolidate loosematerial—essential for constructing ramps,platforms, and other underground infrastructure.CompactorOPENCLOSEVibratory machines used to consolidate loose material—essential for constructing ramps, platforms, and other underground infrastructure.",
+    "aria_label": "",
+    "id": "",
+    "class_name": "machine-card",
+    "href": "",
+    "target": "",
+    "score": 5,
+    "actionable": false,
+    "reasons": [
+      "weak_close"
+    ],
+    "reject_reasons": [],
+    "has_overlay_ancestor": false,
+    "has_fixed_ancestor": false,
+    "visible": true,
+    "opacity": 1,
+    "pointer_events": "auto",
+    "rect": {
+      "x": 960,
+      "y": 9552,
+      "width": 448,
+      "height": 589
+    }
+  },
+  {
+    "attempt_index": 0,
+    "order": 27,
+    "tag": "button",
+    "type": "",
+    "role": "",
+    "text": "Modified backhoes equipped with elevated work baskets, enabling safe access for maintenance, installations, and construction tasks in confined underground areas. Backhoe Loaders With Baskets Modified backhoes equipped with elevated workbaskets, enabling safe access for maintenance,installations, and construction tasks in confinedunderground areas.Backhoe Loaders With BasketsOPENCLOSEModified backhoes equipped with elevated work baskets, enabling safe access for maintenance, installations, and construction tasks in confined underground areas.",
+    "aria_label": "",
+    "id": "",
+    "class_name": "machine-card",
+    "href": "",
+    "target": "",
+    "score": 5,
+    "actionable": false,
+    "reasons": [
+      "weak_close"
+    ],
+    "reject_reasons": [],
+    "has_overlay_ancestor": false,
+    "has_fixed_ancestor": false,
+    "visible": true,
+    "opacity": 1,
+    "pointer_events": "auto",
+    "rect": {
+      "x": 32,
+      "y": 10205,
+      "width": 448,
+      "height": 589
+    }
+  },
+  {
+    "attempt_index": 0,
+    "order": 28,
+    "tag": "button",
+    "type": "",
+    "role": "",
+    "text": "Electrohydraulic rigs equipped with one or more booms fitted with rock drills, designed for precise horizontal drilling during tunnel development. Their accuracy and productivity make them essential for advancing underground headings efficiently and safely. Face-Drilling Rig Electrohydraulic rigs equipped with one or morebooms fitted with rock drills, designed for precisehorizontal drilling during tunnel development. Theiraccuracy and productivity make them essential foradvancing underground headings efficiently andsafely.Face-Drilling RigOPENCLOSEbooms fitted with rock drills, designed for precise horizontal drilling during tunnel development. Their accuracy and productivity make them essential for advancing underground headings efficiently and safely.",
+    "aria_label": "",
+    "id": "",
+    "class_name": "machine-card",
+    "href": "",
+    "target": "",
+    "score": 5,
+    "actionable": false,
+    "reasons": [
+      "weak_close"
+    ],
+    "reject_reasons": [],
+    "has_overlay_ancestor": false,
+    "has_fixed_ancestor": false,
+    "visible": true,
+    "opacity": 1,
+    "pointer_events": "auto",
+    "rect": {
+      "x": 496,
+      "y": 10205,
+      "width": 448,
+      "height": 589
+    }
+  },
+  {
+    "attempt_index": 0,
+    "order": 29,
+    "tag": "button",
+    "type": "",
+    "role": "",
+    "text": "Compact, low-profile loaders designed for loading, hauling, and dumping material in confined underground environments. LHDs are essential for production due to their versatility and high tramming capacity. Load-Haul-Dump Loader Compact, low-profile loaders designed for loading,hauling, and dumping material in confinedunderground environments. LHDs are essential forproduction due to their versatility and high trammingcapacity.Load-Haul-Dump LoaderOPENCLOSECompact, low-profile loaders designed for loading, hauling, and dumping material in confined underground environments. LHDs are essential for production due to their versatility and high tramming capacity.",
+    "aria_label": "",
+    "id": "",
+    "class_name": "machine-card",
+    "href": "",
+    "target": "",
+    "score": 5,
+    "actionable": false,
+    "reasons": [
+      "weak_close"
+    ],
+    "reject_reasons": [],
+    "has_overlay_ancestor": false,
+    "has_fixed_ancestor": false,
+    "visible": true,
+    "opacity": 1,
+    "pointer_events": "auto",
+    "rect": {
+      "x": 960,
+      "y": 10205,
+      "width": 448,
+      "height": 589
+    }
+  },
+  {
+    "attempt_index": 0,
+    "order": 17,
+    "tag": "button",
+    "type": "",
+    "role": "",
+    "text": "Engineering We design and plan safe, efficient, and sustainable underground mining infrastructure tailored to each project's geological and operational conditions. EngineeringWe design and plan safe, efficient, and sustainableunderground mining infrastructure tailored to eachproject's geological and operational conditions.",
+    "aria_label": "",
+    "id": "",
+    "class_name": "service-card is-card-reveal-pending",
+    "href": "",
+    "target": "",
+    "score": 0,
+    "actionable": false,
+    "reasons": [],
+    "reject_reasons": [
+      "not_visible",
+      "pointer_events_none"
+    ],
+    "has_overlay_ancestor": false,
+    "has_fixed_ancestor": false,
+    "visible": false,
+    "opacity": 0,
+    "pointer_events": "none",
+    "rect": {
+      "x": 32,
+      "y": 3050,
+      "width": 448,
+      "height": 448
+    }
+  },
+  {
+    "attempt_index": 0,
+    "order": 18,
+    "tag": "button",
+    "type": "",
+    "role": "",
+    "text": "Ground Support & Fortification We stabilize underground workings using anchors, mesh, shotcrete, and steel frames to secure fractured or high-risk ground. Ground Support & FortificationWe stabilize underground workings using anchors,mesh, shotcrete, and steel frames to secure fracturedor high-risk ground.",
+    "aria_label": "",
+    "id": "",
+    "class_name": "service-card is-card-reveal-pending",
+    "href": "",
+    "target": "",
+    "score": 0,
+    "actionable": false,
+    "reasons": [],
+    "reject_reasons": [
+      "not_visible",
+      "pointer_events_none"
+    ],
+    "has_overlay_ancestor": false,
+    "has_fixed_ancestor": false,
+    "visible": false,
+    "opacity": 0,
+    "pointer_events": "none",
+    "rect": {
+      "x": 496,
+      "y": 3050,
+      "width": 448,
+      "height": 448
+    }
+  },
+  {
+    "attempt_index": 0,
+    "order": 19,
+    "tag": "button",
+    "type": "",
+    "role": "",
+    "text": "Development We execute precise tunnel development for ramps and access points using drilling, blasting, and excavation techniques. DevelopmentWe execute precise tunnel development for rampsand access points using drilling, blasting, andexcavation techniques.",
+    "aria_label": "",
+    "id": "",
+    "class_name": "service-card is-card-reveal-pending",
+    "href": "",
+    "target": "",
+    "score": 0,
+    "actionable": false,
+    "reasons": [],
+    "reject_reasons": [
+      "not_visible",
+      "pointer_events_none"
+    ],
+    "has_overlay_ancestor": false,
+    "has_fixed_ancestor": false,
+    "visible": false,
+    "opacity": 0,
+    "pointer_events": "none",
+    "rect": {
+      "x": 960,
+      "y": 3050,
+      "width": 448,
+      "height": 448
+    }
+  },
+  {
+    "attempt_index": 0,
+    "order": 20,
+    "tag": "button",
+    "type": "",
+    "role": "",
+    "text": "Production We extract mineralized material through controlled stoping methods optimized for productivity, dilution control, and safety. ProductionWe extract mineralized material through controlledstoping methods optimized for productivity, dilutioncontrol, and safety.",
+    "aria_label": "",
+    "id": "",
+    "class_name": "service-card is-card-reveal-pending",
+    "href": "",
+    "target": "",
+    "score": 0,
+    "actionable": false,
+    "reasons": [],
+    "reject_reasons": [
+      "not_visible",
+      "pointer_events_none"
+    ],
+    "has_overlay_ancestor": false,
+    "has_fixed_ancestor": false,
+    "visible": false,
+    "opacity": 0,
+    "pointer_events": "none",
+    "rect": {
+      "x": 32,
+      "y": 3514,
+      "width": 448,
+      "height": 448
+    }
+  },
+  {
+    "attempt_index": 0,
+    "order": 21,
+    "tag": "button",
+    "type": "",
+    "role": "",
+    "text": "Hauling We transport blasted ore and waste using scooptrams, low-profile trucks, and efficient underground logistics systems. HaulingWe transport blasted ore and waste usingscooptrams, low-profile trucks, and efficientunderground logistics systems. w-node-_720ec395-9ded-3626-bd95-202de911efba-3e31b7cd",
+    "aria_label": "",
+    "id": "w-node-_720ec395-9ded-3626-bd95-202de911efba-3e31b7cd",
+    "class_name": "service-card is-card-reveal-pending",
+    "href": "",
+    "target": "",
+    "score": 0,
+    "actionable": false,
+    "reasons": [],
+    "reject_reasons": [
+      "not_visible",
+      "pointer_events_none"
+    ],
+    "has_overlay_ancestor": false,
+    "has_fixed_ancestor": false,
+    "visible": false,
+    "opacity": 0,
+    "pointer_events": "none",
+    "rect": {
+      "x": 496,
+      "y": 3514,
+      "width": 448,
+      "height": 448
+    }
+  },
+  {
+    "attempt_index": 0,
+    "order": 31,
+    "tag": "button",
+    "type": "",
+    "role": "",
+    "text": "Operation Operation",
+    "aria_label": "",
+    "id": "",
+    "class_name": "team-card is-card-reveal-pending",
+    "href": "",
+    "target": "",
+    "score": 0,
+    "actionable": false,
+    "reasons": [],
+    "reject_reasons": [
+      "not_visible",
+      "pointer_events_none"
+    ],
+    "has_overlay_ancestor": false,
+    "has_fixed_ancestor": false,
+    "visible": false,
+    "opacity": 0,
+    "pointer_events": "none",
+    "rect": {
+      "x": 32,
+      "y": 12698,
+      "width": 448,
+      "height": 336
+    }
+  },
+  {
+    "attempt_index": 0,
+    "order": 32,
+    "tag": "button",
+    "type": "",
+    "role": "",
+    "text": "Quality Processes Quality Processes",
+    "aria_label": "",
+    "id": "",
+    "class_name": "team-card is-card-reveal-pending",
+    "href": "",
+    "target": "",
+    "score": 0,
+    "actionable": false,
+    "reasons": [],
+    "reject_reasons": [
+      "not_visible",
+      "pointer_events_none"
+    ],
+    "has_overlay_ancestor": false,
+    "has_fixed_ancestor": false,
+    "visible": false,
+    "opacity": 0,
+    "pointer_events": "none",
+    "rect": {
+      "x": 496,
+      "y": 12698,
+      "width": 448,
+      "height": 336
+    }
+  },
+  {
+    "attempt_index": 0,
+    "order": 33,
+    "tag": "button",
+    "type": "",
+    "role": "",
+    "text": "Security Security",
+    "aria_label": "",
+    "id": "",
+    "class_name": "team-card is-card-reveal-pending",
+    "href": "",
+    "target": "",
+    "score": 0,
+    "actionable": false,
+    "reasons": [],
+    "reject_reasons": [
+      "not_visible",
+      "pointer_events_none"
+    ],
+    "has_overlay_ancestor": false,
+    "has_fixed_ancestor": false,
+    "visible": false,
+    "opacity": 0,
+    "pointer_events": "none",
+    "rect": {
+      "x": 960,
+      "y": 12698,
+      "width": 448,
+      "height": 336
+    }
+  },
+  {
+    "attempt_index": 0,
+    "order": 34,
+    "tag": "button",
+    "type": "",
+    "role": "",
+    "text": "Maintenance Maintenance",
+    "aria_label": "",
+    "id": "",
+    "class_name": "team-card is-card-reveal-pending",
+    "href": "",
+    "target": "",
+    "score": 0,
+    "actionable": false,
+    "reasons": [],
+    "reject_reasons": [
+      "not_visible",
+      "pointer_events_none"
+    ],
+    "has_overlay_ancestor": false,
+    "has_fixed_ancestor": false,
+    "visible": false,
+    "opacity": 0,
+    "pointer_events": "none",
+    "rect": {
+      "x": 32,
+      "y": 13050,
+      "width": 448,
+      "height": 336
+    }
+  },
+  {
+    "attempt_index": 0,
+    "order": 35,
+    "tag": "button",
+    "type": "",
+    "role": "",
+    "text": "Administration & ressources Administration & ressources",
+    "aria_label": "",
+    "id": "",
+    "class_name": "team-card is-card-reveal-pending",
+    "href": "",
+    "target": "",
+    "score": 0,
+    "actionable": false,
+    "reasons": [],
+    "reject_reasons": [
+      "not_visible",
+      "pointer_events_none"
+    ],
+    "has_overlay_ancestor": false,
+    "has_fixed_ancestor": false,
+    "visible": false,
+    "opacity": 0,
+    "pointer_events": "none",
+    "rect": {
+      "x": 496,
+      "y": 13050,
+      "width": 448,
+      "height": 336
+    }
+  },
+  {
+    "attempt_index": 0,
+    "order": 39,
+    "tag": "a",
+    "type": "",
+    "role": "",
+    "text": "",
+    "aria_label": "",
+    "id": "",
+    "class_name": "footer_social-link w-inline-block",
+    "href": "https://www.linkedin.com/company/cominvi/",
+    "target": "_blank",
+    "score": 0,
+    "actionable": false,
+    "reasons": [],
+    "reject_reasons": [
+      "new_window_link"
+    ],
+    "has_overlay_ancestor": false,
+    "has_fixed_ancestor": false,
+    "visible": true,
+    "opacity": 1,
+    "pointer_events": "auto",
+    "rect": {
+      "x": 32,
+      "y": 17710,
+      "width": 24,
+      "height": 25
+    }
+  },
+  {
+    "attempt_index": 0,
+    "order": 40,
+    "tag": "a",
+    "type": "",
+    "role": "",
+    "text": "",
+    "aria_label": "",
+    "id": "",
+    "class_name": "footer_social-link w-inline-block",
+    "href": "https://www.instagram.com/cominvimx?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+    "target": "_blank",
+    "score": 0,
+    "actionable": false,
+    "reasons": [],
+    "reject_reasons": [
+      "new_window_link"
+    ],
+    "has_overlay_ancestor": false,
+    "has_fixed_ancestor": false,
+    "visible": true,
+    "opacity": 1,
+    "pointer_events": "auto",
+    "rect": {
+      "x": 72,
+      "y": 17710,
+      "width": 24,
+      "height": 25
+    }
+  },
+  {
+    "attempt_index": 0,
+    "order": 41,
+    "tag": "a",
+    "type": "",
+    "role": "",
+    "text": "",
+    "aria_label": "",
+    "id": "",
+    "class_name": "footer_social-link w-inline-block",
+    "href": "https://www.facebook.com/cominvimx",
+    "target": "_blank",
+    "score": 0,
+    "actionable": false,
+    "reasons": [],
+    "reject_reasons": [
+      "new_window_link"
+    ],
+    "has_overlay_ancestor": false,
+    "has_fixed_ancestor": false,
+    "visible": true,
+    "opacity": 1,
+    "pointer_events": "auto",
+    "rect": {
+      "x": 112,
+      "y": 17710,
+      "width": 24,
+      "height": 25
+    }
+  },
+  {
+    "attempt_index": 0,
+    "order": 50,
+    "tag": "a",
+    "type": "",
+    "role": "",
+    "text": "info@cominvi.com info@cominvi.com",
+    "aria_label": "",
+    "id": "",
+    "class_name": "footer-link",
+    "href": "mailto:info@cominvi.com?subject=Contact%20Form",
+    "target": "",
+    "score": 0,
+    "actionable": false,
+    "reasons": [],
+    "reject_reasons": [
+      "unsafe_scheme:mailto"
+    ],
+    "has_overlay_ancestor": false,
+    "has_fixed_ancestor": false,
+    "visible": true,
+    "opacity": 0.6,
+    "pointer_events": "auto",
+    "rect": {
+      "x": 1192,
+      "y": 17717,
+      "width": 130,
+      "height": 16
+    }
+  },
+  {
+    "attempt_index": 0,
+    "order": 0,
+    "tag": "a",
+    "type": "",
+    "role": "",
+    "text": "home",
+    "aria_label": "home",
+    "id": "",
+    "class_name": "is-link w-inline-block w--current",
+    "href": "https://www.cominvi.com.mx/",
+    "target": "",
+    "score": -10,
+    "actionable": false,
+    "reasons": [
+      "same_origin_link_penalty"
+    ],
+    "reject_reasons": [],
+    "has_overlay_ancestor": false,
+    "has_fixed_ancestor": true,
+    "visible": true,
+    "opacity": 1,
+    "pointer_events": "auto",
+    "rect": {
+      "x": 32,
+      "y": 34,
+      "width": 100,
+      "height": 28
+    }
+  },
+  {
+    "attempt_index": 0,
+    "order": 14,
+    "tag": "a",
+    "type": "",
+    "role": "",
+    "text": "OUR SERVICES Our Services",
+    "aria_label": "",
+    "id": "",
+    "class_name": "card w-inline-block",
+    "href": "https://www.cominvi.com.mx/our-services",
+    "target": "",
+    "score": -10,
+    "actionable": false,
+    "reasons": [
+      "same_origin_link_penalty"
+    ],
+    "reject_reasons": [],
+    "has_overlay_ancestor": false,
+    "has_fixed_ancestor": false,
+    "visible": true,
+    "opacity": 1,
+    "pointer_events": "auto",
+    "rect": {
+      "x": 960,
+      "y": 832,
+      "width": 216,
+      "height": 144
+    }
+  },
+  {
+    "attempt_index": 0,
+    "order": 15,
+    "tag": "a",
+    "type": "",
+    "role": "",
+    "text": "TECHNOLOGY Technology",
+    "aria_label": "",
+    "id": "",
+    "class_name": "card w-inline-block",
+    "href": "https://www.cominvi.com.mx/technology",
+    "target": "",
+    "score": -10,
+    "actionable": false,
+    "reasons": [
+      "same_origin_link_penalty"
+    ],
+    "reject_reasons": [],
+    "has_overlay_ancestor": false,
+    "has_fixed_ancestor": false,
+    "visible": true,
+    "opacity": 1,
+    "pointer_events": "auto",
+    "rect": {
+      "x": 1192,
+      "y": 832,
+      "width": 216,
+      "height": 144
+    }
+  },
+  {
+    "attempt_index": 0,
+    "order": 16,
+    "tag": "a",
+    "type": "",
+    "role": "",
+    "text": "ABOUT US SEE MORE ABOUT US About usSee more about us See more about us",
+    "aria_label": "See more about us",
+    "id": "",
+    "class_name": "button w-inline-block",
+    "href": "https://www.cominvi.com.mx/about-us",
+    "target": "",
+    "score": -10,
+    "actionable": false,
+    "reasons": [
+      "same_origin_link_penalty"
+    ],
+    "reject_reasons": [],
+    "has_overlay_ancestor": false,
+    "has_fixed_ancestor": false,
+    "visible": true,
+    "opacity": 1,
+    "pointer_events": "auto",
+    "rect": {
+      "x": 1076,
+      "y": 2242,
+      "width": 140,
+      "height": 40
+    }
+  },
+  {
+    "attempt_index": 0,
+    "order": 22,
+    "tag": "a",
+    "type": "",
+    "role": "",
+    "text": "SEE MORE LEARN MORE ABOUT OUR SERVICES See Morelearn more about our services learn more about our services",
+    "aria_label": "learn more about our services",
+    "id": "",
+    "class_name": "button w-inline-block",
+    "href": "https://www.cominvi.com.mx/our-services",
+    "target": "",
+    "score": -10,
+    "actionable": false,
+    "reasons": [
+      "same_origin_link_penalty"
+    ],
+    "reject_reasons": [],
+    "has_overlay_ancestor": false,
+    "has_fixed_ancestor": false,
+    "visible": true,
+    "opacity": 1,
+    "pointer_events": "auto",
+    "rect": {
+      "x": 1269,
+      "y": 3890,
+      "width": 140,
+      "height": 40
+    }
+  },
+  {
+    "attempt_index": 0,
+    "order": 23,
+    "tag": "a",
+    "type": "",
+    "role": "",
+    "text": "READ MORE READ MORE ABOUT OUR SAFETY POLICY Read MoreRead more about our safety policy Read more about our safety policy",
+    "aria_label": "Read more about our safety policy",
+    "id": "",
+    "class_name": "button w-inline-block",
+    "href": "https://www.cominvi.com.mx/safety",
+    "target": "",
+    "score": -10,
+    "actionable": false,
+    "reasons": [
+      "same_origin_link_penalty"
+    ],
+    "reject_reasons": [],
+    "has_overlay_ancestor": false,
+    "has_fixed_ancestor": false,
+    "visible": true,
+    "opacity": 1,
+    "pointer_events": "auto",
+    "rect": {
+      "x": 960,
+      "y": 8225,
+      "width": 146,
+      "height": 40
+    }
+  },
+  {
+    "attempt_index": 0,
+    "order": 30,
+    "tag": "a",
+    "type": "",
+    "role": "",
+    "text": "OUR FLEET SEE MORE ABOUT OUR FLEET Our FleetSee more about our fleet See more about our fleet",
+    "aria_label": "See more about our fleet",
+    "id": "",
+    "class_name": "button w-inline-block",
+    "href": "https://www.cominvi.com.mx/our-services",
+    "target": "",
+    "score": -10,
+    "actionable": false,
+    "reasons": [
+      "same_origin_link_penalty"
+    ],
+    "reject_reasons": [],
+    "has_overlay_ancestor": false,
+    "has_fixed_ancestor": false,
+    "visible": true,
+    "opacity": 1,
+    "pointer_events": "auto",
+    "rect": {
+      "x": 647,
+      "y": 11337,
+      "width": 146,
+      "height": 40
+    }
+  },
+  {
+    "attempt_index": 0,
+    "order": 36,
+    "tag": "a",
+    "type": "",
+    "role": "",
+    "text": "JOB OFFERS SEE OUR JOB OFFERS Job offersSee our job offers See our job offers",
+    "aria_label": "See our job offers",
+    "id": "",
+    "class_name": "button w-inline-block",
+    "href": "https://www.cominvi.com.mx/join-the-team",
+    "target": "",
+    "score": -10,
+    "actionable": false,
+    "reasons": [
+      "same_origin_link_penalty"
+    ],
+    "reject_reasons": [],
+    "has_overlay_ancestor": false,
+    "has_fixed_ancestor": false,
+    "visible": true,
+    "opacity": 1,
+    "pointer_events": "auto",
+    "rect": {
+      "x": 1255,
+      "y": 13314,
+      "width": 153,
+      "height": 40
+    }
+  },
+  {
+    "attempt_index": 0,
+    "order": 37,
+    "tag": "a",
+    "type": "",
+    "role": "",
+    "text": "OUR SERVICES SEE MORE ABOUT OUR SERVICES Our ServicesSee more about our services See more about our services",
+    "aria_label": "See more about our services",
+    "id": "",
+    "class_name": "button w-variant-a211fbf9-8f10-d13e-69e9-810a5e3873c2 w-inline-block",
+    "href": "https://www.cominvi.com.mx/our-services",
+    "target": "",
+    "score": -10,
+    "actionable": false,
+    "reasons": [
+      "same_origin_link_penalty"
+    ],
+    "reject_reasons": [],
+    "has_overlay_ancestor": false,
+    "has_fixed_ancestor": true,
+    "visible": true,
+    "opacity": 1,
+    "pointer_events": "auto",
+    "rect": {
+      "x": 636,
+      "y": 16507,
+      "width": 167,
+      "height": 40
+    }
+  },
+  {
+    "attempt_index": 0,
+    "order": 38,
+    "tag": "a",
+    "type": "",
+    "role": "",
+    "text": "home",
+    "aria_label": "home",
+    "id": "",
+    "class_name": "is-link w-inline-block w--current",
+    "href": "https://www.cominvi.com.mx/",
+    "target": "",
+    "score": -10,
+    "actionable": false,
+    "reasons": [
+      "same_origin_link_penalty"
+    ],
+    "reject_reasons": [],
+    "has_overlay_ancestor": false,
+    "has_fixed_ancestor": false,
+    "visible": true,
+    "opacity": 1,
+    "pointer_events": "auto",
+    "rect": {
+      "x": 32,
+      "y": 17659,
+      "width": 448,
+      "height": 27
+    }
+  },
+  {
+    "attempt_index": 0,
+    "order": 42,
+    "tag": "a",
+    "type": "",
+    "role": "",
+    "text": "Our Services Our Services",
+    "aria_label": "",
+    "id": "",
+    "class_name": "footer-link",
+    "href": "https://www.cominvi.com.mx/our-services",
+    "target": "",
+    "score": -10,
+    "actionable": false,
+    "reasons": [
+      "same_origin_link_penalty"
+    ],
+    "reject_reasons": [],
+    "has_overlay_ancestor": false,
+    "has_fixed_ancestor": false,
+    "visible": true,
+    "opacity": 0.6,
+    "pointer_events": "auto",
+    "rect": {
+      "x": 496,
+      "y": 17689,
+      "width": 92,
+      "height": 16
+    }
+  },
+  {
+    "attempt_index": 0,
+    "order": 43,
+    "tag": "a",
+    "type": "",
+    "role": "",
+    "text": "Technology Technology",
+    "aria_label": "",
+    "id": "",
+    "class_name": "footer-link",
+    "href": "https://www.cominvi.com.mx/technology",
+    "target": "",
+    "score": -10,
+    "actionable": false,
+    "reasons": [
+      "same_origin_link_penalty"
+    ],
+    "reject_reasons": [],
+    "has_overlay_ancestor": false,
+    "has_fixed_ancestor": false,
+    "visible": true,
+    "opacity": 0.6,
+    "pointer_events": "auto",
+    "rect": {
+      "x": 496,
+      "y": 17717,
+      "width": 82,
+      "height": 16
+    }
+  },
+  {
+    "attempt_index": 0,
+    "order": 44,
+    "tag": "a",
+    "type": "",
+    "role": "",
+    "text": "Safety Safety",
+    "aria_label": "",
+    "id": "",
+    "class_name": "footer-link",
+    "href": "https://www.cominvi.com.mx/safety",
+    "target": "",
+    "score": -10,
+    "actionable": false,
+    "reasons": [
+      "same_origin_link_penalty"
+    ],
+    "reject_reasons": [],
+    "has_overlay_ancestor": false,
+    "has_fixed_ancestor": false,
+    "visible": true,
+    "opacity": 0.6,
+    "pointer_events": "auto",
+    "rect": {
+      "x": 496,
+      "y": 17745,
+      "width": 45,
+      "height": 16
+    }
+  },
+  {
+    "attempt_index": 0,
+    "order": 45,
+    "tag": "a",
+    "type": "",
+    "role": "",
+    "text": "About us About us",
+    "aria_label": "",
+    "id": "",
+    "class_name": "footer-link",
+    "href": "https://www.cominvi.com.mx/about-us",
+    "target": "",
+    "score": -10,
+    "actionable": false,
+    "reasons": [
+      "same_origin_link_penalty"
+    ],
+    "reject_reasons": [],
+    "has_overlay_ancestor": false,
+    "has_fixed_ancestor": false,
+    "visible": true,
+    "opacity": 0.6,
+    "pointer_events": "auto",
+    "rect": {
+      "x": 496,
+      "y": 17773,
+      "width": 63,
+      "height": 16
+    }
+  },
+  {
+    "attempt_index": 0,
+    "order": 46,
+    "tag": "a",
+    "type": "",
+    "role": "",
+    "text": "Join the team Join the team",
+    "aria_label": "",
+    "id": "",
+    "class_name": "footer-link",
+    "href": "https://www.cominvi.com.mx/join-the-team",
+    "target": "",
+    "score": -10,
+    "actionable": false,
+    "reasons": [
+      "same_origin_link_penalty"
+    ],
+    "reject_reasons": [],
+    "has_overlay_ancestor": false,
+    "has_fixed_ancestor": false,
+    "visible": true,
+    "opacity": 0.6,
+    "pointer_events": "auto",
+    "rect": {
+      "x": 496,
+      "y": 17801,
+      "width": 95,
+      "height": 16
+    }
+  },
+  {
+    "attempt_index": 0,
+    "order": 47,
+    "tag": "a",
+    "type": "",
+    "role": "",
+    "text": "Blog Blog",
+    "aria_label": "",
+    "id": "",
+    "class_name": "footer-link",
+    "href": "https://www.cominvi.com.mx/blog",
+    "target": "",
+    "score": -10,
+    "actionable": false,
+    "reasons": [
+      "same_origin_link_penalty"
+    ],
+    "reject_reasons": [],
+    "has_overlay_ancestor": false,
+    "has_fixed_ancestor": false,
+    "visible": true,
+    "opacity": 0.6,
+    "pointer_events": "auto",
+    "rect": {
+      "x": 728,
+      "y": 17689,
+      "width": 32,
+      "height": 16
+    }
+  },
+  {
+    "attempt_index": 0,
+    "order": 48,
+    "tag": "a",
+    "type": "",
+    "role": "",
+    "text": "Notice of Privacy Notice of Privacy",
+    "aria_label": "",
+    "id": "",
+    "class_name": "footer-link",
+    "href": "https://www.cominvi.com.mx/notice-of-privacy",
+    "target": "",
+    "score": -10,
+    "actionable": false,
+    "reasons": [
+      "same_origin_link_penalty"
+    ],
+    "reject_reasons": [],
+    "has_overlay_ancestor": false,
+    "has_fixed_ancestor": false,
+    "visible": true,
+    "opacity": 0.6,
+    "pointer_events": "auto",
+    "rect": {
+      "x": 960,
+      "y": 17689,
+      "width": 118,
+      "height": 16
+    }
+  },
+  {
+    "attempt_index": 0,
+    "order": 49,
+    "tag": "a",
+    "type": "",
+    "role": "",
+    "text": "Contact Contact",
+    "aria_label": "",
+    "id": "",
+    "class_name": "footer-link",
+    "href": "https://www.cominvi.com.mx/contact",
+    "target": "",
+    "score": -10,
+    "actionable": false,
+    "reasons": [
+      "same_origin_link_penalty"
+    ],
+    "reject_reasons": [],
+    "has_overlay_ancestor": false,
+    "has_fixed_ancestor": false,
+    "visible": true,
+    "opacity": 0.6,
+    "pointer_events": "auto",
+    "rect": {
+      "x": 1192,
+      "y": 17689,
+      "width": 56,
+      "height": 16
+    }
+  },
+  {
+    "attempt_index": 0,
+    "order": 1,
+    "tag": "button",
+    "type": "",
+    "role": "",
+    "text": "Menu Menu open menu MenuMenuopen menu open menu",
+    "aria_label": "open menu",
+    "id": "",
+    "class_name": "is-menu",
+    "href": "",
+    "target": "",
+    "score": -35,
+    "actionable": false,
+    "reasons": [
+      "low_value_keyword:menu"
+    ],
+    "reject_reasons": [],
+    "has_overlay_ancestor": false,
+    "has_fixed_ancestor": true,
+    "visible": true,
+    "opacity": 1,
+    "pointer_events": "auto",
+    "rect": {
+      "x": 1307,
+      "y": 24,
+      "width": 101,
+      "height": 48
+    }
+  },
+  {
+    "attempt_index": 0,
+    "order": 11,
+    "tag": "a",
+    "type": "",
+    "role": "",
+    "text": "Follow us on linkedin",
+    "aria_label": "Follow us on linkedin",
+    "id": "",
+    "class_name": "navlink-social w-inline-block",
+    "href": "https://www.linkedin.com/company/cominvi/",
+    "target": "_blank",
+    "score": -35,
+    "actionable": false,
+    "reasons": [
+      "low_value_keyword:nav"
+    ],
+    "reject_reasons": [
+      "new_window_link"
+    ],
+    "has_overlay_ancestor": false,
+    "has_fixed_ancestor": true,
+    "visible": true,
+    "opacity": 1,
+    "pointer_events": "auto",
+    "rect": {
+      "x": 960,
+      "y": 296,
+      "width": 24,
+      "height": 25
+    }
+  },
+  {
+    "attempt_index": 0,
+    "order": 12,
+    "tag": "a",
+    "type": "",
+    "role": "",
+    "text": "Follow us on Instagram",
+    "aria_label": "Follow us on Instagram",
+    "id": "",
+    "class_name": "navlink-social w-inline-block",
+    "href": "https://www.instagram.com/cominvimx?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+    "target": "_blank",
+    "score": -35,
+    "actionable": false,
+    "reasons": [
+      "low_value_keyword:nav"
+    ],
+    "reject_reasons": [
+      "new_window_link"
+    ],
+    "has_overlay_ancestor": false,
+    "has_fixed_ancestor": true,
+    "visible": true,
+    "opacity": 1,
+    "pointer_events": "auto",
+    "rect": {
+      "x": 992,
+      "y": 296,
+      "width": 24,
+      "height": 24
+    }
+  },
+  {
+    "attempt_index": 0,
+    "order": 13,
+    "tag": "a",
+    "type": "",
+    "role": "",
+    "text": "Follow us on Facebook",
+    "aria_label": "Follow us on Facebook",
+    "id": "",
+    "class_name": "navlink-social w-inline-block",
+    "href": "https://www.facebook.com/cominvimx",
+    "target": "_blank",
+    "score": -35,
+    "actionable": false,
+    "reasons": [
+      "low_value_keyword:nav"
+    ],
+    "reject_reasons": [
+      "new_window_link"
+    ],
+    "has_overlay_ancestor": false,
+    "has_fixed_ancestor": true,
+    "visible": true,
+    "opacity": 1,
+    "pointer_events": "auto",
+    "rect": {
+      "x": 1024,
+      "y": 296,
+      "width": 24,
+      "height": 24
+    }
+  },
+  {
+    "attempt_index": 0,
+    "order": 2,
+    "tag": "a",
+    "type": "",
+    "role": "",
+    "text": "Our Services Our Services",
+    "aria_label": "",
+    "id": "",
+    "class_name": "navlink w-inline-block",
+    "href": "https://www.cominvi.com.mx/our-services",
+    "target": "",
+    "score": -45,
+    "actionable": false,
+    "reasons": [
+      "same_origin_link_penalty",
+      "low_value_keyword:nav"
+    ],
+    "reject_reasons": [],
+    "has_overlay_ancestor": false,
+    "has_fixed_ancestor": true,
+    "visible": true,
+    "opacity": 1,
+    "pointer_events": "auto",
+    "rect": {
+      "x": -5,
+      "y": 222,
+      "width": 223,
+      "height": 24
+    }
+  },
+  {
+    "attempt_index": 0,
+    "order": 3,
+    "tag": "a",
+    "type": "",
+    "role": "",
+    "text": "Technology Technology",
+    "aria_label": "",
+    "id": "",
+    "class_name": "navlink w-inline-block",
+    "href": "https://www.cominvi.com.mx/technology",
+    "target": "",
+    "score": -45,
+    "actionable": false,
+    "reasons": [
+      "same_origin_link_penalty",
+      "low_value_keyword:nav"
+    ],
+    "reject_reasons": [],
+    "has_overlay_ancestor": false,
+    "has_fixed_ancestor": true,
+    "visible": true,
+    "opacity": 1,
+    "pointer_events": "auto",
+    "rect": {
+      "x": -5,
+      "y": 259,
+      "width": 203,
+      "height": 24
+    }
+  },
+  {
+    "attempt_index": 0,
+    "order": 4,
+    "tag": "a",
+    "type": "",
+    "role": "",
+    "text": "Safety Safety",
+    "aria_label": "",
+    "id": "",
+    "class_name": "navlink w-inline-block",
+    "href": "https://www.cominvi.com.mx/safety",
+    "target": "",
+    "score": -45,
+    "actionable": false,
+    "reasons": [
+      "same_origin_link_penalty",
+      "low_value_keyword:nav"
+    ],
+    "reject_reasons": [],
+    "has_overlay_ancestor": false,
+    "has_fixed_ancestor": true,
+    "visible": true,
+    "opacity": 1,
+    "pointer_events": "auto",
+    "rect": {
+      "x": -5,
+      "y": 296,
+      "width": 128,
+      "height": 24
+    }
+  },
+  {
+    "attempt_index": 0,
+    "order": 5,
+    "tag": "a",
+    "type": "",
+    "role": "",
+    "text": "About us About us",
+    "aria_label": "",
+    "id": "",
+    "class_name": "navlink w-inline-block",
+    "href": "https://www.cominvi.com.mx/about-us",
+    "target": "",
+    "score": -45,
+    "actionable": false,
+    "reasons": [
+      "same_origin_link_penalty",
+      "low_value_keyword:nav"
+    ],
+    "reject_reasons": [],
+    "has_overlay_ancestor": false,
+    "has_fixed_ancestor": true,
+    "visible": true,
+    "opacity": 1,
+    "pointer_events": "auto",
+    "rect": {
+      "x": 459,
+      "y": 222,
+      "width": 165,
+      "height": 24
+    }
+  },
+  {
+    "attempt_index": 0,
+    "order": 6,
+    "tag": "a",
+    "type": "",
+    "role": "",
+    "text": "Blog Blog",
+    "aria_label": "",
+    "id": "",
+    "class_name": "navlink w-inline-block",
+    "href": "https://www.cominvi.com.mx/blog",
+    "target": "",
+    "score": -45,
+    "actionable": false,
+    "reasons": [
+      "same_origin_link_penalty",
+      "low_value_keyword:nav"
+    ],
+    "reject_reasons": [],
+    "has_overlay_ancestor": false,
+    "has_fixed_ancestor": true,
+    "visible": true,
+    "opacity": 1,
+    "pointer_events": "auto",
+    "rect": {
+      "x": 459,
+      "y": 259,
+      "width": 102,
+      "height": 24
+    }
+  },
+  {
+    "attempt_index": 0,
+    "order": 7,
+    "tag": "a",
+    "type": "",
+    "role": "",
+    "text": "Contact Contact",
+    "aria_label": "",
+    "id": "",
+    "class_name": "navlink w-inline-block",
+    "href": "https://www.cominvi.com.mx/contact",
+    "target": "",
+    "score": -45,
+    "actionable": false,
+    "reasons": [
+      "same_origin_link_penalty",
+      "low_value_keyword:nav"
+    ],
+    "reject_reasons": [],
+    "has_overlay_ancestor": false,
+    "has_fixed_ancestor": true,
+    "visible": true,
+    "opacity": 1,
+    "pointer_events": "auto",
+    "rect": {
+      "x": 459,
+      "y": 296,
+      "width": 150,
+      "height": 24
+    }
+  },
+  {
+    "attempt_index": 0,
+    "order": 8,
+    "tag": "a",
+    "type": "",
+    "role": "",
+    "text": "Join the Team Join the Team",
+    "aria_label": "",
+    "id": "",
+    "class_name": "navlink w-inline-block",
+    "href": "https://www.cominvi.com.mx/join-the-team",
+    "target": "",
+    "score": -45,
+    "actionable": false,
+    "reasons": [
+      "same_origin_link_penalty",
+      "low_value_keyword:nav"
+    ],
+    "reject_reasons": [],
+    "has_overlay_ancestor": false,
+    "has_fixed_ancestor": true,
+    "visible": true,
+    "opacity": 1,
+    "pointer_events": "auto",
+    "rect": {
+      "x": 923,
+      "y": 222,
+      "width": 236,
+      "height": 24
+    }
+  },
+  {
+    "attempt_index": 0,
+    "order": 9,
+    "tag": "a",
+    "type": "",
+    "role": "",
+    "text": "En En",
+    "aria_label": "",
+    "id": "",
+    "class_name": "navlink-locale w-inline-block w--current",
+    "href": "https://www.cominvi.com.mx/",
+    "target": "",
+    "score": -45,
+    "actionable": false,
+    "reasons": [
+      "same_origin_link_penalty",
+      "low_value_keyword:nav"
+    ],
+    "reject_reasons": [],
+    "has_overlay_ancestor": false,
+    "has_fixed_ancestor": true,
+    "visible": true,
+    "opacity": 1,
+    "pointer_events": "auto",
+    "rect": {
+      "x": 960,
+      "y": 260,
+      "width": 37,
+      "height": 23
+    }
+  },
+  {
+    "attempt_index": 0,
+    "order": 10,
+    "tag": "a",
+    "type": "",
+    "role": "",
+    "text": "Es Es",
+    "aria_label": "",
+    "id": "",
+    "class_name": "navlink-locale w-inline-block",
+    "href": "https://www.cominvi.com.mx/es",
+    "target": "",
+    "score": -45,
+    "actionable": false,
+    "reasons": [
+      "same_origin_link_penalty",
+      "low_value_keyword:nav"
+    ],
+    "reject_reasons": [],
+    "has_overlay_ancestor": false,
+    "has_fixed_ancestor": true,
+    "visible": true,
+    "opacity": 1,
+    "pointer_events": "auto",
+    "rect": {
+      "x": 1005,
+      "y": 260,
+      "width": 35,
+      "height": 23
+    }
+  }
+]

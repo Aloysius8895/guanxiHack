@@ -1,0 +1,83 @@
+[
+  {
+    "url": "https://cominvi.pages.dev/cave-scene/intro.mp4",
+    "method": "GET",
+    "status": 206,
+    "resource_type": "other",
+    "content_type": "video/mp4",
+    "extension": ".mp4",
+    "body_saved": false,
+    "saved_body_path": null,
+    "body_size_bytes": null,
+    "request_headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "response_headers": {
+      "etag": "\"ef29431addfa5eeb4fdc278a47134e51\"",
+      "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=KI%2BBYYdNw0Gfb75YEhsZOwA6CjfW3IHMWB17HNJyvHe48%2BzUPuPJO1Dh3Ki%2B%2B7L6BHbCVwSOA1pAs89KNEcDJ9KyEaZg1xIYtmwBMEMdsVg8coZ2YEmU9lTajRmB%2BOo3VaLkA1E0nW7%2F4yEHh5PcqA%3D%3D\"}]}",
+      "access-control-allow-methods": "GET, HEAD, OPTIONS",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "server-timing": "cfExtPri",
+      "date": "Wed, 30 Sep 2026 19:41:41 GMT",
+      "content-type": "video/mp4",
+      "priority": "u=3,i",
+      "access-control-allow-headers": "*",
+      "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "cache-control": "public, max-age=0, must-revalidate",
+      "content-range": "bytes 0-3762740/3762741",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "cf-ray": "a435b4e17c7e328c-KUL",
+      "access-control-allow-origin": "*",
+      "content-length": "3762741",
+      "server": "cloudflare"
+    },
+    "is_sourcemap": false
+  },
+  {
+    "url": "https://cominvi.pages.dev/cave-scene/intro.mp4",
+    "method": "GET",
+    "status": 206,
+    "resource_type": "media",
+    "content_type": "video/mp4",
+    "extension": ".mp4",
+    "body_saved": false,
+    "saved_body_path": null,
+    "body_size_bytes": null,
+    "request_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "accept-encoding": "identity;q=1, *;q=0",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "range": "bytes=0-",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "response_headers": {
+      "etag": "\"ef29431addfa5eeb4fdc278a47134e51\"",
+      "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=KI%2BBYYdNw0Gfb75YEhsZOwA6CjfW3IHMWB17HNJyvHe48%2BzUPuPJO1Dh3Ki%2B%2B7L6BHbCVwSOA1pAs89KNEcDJ9KyEaZg1xIYtmwBMEMdsVg8coZ2YEmU9lTajRmB%2BOo3VaLkA1E0nW7%2F4yEHh5PcqA%3D%3D\"}]}",
+      "access-control-allow-methods": "GET, HEAD, OPTIONS",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "server-timing": "cfExtPri",
+      "date": "Wed, 30 Sep 2026 19:41:41 GMT",
+      "content-type": "video/mp4",
+      "priority": "u=3,i",
+      "access-control-allow-headers": "*",
+      "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "cache-control": "public, max-age=0, must-revalidate",
+      "content-range": "bytes 0-3762740/3762741",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "cf-ray": "a435b4e17c7e328c-KUL",
+      "access-control-allow-origin": "*",
+      "content-length": "3762741",
+      "server": "cloudflare"
+    },
+    "is_sourcemap": false
+  }
+]

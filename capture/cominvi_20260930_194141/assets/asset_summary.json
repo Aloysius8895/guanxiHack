@@ -1,0 +1,69 @@
+{
+  "enabled": true,
+  "total_assets": 203,
+  "scripts": 17,
+  "stylesheets": 1,
+  "images": 172,
+  "fonts": 3,
+  "media": 2,
+  "documents": 8,
+  "sourcemaps": 0,
+  "others": 3,
+  "saved_bodies": {
+    "scripts": 17,
+    "stylesheets": 1,
+    "documents": 0
+  },
+  "largest_assets": [
+    {
+      "url": "https://cominvi.pages.dev/main.js",
+      "body_size_bytes": 347420,
+      "type": "script"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/6899a2f3f7995d5e3e31b7c6/css/cominvi-staging.webflow.shared.451204bcb.min.css",
+      "body_size_bytes": 157582,
+      "type": "stylesheet"
+    },
+    {
+      "url": "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6899a2f3f7995d5e3e31b7c6",
+      "body_size_bytes": 89476,
+      "type": "script"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/6899a2f3f7995d5e3e31b7c6/js/webflow.schunk.380a9cc3d7b92fe0.js",
+      "body_size_bytes": 42097,
+      "type": "script"
+    },
+    {
+      "url": "https://cominvi.pages.dev/assets/service-cards.js",
+      "body_size_bytes": 23852,
+      "type": "script"
+    },
+    {
+      "url": "https://cominvi.pages.dev/assets/minerals-canvas-local-debug.js",
+      "body_size_bytes": 18259,
+      "type": "script"
+    },
+    {
+      "url": "https://cominvi.pages.dev/assets/index.js",
+      "body_size_bytes": 11699,
+      "type": "script"
+    },
+    {
+      "url": "https://cominvi.pages.dev/assets/cylinder.js",
+      "body_size_bytes": 9936,
+      "type": "script"
+    },
+    {
+      "url": "https://cominvi.pages.dev/assets/text-reveal.js",
+      "body_size_bytes": 8734,
+      "type": "script"
+    },
+    {
+      "url": "https://cominvi.pages.dev/assets/minerals.js",
+      "body_size_bytes": 7340,
+      "type": "script"
+    }
+  ]
+}

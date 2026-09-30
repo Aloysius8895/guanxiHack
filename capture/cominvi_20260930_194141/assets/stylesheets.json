@@ -1,0 +1,43 @@
+[
+  {
+    "url": "https://cdn.prod.website-files.com/6899a2f3f7995d5e3e31b7c6/css/cominvi-staging.webflow.shared.451204bcb.min.css",
+    "method": "GET",
+    "status": 200,
+    "resource_type": "stylesheet",
+    "content_type": "text/css",
+    "extension": ".css",
+    "body_saved": true,
+    "saved_body_path": "responses/css/0002_cominvi-staging.webflow.shared.451204bcb.min_8c631c644e.css",
+    "body_size_bytes": 157582,
+    "request_headers": {
+      "origin": "https://www.cominvi.com.mx",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.cominvi.com.mx/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"148\", \"HeadlessChrome\";v=\"148\", \"Not/A)Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "response_headers": {
+      "access-control-max-age": "3000",
+      "content-encoding": "br",
+      "cf-cache-status": "HIT",
+      "x-amz-version-id": "rEEmW4lD0yoy.tCRjun7AsRMWIOO_5JO",
+      "etag": "W/\"eb6aad3831f95de2b3e7cc8c5166c374\"",
+      "age": "2967146",
+      "access-control-allow-methods": "GET, HEAD",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "date": "Wed, 30 Sep 2026 19:41:41 GMT",
+      "content-type": "text/css",
+      "vary": "Origin, Access-Control-Request-Headers, Access-Control-Request-Method",
+      "last-modified": "Thu, 27 Aug 2026 11:29:11 GMT",
+      "x-amz-id-2": "7efooGEjDsq4pPdOsyPf0V/ZsYRBT+v9pgIX+9JSjS8SY3er7Q9U5PqkYHt06frUg2QwKJs/5wgmgUsolf3YPodB2sGYvLYF",
+      "cache-control": "public, max-age=31536000, immutable",
+      "x-amz-request-id": "YD5QR4H7WB8WGX5H",
+      "cf-ray": "a435b4ddeb41c83e-KUL",
+      "access-control-allow-origin": "*",
+      "server": "cloudflare",
+      "x-amz-server-side-encryption": "AES256"
+    },
+    "is_sourcemap": false
+  }
+]

@@ -1,0 +1,47 @@
+{
+  "total_requests": 206,
+  "total_responses": 206,
+  "total_failed_requests": 0,
+  "by_resource_type": {
+    "document": 1,
+    "script": 17,
+    "stylesheet": 1,
+    "image": 172,
+    "font": 3,
+    "xhr": 0,
+    "fetch": 2,
+    "other": 10
+  },
+  "by_status_code": {
+    "200": 205,
+    "206": 1
+  },
+  "api_like_requests": {
+    "xhr": 0,
+    "fetch": 2
+  },
+  "response_bodies": {
+    "enabled": true,
+    "saved_total": 23,
+    "skipped_total": 183,
+    "saved_by_type": {
+      "html": 1,
+      "json": 2,
+      "js": 17,
+      "css": 1,
+      "xml": 0,
+      "svg": 0,
+      "text": 2
+    },
+    "skipped_by_reason": {
+      "disabled": 0,
+      "non_text_like_content_type": 0,
+      "binary_resource_type": 176,
+      "body_too_large": 0,
+      "body_read_error": 0,
+      "empty_body": 7,
+      "unknown_error": 0
+    },
+    "max_body_size_mb": 20.0
+  }
+}
