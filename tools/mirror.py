@@ -30,6 +30,24 @@ EXT = re.compile(r'\.(?:css|js|mjs|json|png|jpe?g|webp|avif|gif|svg|ico|woff2?|t
 ABS = re.compile(r'https?://[^\s\"\x27`<>\\)]+')
 manifest = json.loads((ROOT/'manifest.json').read_text('utf-8')) if (ROOT/'manifest.json').exists() else {}
 
+BRAND_LOGO = (
+    '<rect x="1" y="2" width="98" height="23" rx="4" '
+    'fill="currentColor" opacity="0.08"></rect>'
+    '<text x="50" y="18.5" text-anchor="middle" fill="currentColor" '
+    'font-family="Arial, Helvetica, sans-serif" font-size="15" '
+    'font-weight="700" letter-spacing="0.8">MetriX</text>'
+)
+
+
+def rebrand_html(source):
+    """Change visible brand copy and inline logos without touching source URLs."""
+    source = re.sub(r'CoMinVi|CominVi|Cominvi|COMINVI', 'MetriX', source)
+    logo = re.compile(
+        r'(<svg\b(?=[^>]*\bclass="(?:is-logo_main|is-logo)")[^>]*>).*?</svg>',
+        re.DOTALL,
+    )
+    return logo.sub(lambda match: match.group(1) + BRAND_LOGO + '</svg>', source)
+
 
 def normalize(url):
     url = urldefrag(html.unescape(url))[0]
@@ -162,11 +180,17 @@ def rewrite():
         if any(t in entry['content_type'] for t in ('text/', 'javascript', 'json', 'xml', 'svg')):
             s = data.decode('utf-8', errors='replace')
             s = pattern.sub(lambda m: replacements[m[0]], s)
+            if 'javascript' in entry['content_type']:
+                s = s.replace(
+                    'Interactive map of CoMinVi mining locations',
+                    'Interactive map of MetriX mining locations',
+                )
             if 'html' in entry['content_type']:
                 # Original SRI hashes no longer match files with localized URLs.
                 s = re.sub(r'\s+integrity="[^"]*"', '', s)
                 # The source services page has a stray semicolon inside a poster URL.
                 s = s.replace('.avif;\'','.avif\'')
+                s = rebrand_html(s)
             data = s.encode('utf-8')
         dest = ROOT/'site'/entry['path']
         dest.parent.mkdir(parents=True, exist_ok=True)
