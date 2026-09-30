@@ -38,15 +38,28 @@ BRAND_LOGO = (
     'font-weight="700" letter-spacing="0.8">MetriX</text>'
 )
 
+LOADER_BRAND_TEXT = (
+    '<text x="49" y="14" text-anchor="middle" fill="var(--white, #fff)" '
+    'font-family="Arial, Helvetica, sans-serif" font-size="14" '
+    'font-weight="700" letter-spacing="0.8">MetriX</text>'
+)
+
 
 def rebrand_html(source):
     """Change visible brand copy and inline logos without touching source URLs."""
     source = re.sub(r'CoMinVi|CominVi|Cominvi|COMINVI', 'MetriX', source)
     logo = re.compile(
-        r'(<svg\b(?=[^>]*\bclass="(?:is-logo_main|is-logo)")[^>]*>).*?</svg>',
+        r'(<svg\b(?=[^>]*\bclass="[^"]*\b(?:is-logo_main|is-logo)\b[^"]*")[^>]*>).*?</svg>',
         re.DOTALL,
     )
-    return logo.sub(lambda match: match.group(1) + BRAND_LOGO + '</svg>', source)
+    source = logo.sub(lambda match: match.group(1) + BRAND_LOGO + '</svg>', source)
+    loader_text = re.compile(
+        r'(<svg\b(?=[^>]*\bclass="[^"]*\blogo-text\b[^"]*")[^>]*>).*?</svg>',
+        re.DOTALL,
+    )
+    return loader_text.sub(
+        lambda match: match.group(1) + LOADER_BRAND_TEXT + '</svg>', source
+    )
 
 
 def normalize(url):
