@@ -14,9 +14,7 @@
 .metrix-component:hover .metrix-component-image,.metrix-component:focus .metrix-component-image{transform:translateY(-5%) scale(.94)}
 .metrix-component:focus-visible .metrix-component-visual{outline:2px solid #f87918;outline-offset:3px}
 .machines-grid_item:has(.metrix-component){height:auto!important;min-height:0}
-/* Tall scroll track: the pinned view goes from the site photo to the wireframe, then the route search. */
-.metrix-route-search{position:relative;background:#0d0f12;color:#f2f3f5;height:300vh;height:300svh;overflow:visible!important;isolation:isolate}
-.metrix-route-sticky{position:sticky;top:0;height:100vh;height:100svh;min-height:600px;overflow:hidden}
+.metrix-route-search{position:relative;background:#0d0f12;color:#f2f3f5;height:min(900px,100svh);min-height:650px;overflow:hidden;isolation:isolate}
 .metrix-route-search canvas{display:block;width:100%;height:100%;position:absolute;inset:0}
 .metrix-route-top,.metrix-route-bottom{position:absolute;z-index:1;left:clamp(24px,3vw,56px);right:clamp(24px,3vw,56px);display:flex;justify-content:space-between;gap:24px;pointer-events:none}
 .metrix-route-top{top:32px;font:11px/1.4 monospace;letter-spacing:.12em}.metrix-route-live{color:#f87918}
@@ -31,7 +29,7 @@
  .section_latest-technology .machines-grid{display:grid!important;grid-template-columns:1fr!important;gap:32px!important;width:100%}
  .metrix-component-description{opacity:1;transform:none;font-size:16px;padding:60px 22px 22px}
  .metrix-component-visual{aspect-ratio:1/1.15}.metrix-component-image{height:70%;transform:translateY(-7%)}
- .metrix-route-search{height:260svh}.metrix-route-sticky{min-height:0}.metrix-route-top{font-size:9px;top:24px}
+ .metrix-route-search{min-height:740px;height:90svh}.metrix-route-top{font-size:9px;top:24px}
  .metrix-route-bottom{bottom:24px;flex-direction:column;align-items:flex-start;gap:22px}.metrix-route-readout{text-align:left;font-size:10px;gap:9px}.metrix-route-readout button{align-self:flex-start}
  .section_services,.section_safety,.section_technology,.section_teams{row-gap:32px!important;padding-bottom:56px!important}
 }

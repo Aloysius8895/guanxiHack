@@ -42,11 +42,11 @@ for prefix in ['', 'es/']:
     path = ROOT / prefix / 'our-services/index.html'
     soup = BeautifulSoup(path.read_text('utf-8'), 'html.parser')
     if not soup.select_one('[data-route-search]'):
-        scene = BeautifulSoup('''<section class="metrix-route-search" data-route-search data-route-photo="/_assets/metrix/visuals/minefit.webp" bg="black" aria-label="MineFit route planning concept"><div class="metrix-route-sticky">
+        scene = BeautifulSoup('''<section class="metrix-route-search" data-route-search bg="black" aria-label="MineFit route planning concept">
           <div class="metrix-route-top"><span>MINEFIT AI / MINE HAUL ROUTE PLANNING</span><span class="metrix-route-live">● SIMULATION</span></div>
-          <canvas aria-label="Open-pit mine photo that turns into a dashed wireframe site map on scroll, then an animated search for the lowest-cost haul route"></canvas>
+          <canvas aria-label="Animated dashed mine site map: compare candidate haul routes and highlight the lowest-cost route"></canvas>
           <div class="metrix-route-bottom"><div><span class="metrix-route-kicker">PIT 02 / HAUL NETWORK</span><h2>Find the best route.<br>Make every move count.</h2><p>Compare haul roads across benches, ramps and unstable ground.<br>Route around the pit along the lowest-cost path.</p></div>
-          <div class="metrix-route-readout"><span data-route-status role="status">MAPPING THE NETWORK</span><span data-route-metric>SCANNING CONNECTED WAYPOINTS</span><small>CONCEPT DEMO / ILLUSTRATIVE ROUTE COSTS</small><button type="button" data-route-pause aria-pressed="false">Pause animation Ⅱ</button></div></div></div>
+          <div class="metrix-route-readout"><span data-route-status role="status">MAPPING THE NETWORK</span><span data-route-metric>SCANNING CONNECTED WAYPOINTS</span><small>CONCEPT DEMO / ILLUSTRATIVE ROUTE COSTS</small><button type="button" data-route-pause aria-pressed="false">Pause animation Ⅱ</button></div></div>
         </section>''', 'html.parser').section
         soup.select_one('.metrix-mine-story').insert_after(scene)
     path.write_text(str(soup), 'utf-8')

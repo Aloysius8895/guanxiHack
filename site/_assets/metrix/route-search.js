@@ -26,25 +26,8 @@ export function initRouteSearch(){
   section.dataset.routeReady='true';
   const canvas=section.querySelector('canvas'),ctx=canvas.getContext('2d');if(!ctx)return;
   const graph=network(),status=section.querySelector('[data-route-status]'),metric=section.querySelector('[data-route-metric]'),button=section.querySelector('[data-route-pause]');
-  const stage=section.querySelector('.metrix-route-sticky')||section;
-  const reduced=matchMedia('(prefers-reduced-motion: reduce)');let width=0,height=0,visible=false,paused=false,elapsed=0,clock=0,last=0,raf=0;
-  // The real site photo is shown first; a greyscale copy stays as a faint ghost under the wireframe.
-  let photo=null,ghost=null;
-  if(section.dataset.routePhoto){
-    const img=new Image();img.decoding='async';
-    img.onload=()=>{
-      photo=img;ghost=document.createElement('canvas');ghost.width=img.naturalWidth;ghost.height=img.naturalHeight;
-      const g=ghost.getContext('2d');g.drawImage(img,0,0);
-      try{const data=g.getImageData(0,0,ghost.width,ghost.height),px=data.data;for(let i=0;i<px.length;i+=4){const v=px[i]*.3+px[i+1]*.59+px[i+2]*.11;px[i]=px[i+1]=px[i+2]=v;}g.putImageData(data,0,0);}catch{}
-      draw();
-    };
-    img.src=section.dataset.routePhoto;
-  }
-  function cover(image,zoom){const s=Math.max(width/image.width,height/image.height)*zoom,w=image.width*s,h=image.height*s;ctx.drawImage(image,(width-w)/2,(height-h)*.55,w,h);}
-  // 0 = photo only, 1 = fully digitised; driven by how far the pinned stage has been scrolled.
-  function progress(){const r=section.getBoundingClientRect(),track=r.height-stage.clientHeight;return track>0?Math.min(1,Math.max(0,-r.top/track)):1;}
-  const ease=x=>x<.5?2*x*x:1-Math.pow(-2*x+2,2)/2;
-  function resize(){width=stage.clientWidth;height=stage.clientHeight;const dpr=Math.min(devicePixelRatio||1,2);canvas.width=width*dpr;canvas.height=height*dpr;ctx.setTransform(dpr,0,0,dpr,0,0);draw();}
+  const reduced=matchMedia('(prefers-reduced-motion: reduce)');let width=0,height=0,visible=false,paused=false,elapsed=0,last=0,raf=0;
+  function resize(){width=section.clientWidth;height=section.clientHeight;const dpr=Math.min(devicePixelRatio||1,2);canvas.width=width*dpr;canvas.height=height*dpr;ctx.setTransform(dpr,0,0,dpr,0,0);draw();}
   function project(x,y,t=0){
     const mobile=width<700,depth=.58+y*.42;
     return {x:width/2+(x-.5)*width*(mobile?.95:.87)*depth,y:height*(mobile?.14:.1)+y*height*(mobile?.41:.66)+Math.sin(x*9+y*5+t*.18)*height*.022};
@@ -83,19 +66,10 @@ export function initRouteSearch(){
     const portal=project(.74,.62,t);tag({x:portal.x+6,y:portal.y+22},'UNDERGROUND DECLINE','rgba(140,180,220,.6)',8);
   }
   function draw(){
-    const scroll=progress(),reveal=ease(Math.min(1,Math.max(0,(scroll-.1)/.42))),scanned=reveal>=1;
-    const scanY=height*(-.04+reveal*1.08),wave=reduced.matches?0:clock/1000;
-    const t=reduced.matches?10:elapsed/1000,phase=scanned?t%16:0,found=scanned&&(phase>=6||reduced.matches);
+    const t=reduced.matches?10:elapsed/1000,phase=t%16,found=phase>=6||reduced.matches;
     const explored=new Set(graph.visited.slice(0,Math.floor(Math.min(1,phase/6)*graph.visited.length)));
     ctx.clearRect(0,0,width,height);ctx.fillStyle='#0d0f12';ctx.fillRect(0,0,width,height);
-    const zoom=1.04+scroll*.1;
-    // Below the scan line: the real mine.
-    if(photo&&scanY<height){ctx.save();ctx.beginPath();ctx.rect(0,Math.max(0,scanY),width,height);ctx.clip();cover(photo,zoom);ctx.fillStyle='rgba(8,10,13,.28)';ctx.fillRect(0,0,width,height);ctx.restore();}
-    // Above it: the dark survey view with a faint trace of the photo.
-    ctx.save();ctx.beginPath();ctx.rect(0,0,width,Math.max(0,scanY));ctx.clip();
     const glow=ctx.createRadialGradient(width*.55,height*.4,0,width*.55,height*.4,width*.65);glow.addColorStop(0,'#1e242c');glow.addColorStop(1,'#0b0d10');ctx.fillStyle=glow;ctx.fillRect(0,0,width,height);
-    if(ghost){ctx.globalAlpha=.09;cover(ghost,zoom);ctx.globalAlpha=1;}
-    {const t=wave;
     // Warped perspective grid under the network, matching the reference's terrain plane.
     for(let x=-.12;x<1.13;x+=.05){let p=null;for(let y=-.1;y<=1.12;y+=.035){const q=project(x,y,t);if(p)line(p,q,'rgba(160,174,192,.055)');p=q;}}
     for(let y=-.1;y<=1.12;y+=.05){let p=null;for(let x=-.12;x<1.13;x+=.035){const q=project(x,y,t);if(p)line(p,q,'rgba(160,174,192,.055)');p=q;}}
@@ -126,27 +100,18 @@ export function initRouteSearch(){
       if(endpoint){ctx.strokeStyle=onPath?'#ff9a4680':'#aab4c266';ctx.beginPath();ctx.arc(p.x,p.y,12+Math.sin(t*2)*2,0,Math.PI*2);ctx.stroke();ctx.font='10px monospace';ctx.fillStyle='#dde2e8';ctx.fillText(i===graph.start?'START / R01':'TARGET / S06',Math.min(width-90,Math.max(12,p.x-26)),p.y-23);}
       else if(i%4===0){ctx.font='8px monospace';ctx.fillStyle='#7c8591';ctx.fillText('N'+String(i+1).padStart(2,'0'),p.x+9,p.y-7);}
     });
-    }
-    ctx.restore();
-    if(reveal>0&&!scanned){
-      const band=ctx.createLinearGradient(0,scanY-70,0,scanY);band.addColorStop(0,'rgba(244,121,32,0)');band.addColorStop(1,'rgba(244,121,32,.2)');ctx.fillStyle=band;ctx.fillRect(0,scanY-70,width,70);
-      ctx.shadowColor='#f47920';ctx.shadowBlur=14;line({x:0,y:scanY},{x:width,y:scanY},'rgba(255,176,104,.95)',1.5);ctx.shadowBlur=0;
-      tag({x:width-150,y:scanY-10},`SURVEY SCAN ${Math.round(reveal*100)}%`,'rgba(255,190,130,.9)',10);
-    }
     const shade=ctx.createLinearGradient(0,height*.55,0,height);shade.addColorStop(0,'transparent');shade.addColorStop(1,'#0a0c0f');ctx.fillStyle=shade;ctx.fillRect(0,height*.55,width,height*.45);
-    const label=!scanned?(reveal>0?'DIGITISING SITE SURVEY':'LIVE SITE / PIT 02'):found?(phase>=8?'OPTIMAL ROUTE / READY':'LOWEST-COST PATH FOUND'):'SEARCHING CANDIDATE ROUTES';
+    const label=found?(phase>=8?'OPTIMAL ROUTE / READY':'LOWEST-COST PATH FOUND'):'SEARCHING CANDIDATE ROUTES';
     if(status.textContent!==label)status.textContent=label;
-    const value=!scanned?`TERRAIN MODEL ${Math.round(reveal*100)}%`:found?`${graph.path.length} WAYPOINTS / COST ${graph.cost.toFixed(2)} AU`:`${explored.size} / ${graph.nodes.length} NODES EVALUATED`;
+    const value=found?`${graph.path.length} WAYPOINTS / COST ${graph.cost.toFixed(2)} AU`:`${explored.size} / ${graph.nodes.length} NODES EVALUATED`;
     if(metric.textContent!==value)metric.textContent=value;
-    section.dataset.routePhase=!scanned?'survey':found?'optimal':'searching';
-    // Restart the search each time the survey is scrolled back over.
-    if(!scanned)elapsed=0;
+    section.dataset.routePhase=found?'optimal':'searching';
   }
-  function tick(now){raf=0;if(!section.isConnected){observer.disconnect();resizer.disconnect();document.removeEventListener('visibilitychange',sync);reduced.removeEventListener('change',sync);return;}if(last&&!paused){const dt=Math.min(now-last,80);elapsed+=dt;clock+=dt;}last=now;draw();if(visible&&!document.hidden)raf=requestAnimationFrame(tick);}
-  function sync(){cancelAnimationFrame(raf);raf=0;last=0;draw();if(visible&&!document.hidden)raf=requestAnimationFrame(tick);}
+  function tick(now){raf=0;if(!section.isConnected){observer.disconnect();resizer.disconnect();document.removeEventListener('visibilitychange',sync);reduced.removeEventListener('change',sync);return;}if(last)elapsed+=Math.min(now-last,80);last=now;draw();if(visible&&!paused&&!document.hidden&&!reduced.matches)raf=requestAnimationFrame(tick);}
+  function sync(){cancelAnimationFrame(raf);raf=0;last=0;draw();if(visible&&!paused&&!document.hidden&&!reduced.matches)raf=requestAnimationFrame(tick);}
   button.addEventListener('click',()=>{paused=!paused;button.setAttribute('aria-pressed',String(paused));button.textContent=paused?'Resume animation ▷':'Pause animation Ⅱ';sync();});
   const observer=new IntersectionObserver(entries=>{visible=entries[0].isIntersecting;sync();});observer.observe(section);
-  const resizer=new ResizeObserver(resize);resizer.observe(stage);
+  const resizer=new ResizeObserver(resize);resizer.observe(section);
   document.addEventListener('visibilitychange',sync);reduced.addEventListener('change',sync);resize();
  });
 }
