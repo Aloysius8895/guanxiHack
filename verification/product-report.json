@@ -1,0 +1,13 @@
+{
+  "desktop": {
+    "menu_navigation": true,
+    "rover_controls": true,
+    "page_errors": []
+  },
+  "mobile": {
+    "menu_navigation": true,
+    "rover_controls": true,
+    "page_errors": []
+  },
+  "brief_download": true
+}

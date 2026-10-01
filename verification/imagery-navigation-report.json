@@ -1,0 +1,292 @@
+{
+  "desktop-home": {
+    "status": 200,
+    "errors": [],
+    "missing_images": [],
+    "horizontal_overflow": false,
+    "sections": [
+      {
+        "section": "section_hero",
+        "entries": 0
+      },
+      {
+        "section": "section_about",
+        "entries": 1
+      },
+      {
+        "section": "section_services",
+        "entries": 1
+      },
+      {
+        "section": "section_minerals",
+        "entries": 0
+      },
+      {
+        "section": "section_safety is-lenis-sticky",
+        "entries": 1
+      },
+      {
+        "section": "section_technology",
+        "entries": 1
+      },
+      {
+        "section": "section_teams",
+        "entries": 1
+      },
+      {
+        "section": "section_partners",
+        "entries": 0
+      }
+    ],
+    "cards": 5,
+    "card_buttons": 0
+  },
+  "desktop-our-services": {
+    "status": 200,
+    "errors": [],
+    "missing_images": [],
+    "horizontal_overflow": false,
+    "sections": [
+      {
+        "section": "section_hero is-services",
+        "entries": 0
+      },
+      {
+        "section": "section_services is-2",
+        "entries": 1
+      },
+      {
+        "section": "section_process",
+        "entries": 0
+      }
+    ],
+    "cards": 5,
+    "card_buttons": 0,
+    "pilot_navigation": true
+  },
+  "desktop-safety": {
+    "status": 200,
+    "errors": [],
+    "missing_images": [],
+    "horizontal_overflow": false,
+    "sections": [
+      {
+        "section": "section_hero is-safety",
+        "entries": 0
+      },
+      {
+        "section": "section_testimonial is-safety",
+        "entries": 0
+      },
+      {
+        "section": "section_ccrm",
+        "entries": 0
+      },
+      {
+        "section": "section_testimonial is-safety",
+        "entries": 0
+      },
+      {
+        "section": "section_commitment",
+        "entries": 0
+      },
+      {
+        "section": "section_testimonial is-safety",
+        "entries": 0
+      },
+      {
+        "section": "section_img is-big-safety",
+        "entries": 0
+      },
+      {
+        "section": "section_improvement",
+        "entries": 0
+      },
+      {
+        "section": "section_next",
+        "entries": 1
+      }
+    ]
+  },
+  "desktop-about-us": {
+    "status": 200,
+    "errors": [],
+    "missing_images": [],
+    "horizontal_overflow": false,
+    "sections": [
+      {
+        "section": "section_hero is-safety",
+        "entries": 0
+      },
+      {
+        "section": "section_about-us p-0",
+        "entries": 0
+      },
+      {
+        "section": "section_workshops",
+        "entries": 0
+      },
+      {
+        "section": "section_values",
+        "entries": 0
+      },
+      {
+        "section": "section_values is-2",
+        "entries": 0
+      },
+      {
+        "section": "section_improvement",
+        "entries": 1
+      },
+      {
+        "section": "section_next",
+        "entries": 1
+      }
+    ]
+  },
+  "mobile-home": {
+    "status": 200,
+    "errors": [],
+    "missing_images": [],
+    "horizontal_overflow": false,
+    "sections": [
+      {
+        "section": "section_hero",
+        "entries": 0
+      },
+      {
+        "section": "section_about",
+        "entries": 1
+      },
+      {
+        "section": "section_services",
+        "entries": 1
+      },
+      {
+        "section": "section_minerals",
+        "entries": 0
+      },
+      {
+        "section": "section_safety",
+        "entries": 1
+      },
+      {
+        "section": "section_technology",
+        "entries": 1
+      },
+      {
+        "section": "section_teams",
+        "entries": 1
+      },
+      {
+        "section": "section_partners",
+        "entries": 0
+      }
+    ],
+    "cards": 5,
+    "card_buttons": 0
+  },
+  "mobile-our-services": {
+    "status": 200,
+    "errors": [],
+    "missing_images": [],
+    "horizontal_overflow": false,
+    "sections": [
+      {
+        "section": "section_hero is-services",
+        "entries": 0
+      },
+      {
+        "section": "section_services is-2",
+        "entries": 1
+      },
+      {
+        "section": "section_process",
+        "entries": 0
+      }
+    ],
+    "cards": 5,
+    "card_buttons": 0,
+    "pilot_navigation": true
+  },
+  "mobile-safety": {
+    "status": 200,
+    "errors": [],
+    "missing_images": [],
+    "horizontal_overflow": false,
+    "sections": [
+      {
+        "section": "section_hero is-safety",
+        "entries": 0
+      },
+      {
+        "section": "section_testimonial is-safety",
+        "entries": 0
+      },
+      {
+        "section": "section_ccrm",
+        "entries": 0
+      },
+      {
+        "section": "section_testimonial is-safety",
+        "entries": 0
+      },
+      {
+        "section": "section_commitment",
+        "entries": 0
+      },
+      {
+        "section": "section_testimonial is-safety",
+        "entries": 0
+      },
+      {
+        "section": "section_img is-big-safety",
+        "entries": 0
+      },
+      {
+        "section": "section_improvement",
+        "entries": 0
+      },
+      {
+        "section": "section_next",
+        "entries": 1
+      }
+    ]
+  },
+  "mobile-about-us": {
+    "status": 200,
+    "errors": [],
+    "missing_images": [],
+    "horizontal_overflow": false,
+    "sections": [
+      {
+        "section": "section_hero is-safety",
+        "entries": 0
+      },
+      {
+        "section": "section_about-us p-0",
+        "entries": 0
+      },
+      {
+        "section": "section_workshops",
+        "entries": 0
+      },
+      {
+        "section": "section_values",
+        "entries": 0
+      },
+      {
+        "section": "section_values is-2",
+        "entries": 0
+      },
+      {
+        "section": "section_improvement",
+        "entries": 1
+      },
+      {
+        "section": "section_next",
+        "entries": 1
+      }
+    ]
+  }
+}

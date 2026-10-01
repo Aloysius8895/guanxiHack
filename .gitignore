@@ -1,0 +1,10 @@
+# Local server and test logs
+*.log
+# Python caches
+__pycache__/
+*.pyc
+# Full-resolution image originals (the site serves compressed WebP copies)
+assets-source/
+# Generated test screenshots
+verification/*.png
+verification/product-before/

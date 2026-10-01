@@ -1,0 +1,46 @@
+/* Two detection scenes share a sticky viewport while the original page keeps scrolling. */
+.metrix-mine-story{position:relative;height:260vh;height:260svh;background:#111513;overflow:visible!important}
+.metrix-mine-sticky{position:sticky;top:0;height:100vh;height:100svh;width:100%;overflow:hidden}
+.metrix-mine-sticky iframe{display:block;border:0;width:100%;height:100%;background:#111513}
+@media(max-width:700px){.metrix-mine-story{height:240svh}}
+/* The text mask participates in layout so wrapped headings reserve their height. */
+.metrix-rover-title {
+  gap: clamp(24px, 3vw, 48px);
+}
+.metrix-rover-title .title-big > .display {
+  display: none;
+}
+.metrix-rover-title .overlay-gradients {
+  display: none;
+}
+.metrix-rover-title .is-text-mask {
+  position: relative;
+  height: auto;
+  mix-blend-mode: normal;
+}
+.metrix-rover-title .display.is-test {
+  height: auto;
+  max-width: 100%;
+  top: auto;
+}
+.metrix-rover-title .body-xxl {
+  line-height: .95;
+}
+.metrix-rover-title .eyebrow-wrapper-a {
+  position: relative;
+  flex-shrink: 0;
+}
+[data-metrix-image="component"] {
+  object-fit: contain;
+  object-position: center;
+}
+.machines-grid_img[data-metrix-image="component"] {
+  width: 84%;
+  height: 84%;
+}
+[data-metrix-image="scenario"] {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}

@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>MetriX · Underground detection</title>
+  <link rel="stylesheet" href="mine.css">
+  <script type="importmap">{"imports":{"three":"/_assets/metrix/three/build/three.module.js"}}</script>
+</head>
+<body>
+  <main class="mine-scene" data-mode="detection" aria-label="MetriX rover exploring an underground mine">
+    <div class="mine-background"></div>
+    <div class="mine-shade"></div>
+    <div id="rover-stage" aria-hidden="true"></div>
+    <div class="scan-field" aria-hidden="true"><div class="scan-line"></div></div>
+    <svg class="scan-beam" viewBox="0 0 1440 900" preserveAspectRatio="none" aria-hidden="true">
+      <defs><linearGradient id="beam"><stop stop-color="#ffdf7f" stop-opacity=".02"/><stop offset="1" stop-color="#ffeac0" stop-opacity=".2"/></linearGradient></defs>
+      <path d="M 495 570 L 1130 300 L 1130 430 Z" fill="url(#beam)"/>
+      <path d="M 495 570 L 1130 300 M 495 570 L 1130 430" fill="none" stroke="#fff2c0" stroke-width="1" stroke-dasharray="5 6" opacity=".6"/>
+    </svg>
+    <header class="scene-top"><div class="section-badges" aria-label="Section 02, Use Cases"><span class="section-number">S.02</span><span class="section-name">USE CASES</span></div><span class="detection-ruler"><i></i> DETECTION <i></i></span><span class="live"><b></b> ROVER ONLINE</span></header>
+    <div class="scene-title detection-copy"><p class="eyebrow">01 / UNDERGROUND PERCEPTION</p><h2>Real-time<br>mine detection.</h2></div>
+    <div class="scene-title thermal-copy"><p class="eyebrow">02 / THERMAL INSPECTION</p><h2>Thermal anomaly<br>detected.</h2></div>
+    <div class="detection-boxes" aria-hidden="true">
+      <div class="target" style="--x:14%;--y:44%;--w:8%;--h:15%;--delay:0s"><span>ROCK FRACTURE 94%</span><b></b></div>
+      <div class="target" style="--x:30%;--y:50%;--w:6%;--h:9%;--delay:-2s"><span>LOOSE ROCK 96%</span><b></b></div>
+      <div class="target" style="--x:64%;--y:39%;--w:7%;--h:12%;--delay:-1s"><span>PASSAGE 98%</span><b></b></div>
+      <div class="target" style="--x:79%;--y:40%;--w:8%;--h:16%;--delay:-3s"><span>MINERAL VEIN 91%</span><b></b></div>
+      <div class="target" style="--x:73%;--y:66%;--w:6%;--h:8%;--delay:-1.5s"><span>OBSTACLE 97%</span><b></b></div>
+      <div class="target" style="--x:6%;--y:66%;--w:7%;--h:9%;--delay:-.5s"><span>DEBRIS 93%</span><b></b></div>
+    </div>
+    <div class="rover-id"><span></span>METRIX / R01 <small>SIX-WHEEL SAMPLING ROVER</small></div>
+    <div class="thermal-window"><div class="thermal-top"><span>THERMAL SENSOR</span><strong>64.8°C</strong></div><canvas id="thermal" width="400" height="240" aria-label="Illustrative thermal map of the mine wall"></canvas><div class="thermal-crosshair"></div><div class="thermal-scale"></div><div class="thermal-bottom"><span>ROI 04 / ROCK FACE</span><span>18.0°C</span></div></div>
+    <div class="hotspot" aria-hidden="true"><span></span><b>HEAT SIGNATURE</b></div>
+    <footer class="scene-bottom">
+      <div class="scene-description"><p class="detection-copy">A closer look.<br>A clearer path underground.</p><p class="thermal-copy">Locate unusual heat.<br>Flag the area for review.</p><span class="description-detail detection-copy">Vision and LiDAR map rock faces, obstacles<br>and potential sampling points.</span><span class="description-detail thermal-copy">The rover scans the rock face and links<br>each anomaly to its location.</span></div>
+      <div class="telemetry"><span class="telemetry-mode">SCAN MODE: VISION + LIDAR</span><span>SECTOR: NORTH DRIFT / LEVEL −240 M</span><span class="telemetry-status">6 FEATURES TRACKED · ROUTE MAPPED</span><small>CONCEPT DEMO / ILLUSTRATIVE SENSOR DATA</small></div>
+    </footer>
+    <nav class="scene-nav" aria-label="Detection demonstration scenes"><button type="button" data-scene="0" aria-pressed="true"><span>01</span> REAL-TIME DETECTION</button><button type="button" data-scene="1" aria-pressed="false"><span>02</span> THERMAL SCAN</button><button class="pause" type="button" aria-pressed="false" aria-label="Pause scene animation">Ⅱ</button></nav>
+    <div class="scene-progress" aria-hidden="true"><span></span></div>
+    <p class="fallback" hidden>Interactive rover preview unavailable.</p>
+  </main>
+  <script type="module" src="mine.js"></script>
+</body>
+</html>

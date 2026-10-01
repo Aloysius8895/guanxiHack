@@ -1,0 +1,126 @@
+[
+  {
+    "width": 1440,
+    "cards": [
+      {
+        "src": "/_assets/metrix/components/six-wheel-chassis.png",
+        "loaded": true
+      },
+      {
+        "src": "/_assets/metrix/components/emergency-stop.png",
+        "loaded": true
+      },
+      {
+        "src": "/_assets/metrix/components/sampling-arm.png",
+        "loaded": true
+      },
+      {
+        "src": "/_assets/metrix/components/sample-carousel.png",
+        "loaded": true
+      },
+      {
+        "src": "/_assets/metrix/components/vision-sensors.png",
+        "loaded": true
+      },
+      {
+        "src": "/_assets/metrix/components/sensor-mast.png",
+        "loaded": true
+      },
+      {
+        "src": "/_assets/metrix/components/sample-handling.png",
+        "loaded": true
+      },
+      {
+        "src": "/_assets/metrix/components/task-planning.png",
+        "loaded": true
+      },
+      {
+        "src": "/_assets/metrix/components/sample-records.png",
+        "loaded": true
+      },
+      {
+        "src": "/_assets/metrix/components/platform-link.png",
+        "loaded": true
+      },
+      {
+        "src": "/_assets/metrix/components/remote-operation.png",
+        "loaded": true
+      },
+      {
+        "src": "/_assets/metrix/components/image-capture.png",
+        "loaded": true
+      },
+      {
+        "src": "/_assets/metrix/components/coverage-review.png",
+        "loaded": true
+      },
+      {
+        "src": "/_assets/metrix/components/scanning-concept.png",
+        "loaded": true
+      }
+    ],
+    "expanded": true
+  },
+  {
+    "width": 390,
+    "cards": [
+      {
+        "src": "/_assets/metrix/components/image-capture.png",
+        "loaded": true
+      },
+      {
+        "src": "/_assets/metrix/components/coverage-review.png",
+        "loaded": true
+      },
+      {
+        "src": "/_assets/metrix/components/scanning-concept.png",
+        "loaded": true
+      },
+      {
+        "src": "/_assets/metrix/components/task-planning.png",
+        "loaded": true
+      },
+      {
+        "src": "/_assets/metrix/components/platform-link.png",
+        "loaded": true
+      },
+      {
+        "src": "/_assets/metrix/components/remote-operation.png",
+        "loaded": true
+      },
+      {
+        "src": "/_assets/metrix/components/sampling-arm.png",
+        "loaded": true
+      },
+      {
+        "src": "/_assets/metrix/components/sample-carousel.png",
+        "loaded": true
+      },
+      {
+        "src": "/_assets/metrix/components/vision-sensors.png",
+        "loaded": true
+      },
+      {
+        "src": "/_assets/metrix/components/sensor-mast.png",
+        "loaded": true
+      },
+      {
+        "src": "/_assets/metrix/components/sample-handling.png",
+        "loaded": true
+      },
+      {
+        "src": "/_assets/metrix/components/sample-records.png",
+        "loaded": true
+      },
+      {
+        "src": "/_assets/metrix/components/six-wheel-chassis.png",
+        "loaded": true
+      },
+      {
+        "src": "/_assets/metrix/components/emergency-stop.png",
+        "loaded": true
+      }
+    ],
+    "expanded": true
+  }
+]

@@ -1,0 +1,17 @@
+/* Image-led modules: content stays readable without hover or extra entry controls. */
+.metrix-solutions-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;width:100%}
+.metrix-solution-card{display:flex;flex-direction:column;background:#fff;border-radius:8px;overflow:hidden;min-width:0;color:#181b19}
+.metrix-solution-image{display:block;width:100%;height:auto;aspect-ratio:16/10;object-fit:cover;background:#202622}
+.metrix-solution-copy{display:flex;flex-direction:column;gap:14px;padding:24px;flex:1}
+.metrix-solution-copy h3{font-size:clamp(20px,1.75vw,28px);line-height:1.12;margin:0;letter-spacing:-.045em}
+.metrix-solution-description{display:block;height:auto;opacity:1}
+.metrix-solution-description p{font-size:15px;line-height:1.5;margin:0;color:#4c554f}
+.metrix-section-entry{display:table;margin:40px auto 0;padding:18px 24px;border-radius:5px;background:#171a18;color:#fff;font-size:13px;letter-spacing:.04em;text-decoration:none}
+.metrix-section-entry:hover{background:#f87918;color:#171a18}
+.metrix-section-entry:focus-visible{outline:3px solid #f87918;outline-offset:5px}
+.metrix-editorial .image-wrapper{overflow:hidden;border-radius:8px}
+.metrix-editorial .image-wrapper img{object-fit:cover;object-position:center}
+.metrix-editorial .section_img img{object-fit:cover;object-position:center 45%}
+.metrix-story-still img{width:100%;height:100%;object-fit:cover}
+@media(max-width:991px){.metrix-solutions-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.metrix-solution-copy{padding:20px}}
+@media(max-width:600px){.metrix-solutions-grid{grid-template-columns:1fr;gap:20px}.metrix-solution-image{aspect-ratio:16/9}.metrix-solution-copy{padding:22px}.metrix-solution-copy h3{font-size:25px}}

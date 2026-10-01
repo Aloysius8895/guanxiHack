@@ -1,0 +1,23 @@
+{
+  "name": "rebrand",
+  "url": "http://127.0.0.1:8002/",
+  "status": 200,
+  "page": {
+    "title": "MetriX | Underground Mining Contractor in Mexico",
+    "text": 4997,
+    "images": 24,
+    "broken": [],
+    "scrollables": [
+      {
+        "tag": "DIV",
+        "cls": "page-wrap lenis",
+        "height": 18074,
+        "client": 1000
+      }
+    ]
+  },
+  "errors": [],
+  "failed": [],
+  "external": [],
+  "missing": []
+}

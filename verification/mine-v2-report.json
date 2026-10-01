@@ -1,0 +1,24 @@
+{
+  "site/our-services/index.html": [
+    "S.01 AI solutions",
+    "S.03 Pilot Process",
+    "S.04 Next Page"
+  ],
+  "site/es/our-services/index.html": [
+    "S.01 AI solutions",
+    "S.03 Pilot Process",
+    "S.04 Next Page"
+  ],
+  "desktop": {
+    "model_motion": true,
+    "thermal_fixed": true,
+    "pause": true,
+    "errors": []
+  },
+  "mobile": {
+    "model_motion": true,
+    "thermal_fixed": true,
+    "pause": true,
+    "errors": []
+  }
+}

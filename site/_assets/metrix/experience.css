@@ -1,0 +1,40 @@
+﻿/* Compact section spacing and shared component reveals. */
+.section_services,.section_safety,.section_technology,.section_teams{row-gap:clamp(40px,4vw,64px)!important;padding-bottom:clamp(64px,6vw,96px)!important}
+.section_services .metrix-section-entry,.section_safety .metrix-section-entry,.section_technology .metrix-section-entry{margin-top:0}
+.section_services .text-wrapper.is-about{padding:0;max-width:1200px;align-self:center}
+.section_technology .text-button{padding:0;gap:40px}
+.section_technology .text-button .button{margin-top:0}
+.metrix-component{margin:0;width:100%;outline:none}
+.metrix-component-visual{position:relative;display:flex;align-items:center;justify-content:center;aspect-ratio:1/1.1;background:#151515;border-radius:10px;overflow:hidden}
+.metrix-component-image{display:block;width:84%;height:78%;object-fit:contain;transition:transform .65s cubic-bezier(.2,.7,.2,1),opacity .5s}
+.metrix-component-image[data-metrix-image="scenario"]{width:100%;height:100%;object-fit:cover}
+.metrix-component-description{position:absolute;inset:auto 0 0;margin:0;padding:72px 28px 28px;background:linear-gradient(transparent,rgba(10,13,12,.96) 55%);color:#ddd;font-size:clamp(15px,1.2vw,20px);line-height:1.3;opacity:0;transform:translateY(22px);transition:opacity .45s,transform .55s cubic-bezier(.2,.7,.2,1);pointer-events:none}
+.metrix-component figcaption{font-size:clamp(20px,1.6vw,28px);font-weight:600;line-height:1.15;letter-spacing:-.035em;padding-top:16px}
+.metrix-component:hover .metrix-component-description,.metrix-component:focus .metrix-component-description{opacity:1;transform:none}
+.metrix-component:hover .metrix-component-image,.metrix-component:focus .metrix-component-image{transform:translateY(-5%) scale(.94)}
+.metrix-component:focus-visible .metrix-component-visual{outline:2px solid #f87918;outline-offset:3px}
+.machines-grid_item:has(.metrix-component){height:auto!important;min-height:0}
+/* Tall scroll track: the pinned view goes from the site photo to the wireframe, then the route search. */
+.metrix-route-search{position:relative;background:#0d0f12;color:#f2f3f5;height:300vh;height:300svh;overflow:visible!important;isolation:isolate}
+.metrix-route-sticky{position:sticky;top:0;height:100vh;height:100svh;min-height:600px;overflow:hidden}
+.metrix-route-search canvas{display:block;width:100%;height:100%;position:absolute;inset:0}
+.metrix-route-top,.metrix-route-bottom{position:absolute;z-index:1;left:clamp(24px,3vw,56px);right:clamp(24px,3vw,56px);display:flex;justify-content:space-between;gap:24px;pointer-events:none}
+.metrix-route-top{top:32px;font:11px/1.4 monospace;letter-spacing:.12em}.metrix-route-live{color:#f87918}
+.metrix-route-bottom{bottom:36px;align-items:flex-end}.metrix-route-kicker{font:10px monospace;letter-spacing:.15em;color:#9aa2ac}
+.metrix-route-bottom h2{font:600 clamp(28px,3vw,52px)/1.06 Arial,sans-serif;letter-spacing:-.045em;margin:14px 0}
+.metrix-route-bottom p{font:13px/1.5 Arial,sans-serif;color:#b9bfc7;margin:0}
+.metrix-route-readout{display:flex;flex-direction:column;gap:12px;text-align:right;font:11px monospace;letter-spacing:.05em}
+.metrix-route-readout [data-route-status]{color:#ff9a46}.metrix-route-readout small{font-size:9px;color:#737b86}
+.metrix-route-readout button{align-self:flex-end;pointer-events:auto;border:1px solid #4a515b;border-radius:4px;padding:9px 12px;background:#14171b;color:#ddd;cursor:pointer}
+@media(max-width:767px){
+ .section_latest-technology .machines-grid-wrapper{display:flex!important;height:auto!important;visibility:visible!important}
+ .section_latest-technology .machines-grid{display:grid!important;grid-template-columns:1fr!important;gap:32px!important;width:100%}
+ .metrix-component-description{opacity:1;transform:none;font-size:16px;padding:60px 22px 22px}
+ .metrix-component-visual{aspect-ratio:1/1.15}.metrix-component-image{height:70%;transform:translateY(-7%)}
+ .metrix-route-search{height:260svh}.metrix-route-sticky{min-height:0}.metrix-route-top{font-size:9px;top:24px}
+ .metrix-route-bottom{bottom:24px;flex-direction:column;align-items:flex-start;gap:22px}.metrix-route-readout{text-align:left;font-size:10px;gap:9px}.metrix-route-readout button{align-self:flex-start}
+ .section_services,.section_safety,.section_technology,.section_teams{row-gap:32px!important;padding-bottom:56px!important}
+}
+@media(hover:none){.metrix-component-description{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){.metrix-component *{transition:none!important}}
+@media(max-width:767px){.section_latest-technology .machines-grid_list{grid-template-columns:1fr!important;gap:32px!important}.section_latest-technology .machines-grid-wrapper{padding-bottom:56px}}

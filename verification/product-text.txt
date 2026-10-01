@@ -1,0 +1,1384 @@
+site\index.html
+MetriX AI | Mine Smarter. Verify Better. Recover More.
+Turn your phone for
+a better experience
+MetriX
+MetriX
+MetriX
+Menu
+Menu
+open menu
+AI Solutions
+Smart Rover
+Validation
+About MetriX
+Insights
+Contact
+Pilot Partners
+En
+En
+Guide
+Home
+Home
+Mine Smarter.
+Verify Better.
+Recover More.
+Decision platform
+Prototype & proof of concept
+AI Solutions
+Smart Rover
+S.01
+About MetriX
+MetriX AI turns mining, visual and laboratory data into explainable decisions for operations, sampling and secondary resource recovery.
+03
+AI Modules
+01
+Connected Platform
+06
+Rover Wheels
+03
+Decision Scenarios
+01
+Pilot First
+AI
+Human Reviewed
+MineFit AI, QualityGuard AI and CircularMine AI connect three key decisions: equipment allocation, representative sampling and resource value.
+About MetriX
+About the MetriX AI project
+S.02
+AI solutions
+Three AI modules connect planning, quality verification and recovery assessment. Begin with one measurable problem and validate the result.
+MineFit AI
+Match equipment to tasks and compare transport routes using capacity, road conditions, energy and availability.
+QualityGuard AI
+Identify ore variability, recommend sampling coverage and connect each sample to its source and laboratory results.
+CircularMine AI
+Compare recovery pathways for tailings and by-products using measured grades, recovery assumptions, prices and costs.
+Smart Sampling Rover
+Explore our rover concept for image capture, assisted sampling and sample records, linked to QualityGuard AI.
+Enterprise Integration
+Start with a scoped pilot. Plan validated module subscriptions, private deployment and integration around your data.
+See More
+Learn more about MetriX AI modules
+See More
+Potential mineral applications
+Gold: illustrative material; scenario validation required.
+Silver: illustrative material; scenario validation required.
+Lead: illustrative material; scenario validation required.
+Copper: potential application, subject to data validation.
+Zinc: potential application, subject to data validation.
+S.03
+Materials
+S.03
+Materials
+Materials We Study
+Gold
+Silver
+Lead
+Copper
+Zinc
+AU
+AG
+PB
+CU
+ZN
+[
+#79
+#47
+#82
+#29
+#30
+]
+S.04
+Human-reviewed AI
+Every recommendation should explain its data, constraints and assumptions. Professional review remains central to important decisions.
+Visual features support sampling decisions; laboratory testing confirms composition and quality.
+Read More
+Read about human review and validation
+S.05
+Smart Rover
+The MetriX Smart Sampling Rover concept connects image capture, assisted sampling and sample records with QualityGuard AI.
+Smart Sampling
+Rover
+Smart Sampling
+Rover
+Smart sampling rover
+A concept for the field
+Six articulated wheel assemblies form the mobility concept. Terrain suitability must be verified in controlled field tests.
+Six-Wheel Chassis
+OPEN
+CLOSE
+Six articulated wheel assemblies form the mobility concept. Terrain suitability must be verified in controlled field tests.
+An articulated arm illustrates assisted sample collection. Reach, sample mass and handling accuracy require dedicated testing.
+Sampling Arm
+OPEN
+CLOSE
+An articulated arm illustrates assisted sample collection. Reach, sample mass and handling accuracy require dedicated testing.
+A rotating storage concept keeps collected samples organised. Capacity and contamination controls remain subject to validation.
+Sample Carousel
+OPEN
+CLOSE
+A rotating storage concept keeps collected samples organised. Capacity and contamination controls remain subject to validation.
+Visual sensing is intended to collect ore images for QualityGuard AI. Image conditions and model applicability must be checked.
+Vision Sensors
+OPEN
+CLOSE
+Visual sensing is intended to collect ore images for QualityGuard AI. Image conditions and model applicability must be checked.
+The top-mounted scanner illustrates planned perception capability. Navigation and localisation remain to be validated.
+Scanning Concept
+OPEN
+CLOSE
+The top-mounted scanner illustrates planned perception capability. Navigation and localisation remain to be validated.
+The planned QualityGuard AI connection links captured images, reviewed sampling tasks and traceable sample records.
+Platform Link
+OPEN
+CLOSE
+The planned QualityGuard AI connection links captured images, reviewed sampling tasks and traceable sample records.
+Explore the six-wheel rover, articulated sampling arm, sample carousel and sensor mast. Hardware capabilities remain subject to engineering and field validation.
+Explore the Rover
+Explore our rover concept
+S.06
+Our Approach
+Evidence guides every decision
+01
+02
+“Make the recommendation understandable: show its source data, assumptions and constraints.”
+MetriX AI · Explainable decisions
+“Start with one clear scenario, compare against a baseline, then expand on evidence.”
+MetriX AI · Measurable pilots
+MineFit AI
+QualityGuard AI
+Human Review
+CircularMine AI
+Field Sampling
+Pilot opportunities
+Explore pilot opportunities
+S.07
+Who We Serve
+We invite mining operators, testing organisations and resource recovery businesses to develop a clearly scoped pilot together.
+Mining Operators
+Trafigura
+Dispatch Teams
+Aura Mineral Inc.
+Capstone
+Coeur Mining
+Endeavour silver
+Penoles
+Fresnillo
+First Majestic
+Leagold Mining
+Magna Gold
+Testing Organisations
+Equinox gold
+Mining Operators
+Trafigura
+Dispatch Teams
+Aura Mineral Inc.
+Capstone
+Coeur Mining
+Endeavour silver
+Penoles
+Fresnillo
+First Majestic
+Leagold Mining
+Magna Gold
+Testing Organisations
+Equinox gold
+Mining Operators
+Trafigura
+Dispatch Teams
+Aura Mineral Inc.
+Capstone
+Coeur Mining
+Endeavour silver
+Penoles
+Fresnillo
+First Majestic
+Leagold Mining
+Magna Gold
+Testing Organisations
+Equinox gold
+S.08
+Next Page
+AI Solutions
+Explore MetriX AI solutions
+MetriX
+MetriX
+Explore
+AI Solutions
+Smart Rover
+Validation
+About MetriX
+Pilot partners
+Library
+Insights
+Information
+Data & Product Scope
+Contact
+Contact
+Product introduction
+Prepare a pilot brief
+2026 MetriX AI · Prototype & proof of concept
+site\about-us\index.html
+About the Project | MetriX AI
+Turn your phone for
+a better experience
+MetriX
+MetriX
+MetriX
+Menu
+Menu
+open menu
+AI Solutions
+Smart Rover
+Validation
+About MetriX
+Insights
+Contact
+Pilot Partners
+En
+En
+Guide
+Home
+Home
+A clearer view of
+mining decisions.
+Decision platform
+Prototype & proof of concept
+AI Solutions
+Pilot Partners
+S.01
+About MetriX
+A modular decision-support platform for non-ferrous and critical metals. MetriX AI connects mining operations, quality verification and secondary resource assessment through traceable data.
+MetriX AI is at the prototype and proof-of-concept stage. We invite industry partners to validate one clear scenario before expanding the platform.
+S.02
+Our Roadmap
+From 2027
+From prototype to pilot
+To 2029
+1
+2
+9
+0
+3
+6
+9
+0
+4
+5
+7
+2
+2027 · Prototype validation. Build reproducible simulations for all three modules and seek expert and academic feedback.
+The next stage requires clear data boundaries, repeatable demonstrations and documented model assumptions.
+2028 · Industry proof of concept. Select one operational, testing or recovery scenario for a pilot using real data.
+2029 · Modular commercial expansion. Prioritise the most validated module, then extend services and enterprise integration.
+S.03
+Our Purpose
+01
+02
+03
+Mission
+Vision
+Evidence
+Our mission is to turn scattered mining data into understandable actions, helping teams use resources more efficiently, strengthen quality decisions and assess recovery opportunities.
+Our vision is to become a daily decision-support tool for non-ferrous and critical metals businesses, connecting operations, quality and recovery teams around data with clear provenance.
+Recommendations should show the data, constraints and assumptions behind them. Keep professional review in the loop and request more evidence when a model has insufficient grounds to recommend an action.
+S.03
+Development Path
+01
+02
+03
+Mission
+Vision
+Evidence
+Our mission is to turn scattered mining data into understandable actions, helping teams use resources more efficiently, strengthen quality decisions and assess recovery opportunities.
+Our vision is to become a daily decision-support tool for non-ferrous and critical metals businesses, connecting operations, quality and recovery teams around data with clear provenance.
+Recommendations should show the data, constraints and assumptions behind them. Keep professional review in the loop and request more evidence when a model has insufficient grounds to recommend an action.
+S.04
+Values
+Our Values
+Honesty
+We promote open and truthful communication. We acknowledge our mistakes and handle information and resources with complete transparency.
+Respect
+We uphold the dignity of individuals, follow the rules, and protect the environments where we work. Every interaction is based on consideration and accountability.
+Integrity
+We act in alignment with what we say and what we do. We honor our commitments and consistently follow ethical principles.
+Loyalty
+We safeguard confidential information, give our best in every task, and make decisions with the collective well-being of the organization in mind.
+Reliability
+We communicate with integrity, make conscious decisions, and only commit to what we can deliver with certainty.
+Honesty
+We act in alignment with what we say and what we do. We honor our commitments and consistently follow ethical principles.
+Respect
+We act in alignment with what we say and what we do. We honor our commitments and consistently follow ethical principles.
+Integrity
+We act in alignment with what we say and what we do. We honor our commitments and consistently follow ethical principles.
+Loyalty
+We act in alignment with what we say and what we do. We honor our commitments and consistently follow ethical principles.
+Reliability
+We act in alignment with what we say and what we do. We honor our commitments and consistently follow ethical principles.
+S.04
+Values
+Our Values
+Honesty
+Respect
+Integrity
+Loyalty
+Reliability
+We act in alignment with what we say and what we do. We honor our commitments and consistently follow ethical principles.
+We act in alignment with what we say and what we do. We honor our commitments and consistently follow ethical principles.
+We act in alignment with what we say and what we do. We honor our commitments and consistently follow ethical principles.
+We act in alignment with what we say and what we do. We honor our commitments and consistently follow ethical principles.
+We act in alignment with what we say and what we do. We honor our commitments and consistently follow ethical principles.
+Honesty
+We act in alignment with what we say and what we do. We honor our commitments and consistently follow ethical principles.
+Respect
+We act in alignment with what we say and what we do. We honor our commitments and consistently follow ethical principles.
+Integrity
+We act in alignment with what we say and what we do. We honor our commitments and consistently follow ethical principles.
+Loyalty
+We act in alignment with what we say and what we do. We honor our commitments and consistently follow ethical principles.
+Reliability
+We act in alignment with what we say and what we do. We honor our commitments and consistently follow ethical principles.
+S.05
+Environment
+CircularMine AI compares potential recovery options for tailings and suitable by-products. Measured grades, trial recovery data and processing costs provide the basis for each scenario.
+Assess environmental benefits through verifiable energy, transport and resource-use records. No fixed savings or emission reduction percentage is assumed.
+We take it further, optimizing resources, minimizing waste, and building a strong environmental culture within our teams. Our commitment is clear: to protect the environment with the same seriousness with which we protect our people.
+Let's Collaborate
+Contact us
+S.06
+Validation Milestones
+Product progress is assessed through reproducible simulations, expert review and scoped field pilots. These are validation priorities, not certifications or completed deployments.
+Our validation priorities
+01
+Reproducible prototypes
+Record input data, parameter versions and exceptions so the prototype results can be repeated and checked independently.
+02
+Expert-reviewed pilots
+Use real scenario data, an agreed baseline and professional review to assess whether a module meets the pilot criteria.
+03
+Validated module delivery
+Expand a validated module only when its scope, support requirements and repeatability are clear. Wider enterprise deployment is a proposed productisation direction.
+04
+Data & Assumptions
+Record data sources, units, dates and model assumptions. Compare scenario results and require review when inputs fall outside the validated operating range.
+S.07
+Next Page
+Pilot partners
+Explore pilot opportunities
+MetriX
+MetriX
+Explore
+AI Solutions
+Smart Rover
+Validation
+About MetriX
+Pilot partners
+Library
+Insights
+Information
+Data & Product Scope
+Contact
+Contact
+Product introduction
+Prepare a pilot brief
+2026 MetriX AI · Prototype & proof of concept
+site\blog\index.html
+Product Insights | MetriX AI
+Turn your phone for
+a better experience
+MetriX
+MetriX
+MetriX
+Menu
+Menu
+open menu
+AI Solutions
+Smart Rover
+Validation
+About MetriX
+Insights
+Contact
+Pilot Partners
+En
+En
+Guide
+Home
+Home
+Read
+Product overview
+QualityGuard AI: Better Sampling Starts with Coverage
+QualityGuard AI connects ore variability, sampling coverage and laboratory evidence.
+Read
+Read the article
+All
+Insights
+Product Guide
+Thank you! Your submission has been received!
+Your brief could not be created. Please try again.
+Product overview
+QualityGuard AI: Better Sampling Starts with Coverage
+QualityGuard AI connects ore variability, sampling coverage and laboratory evidence.
+Product Guide
+Product guide
+MineFit AI: Match Equipment, Compare Routes
+MineFit AI compares feasible equipment and routes against task requirements and operating constraints.
+Product Guide
+Product guide
+CircularMine AI: Compare Secondary Resource Value
+CircularMine AI compares recovery options using measured grades, recovery assumptions, prices and processing costs.
+Insights
+MetriX
+MetriX
+Explore
+AI Solutions
+Smart Rover
+Validation
+About MetriX
+Pilot partners
+Library
+Insights
+Information
+Data & Product Scope
+Contact
+Contact
+Product introduction
+Prepare a pilot brief
+2026 MetriX AI · Prototype & proof of concept
+site\contact\index.html
+Prepare a Pilot | MetriX AI
+Turn your phone for
+a better experience
+MetriX
+MetriX
+MetriX
+Menu
+Menu
+open menu
+AI Solutions
+Smart Rover
+Validation
+About MetriX
+Insights
+Contact
+Pilot Partners
+En
+En
+Guide
+Home
+Home
+Start a Pilot
+Next step
+Prepare a pilot brief
+Read more
+Product introduction
+Initial focus
+Guangxi · Non-ferrous and critical metals. Initial cooperation focus; no public office address has been provided.
+Edificio Puerta Bajío, Piso 7 León, Guanajuato, México
+Prepare your pilot brief
+Name
+Email
+Message
+Describe your scenario. Download a brief to share with the team.
+Download brief
+BRIEF READY · SAVED LOCALLY
+Your brief could not be created. Please try again.
+MetriX
+MetriX
+Explore
+AI Solutions
+Smart Rover
+Validation
+About MetriX
+Pilot partners
+Library
+Insights
+Information
+Data & Product Scope
+Contact
+Contact
+Product introduction
+Prepare a pilot brief
+2026 MetriX AI · Prototype & proof of concept
+site\join-the-team\index.html
+Pilot Partners | MetriX AI
+Turn your phone for
+a better experience
+MetriX
+MetriX
+MetriX
+Menu
+Menu
+open menu
+AI Solutions
+Smart Rover
+Validation
+About MetriX
+Insights
+Contact
+Pilot Partners
+En
+En
+Guide
+Home
+Home
+Start with a scenario,
+validate its value.
+Built around
+3 connected AI modules
+About MetriX
+Validation
+S.01
+Pilot Opportunities
+Pilot Opportunities
+Proposed pilot
+Industry Pilot Partner
+Share a defined operational, testing or recovery scenario. A proposed pilot combines your data and domain feedback with module analysis, baseline comparison and a documented result.
+Proposed pilot
+Industry Pilot Partner
+Share a defined operational, testing or recovery scenario. A proposed pilot combines your data and domain feedback with module analysis, baseline comparison and a documented result.
+Proposed pilot
+Industry Pilot Partner
+Share a defined operational, testing or recovery scenario. A proposed pilot combines your data and domain feedback with module analysis, baseline comparison and a documented result.
+Proposed pilot
+Industry Pilot Partner
+Share a defined operational, testing or recovery scenario. A proposed pilot combines your data and domain feedback with module analysis, baseline comparison and a documented result.
+Proposed pilot
+Industry Pilot Partner
+Share a defined operational, testing or recovery scenario. A proposed pilot combines your data and domain feedback with module analysis, baseline comparison and a documented result.
+Let's Collaborate
+Explore pilot opportunities
+S.02
+Industry Collaboration
+We seek industry partners with a clear scenario, relevant data and professional feedback. Start with one measurable problem and agree the pilot scope together.
+MineFit AI
+QualityGuard AI
+Human Review
+CircularMine AI
+Field Sampling
+Integration
+Pilot Priorities
+35% Women in mine
+65% Women in administration
+Data
+3
+5
+6
+5
+%
+Data preparation
+Expert review
+Review
+S.03
+Validation
+Validation comes before expansion. Agree data access, expert review and acceptance criteria for the selected scenario. Rover-related work follows separate hardware and field validation.
+At MetriX, we deeply care about the well-being of our collaborators. We value each member of our team and strive to create a safe, healthy and nurturing work environment.
+S.04
+Next Page
+About MetriX
+About the MetriX AI project
+MetriX
+MetriX
+Explore
+AI Solutions
+Smart Rover
+Validation
+About MetriX
+Pilot partners
+Library
+Insights
+Information
+Data & Product Scope
+Contact
+Contact
+Product introduction
+Prepare a pilot brief
+2026 MetriX AI · Prototype & proof of concept
+site\notice-of-privacy\index.html
+Data & Product Scope | MetriX AI
+Turn your phone for
+a better experience
+MetriX
+MetriX
+MetriX
+Menu
+Menu
+open menu
+Data use and delivery scope are agreed for each pilot.
+Data use and delivery scope are agreed for each pilot.
+Data use and delivery scope are agreed for each pilot.
+Data use and delivery scope are agreed for each pilot.
+Data use and delivery scope are agreed for each pilot.
+Data use and delivery scope are agreed for each pilot.
+Data use and delivery scope are agreed for each pilot.
+Data use and delivery scope are agreed for each pilot.
+Data use and delivery scope are agreed for each pilot.
+Home
+Home
+Data & Product Scope
+Last updated: January 1, 2026.
+MetriX AI · Product and data scope. This local product website presents a prototype and proof-of-concept project. Proposed services and deployment options require validation and an agreed delivery scope.
+MineFit AI supports equipment matching and route comparison; initial validation uses offline or simulated scenarios.
+QualityGuard AI supports feature-based sampling analysis. Visual differences are not certified measurements of metal grade.
+CircularMine AI supports early resource and pathway assessment using measured data and stated assumptions.
+The Smart Sampling Rover is a hardware concept. Images and the interactive model illustrate the design and are not evidence of manufacture, deployment or certified performance.
+The pilot brief form generates a text file locally in your browser. It does not send your name, email or message to MetriX AI or the previous website owner.
+Pilot data access, result ownership, permitted uses, retention and export should be agreed with the relevant parties before data is shared.
+Use of customer data for model training or cross-customer research requires explicit agreement on purpose and scope.
+Enterprise permissions, audit records, backup and deployment options are proposed productisation requirements. Their delivery depends on the agreed project scope.
+Model outputs should identify sources, units, parameter versions and applicability limits. Important decisions remain subject to professional review.
+For the complete project description and proposed services, download the supplied Chinese product introduction from this website.
+Scope and acceptance criteria are established for each proposed pilot before wider deployment.
+Scope and acceptance criteria are established for each proposed pilot before wider deployment.
+Scope and acceptance criteria are established for each proposed pilot before wider deployment.
+Scope and acceptance criteria are established for each proposed pilot before wider deployment.
+Scope and acceptance criteria are established for each proposed pilot before wider deployment.
+Scope and acceptance criteria are established for each proposed pilot before wider deployment.
+Scope and acceptance criteria are established for each proposed pilot before wider deployment.
+Scope and acceptance criteria are established for each proposed pilot before wider deployment.
+Scope and acceptance criteria are established for each proposed pilot before wider deployment.
+Scope and acceptance criteria are established for each proposed pilot before wider deployment.
+Scope and acceptance criteria are established for each proposed pilot before wider deployment.
+Scope and acceptance criteria are established for each proposed pilot before wider deployment.
+Scope and acceptance criteria are established for each proposed pilot before wider deployment.
+Scope and acceptance criteria are established for each proposed pilot before wider deployment.
+Scope and acceptance criteria are established for each proposed pilot before wider deployment.
+Scope and acceptance criteria are established for each proposed pilot before wider deployment.
+Scope and acceptance criteria are established for each proposed pilot before wider deployment.
+MetriX
+MetriX
+Explore
+Data use and delivery scope are agreed for each pilot.
+Data use and delivery scope are agreed for each pilot.
+Data use and delivery scope are agreed for each pilot.
+Data use and delivery scope are agreed for each pilot.
+Data use and delivery scope are agreed for each pilot.
+Library
+Data use and delivery scope are agreed for each pilot.
+Information
+Data use and delivery scope are agreed for each pilot.
+Contact
+Data use and delivery scope are agreed for each pilot.
+Data use and delivery scope are agreed for each pilot.
+Data use and delivery scope are agreed for each pilot.
+2026 MetriX AI · Prototype & proof of concept
+site\our-services\index.html
+AI Solutions | MetriX AI
+Turn your phone for
+a better experience
+MetriX
+MetriX
+MetriX
+Menu
+Menu
+open menu
+AI Solutions
+Smart Rover
+Validation
+About MetriX
+Insights
+Contact
+Pilot Partners
+En
+En
+Guide
+Home
+Home
+Underground mining
+services
+Decision platform
+Prototype & proof of concept
+Smart Rover
+Validation
+S.01
+AI solutions
+From equipment scheduling to sampling and recovery assessment, our modules help teams compare options and understand the evidence behind each recommendation.
+MineFit AI
+Match equipment to tasks and compare transport routes using capacity, road conditions, energy and availability.
+QualityGuard AI
+Identify ore variability, recommend sampling coverage and connect each sample to its source and laboratory results.
+CircularMine AI
+Compare recovery pathways for tailings and by-products using measured grades, recovery assumptions, prices and costs.
+Smart Sampling Rover
+Explore our rover concept for image capture, assisted sampling and sample records, linked to QualityGuard AI.
+Enterprise Integration
+Start with a scoped pilot. Plan validated module subscriptions, private deployment and integration around your data.
+Proposed services include scoped pilots, validated module subscriptions, enterprise deployment and model customisation.
+Potential mineral applications
+Gold: illustrative material; scenario validation required.
+Silver: illustrative material; scenario validation required.
+Lead: illustrative material; scenario validation required.
+Copper: potential application, subject to data validation.
+Zinc: potential application, subject to data validation.
+S.03
+Materials
+S.03
+Materials
+Materials We Study
+Gold
+Silver
+Lead
+Copper
+Zinc
+AU
+AG
+PB
+CU
+ZN
+[
+#79
+#47
+#82
+#29
+#30
+]
+S.03
+Use Cases
+Seven example use cases illustrate where a scoped pilot could begin. These are proposed applications, not customer deployments.
+Map of our projects in Mexico
+Route Planning
+Mining Operators
+MineFit AI compares feasible transport routes using distance, slope, congestion and energy assumptions. Operators review the expected time and cost before selecting a route. A pilot compares the recommendations with existing rules under the same tasks and fleet constraints.
+Equipment Matching
+Dispatch Teams
+Match tasks to equipment using payload, position, availability and road access. MineFit AI first excludes infeasible choices, then compares workable combinations. Outdated equipment status and insufficient capacity are flagged for review.
+Sampling Coverage
+Testing Organisations
+QualityGuard AI identifies differences in ore images and suggests sampling locations based on coverage, variability and budget. Visual clusters describe feature differences; they are not direct measurements of metal grade. Laboratory evidence and expert review remain essential.
+Sample Traceability
+Quality Teams
+Link each sample to a batch, location, collection time and laboratory result. The planned workflow helps teams investigate unexpected results and identify missing coverage. Sample identifiers, handling and contamination controls must be validated for each field scenario.
+Resource Screening
+Recovery Businesses
+CircularMine AI screens tailings and suitable by-products using dry quantity, measured grade, recovery assumptions and costs. It identifies candidates for additional tests. Original ore grades cannot substitute for the corresponding tailings measurements.
+Recovery Comparison
+Process Engineers
+Compare suitable recovery pathways and observe how prices, recovery rates and costs affect their ranking. Estimated net operating value supports early screening; investment decisions require additional capital, financing and cash-flow analysis.
+Rover Validation
+Field Teams
+The Smart Sampling Rover is a concept hardware extension. First validate mechanical sampling, storage and identifiers; then controlled mobility and remote operation; finally limited-area navigation and platform integration. The model illustrates the design, not certified performance.
+User
+Mining Operators
+Focus
+MineFit AI
+Route Planning
+Pilot
+MineFit AI compares feasible transport routes using distance, slope, congestion and energy assumptions. Operators review the expected time and cost before selecting a route. A pilot compares the recommendations with existing rules under the same tasks and fleet constraints.
+User
+Dispatch Teams
+Focus
+Scenario pilot
+Equipment Matching
+Pilot
+Match tasks to equipment using payload, position, availability and road access. MineFit AI first excludes infeasible choices, then compares workable combinations. Outdated equipment status and insufficient capacity are flagged for review.
+User
+Testing Organisations
+Focus
+Scenario pilot
+Sampling Coverage
+Pilot
+QualityGuard AI identifies differences in ore images and suggests sampling locations based on coverage, variability and budget. Visual clusters describe feature differences; they are not direct measurements of metal grade. Laboratory evidence and expert review remain essential.
+User
+Quality Teams
+Focus
+Data validation
+Sample Traceability
+Pilot
+Link each sample to a batch, location, collection time and laboratory result. The planned workflow helps teams investigate unexpected results and identify missing coverage. Sample identifiers, handling and contamination controls must be validated for each field scenario.
+User
+Recovery Businesses
+Focus
+Data validation
+Resource Screening
+Pilot
+CircularMine AI screens tailings and suitable by-products using dry quantity, measured grade, recovery assumptions and costs. It identifies candidates for additional tests. Original ore grades cannot substitute for the corresponding tailings measurements.
+User
+Process Engineers
+Focus
+CircularMine AI
+Recovery Comparison
+Pilot
+Compare suitable recovery pathways and observe how prices, recovery rates and costs affect their ranking. Estimated net operating value supports early screening; investment decisions require additional capital, financing and cash-flow analysis.
+User
+Field Teams
+Focus
+Controlled testing
+Rover Validation
+Pilot
+The Smart Sampling Rover is a concept hardware extension. First validate mechanical sampling, storage and identifiers; then controlled mobility and remote operation; finally limited-area navigation and platform integration. The model illustrates the design, not certified performance.
+S.04
+Pilot Process
+A pilot starts with a measurable scenario and agreed baseline. Prepare the data, run offline analysis, review the results with domain experts and expand only after the agreed indicators have been validated.
+01
+Define the scenario
+Agree the operational question, boundaries, users and measurable acceptance criteria.
+02
+Prepare the data
+Collect the relevant maps, equipment parameters, images, sample records or recovery assumptions.
+03
+Check the baseline
+Record the current approach and distinguish measured data from simulated inputs.
+04
+Run offline analysis
+Run the selected module against a fixed task and retain the input and parameter versions.
+05
+Review recommendations
+Ask dispatch, sampling or process specialists to check recommendations against site conditions.
+06
+Compare scenarios
+Compare the recommended options with the baseline using consistent units and constraints.
+07
+Test sensitivity
+Change key prices, recovery rates or operating assumptions to understand result sensitivity.
+08
+Run a scoped pilot
+Use reviewed recommendations in an agreed, limited scope and record actual outcomes.
+09
+Evaluate results
+Check the agreed indicators, exceptions and applicability limits with the customer team.
+10
+Agree next steps
+Decide whether the evidence supports continued use, additional validation or a revised scope.
+01
+%
+S.05
+Next Page
+Smart Rover
+Explore the smart sampling rover
+MetriX
+MetriX
+Explore
+AI Solutions
+Smart Rover
+Validation
+About MetriX
+Pilot partners
+Library
+Insights
+Information
+Data & Product Scope
+Contact
+Contact
+Product introduction
+Prepare a pilot brief
+2026 MetriX AI · Prototype & proof of concept
+site\rover\index.html
+Smart Sampling Rover | MetriX AI
+MetriX Smart Sampling Rover
+Six articulated wheel assemblies, a sampling arm and a sensor mast. Drag to rotate. Scroll to zoom.
+360° Orbit
+Drive
+Sample
+Exploded View
+Reset View
+Hardware concept · Engineering and field validation pending.
+Explore the Components
+01 · Circular chassis & armour
+02 · Articulated suspension
+03 · Six terrain wheels
+04 · Sample carousel
+05 · LiDAR & vision sensors
+06 · Articulated sampling arm
+Enable JavaScript to explore the interactive rover.
+site\safety\index.html
+Validation & Human Review | MetriX AI
+Turn your phone for
+a better experience
+MetriX
+MetriX
+MetriX
+Menu
+Menu
+open menu
+AI Solutions
+Smart Rover
+Validation
+About MetriX
+Insights
+Contact
+Pilot Partners
+En
+En
+Guide
+Home
+Home
+Underground mining
+services
+Decision platform
+Prototype & proof of concept
+Smart Rover
+About MetriX
+"Explain the evidence. Review the recommendation. Validate the result."
+MetriX AI
+Product principle
+S.01
+Evidence & Review
+MetriX AI is at the prototype and proof-of-concept stage. Each module is designed to support professional judgment through explainable recommendations and traceable inputs.
+Define the baseline, input quality and acceptance criteria before a pilot. Compare results under equivalent tasks and distinguish simulated values from measured outcomes.
+Human review is a core product principle. A recommendation with insufficient evidence should request more data or pause.
+S.02
+Human Oversight
+Important operational, sampling and recovery decisions stay with qualified people. The platform helps compare options and understand constraints.
+Formal sampling plans and laboratory methods remain essential to confirming composition and quality.
+Every result should state its applicable scope and the evidence still required.
+S.03
+Validation & Learning
+Validation combines repeatable offline analysis with professional review and a limited, agreed field scope. Actual outcomes and exceptions inform the next iteration.
+Track route cost and constraint violations, sampling coverage and test differences, or recovery calculation consistency according to the selected module.
+Keep simulated inputs separate from measured data. Document sources, units, versions and assumptions alongside each result.
+The proposed productisation approach connects four practical controls:
+01
+Data Provenance
+Record source, collection time, units and applicable scope for each input.
+02
+Sample Traceability
+Connect sample identifiers, batches, locations and laboratory results.
+03
+Model Review
+Preserve model versions, assumptions and professional review decisions.
+04
+Data & Assumptions
+Record data sources, units, dates and model assumptions. Compare scenario results and require review when inputs fall outside the validated operating range.
+S.04
+Next Page
+About MetriX
+About the MetriX AI project
+MetriX
+MetriX
+Explore
+AI Solutions
+Smart Rover
+Validation
+About MetriX
+Pilot partners
+Library
+Insights
+Information
+Data & Product Scope
+Contact
+Contact
+Product introduction
+Prepare a pilot brief
+2026 MetriX AI · Prototype & proof of concept
+site\technology\index.html
+Smart Sampling Rover | MetriX AI
+Turn your phone for
+a better experience
+MetriX
+MetriX
+MetriX
+Menu
+Menu
+open menu
+AI Solutions
+Smart Rover
+Validation
+About MetriX
+Insights
+Contact
+Pilot Partners
+En
+En
+Guide
+Home
+Home
+Open
+Intelligence meets
+the field.
+Smart Sampling Rover
+Hardware concept · 3D demo
+Explore in 3D
+About MetriX
+S.01
+Rover concept
+Our Smart Sampling Rover is a planned hardware extension for QualityGuard AI. Its concept combines a six-wheel chassis, vision and scanning sensors, an articulated arm and sample storage.
+Smart sampling rover
+Smart Sampling
+Rover
+Smart Sampling
+Rover
+Inside the rover
+Six-Wheel Chassis
+Six-Wheel Chassis
+Six-Wheel Chassis
+Six articulated wheel assemblies form the mobility concept. Terrain suitability must be verified in controlled field tests.
+Close
+Close
+Emergency Stop
+Emergency Stop
+Emergency Stop
+The exterior concept includes an emergency-stop control. Safe stopping and operating procedures require engineering validation.
+Close
+Close
+Sampling Arm
+Sampling Arm
+Sampling Arm
+An articulated arm illustrates assisted sample collection. Reach, sample mass and handling accuracy require dedicated testing.
+Close
+Close
+Sample Carousel
+Sample Carousel
+Sample Carousel
+A rotating storage concept keeps collected samples organised. Capacity and contamination controls remain subject to validation.
+Close
+Close
+Vision Sensors
+Vision Sensors
+Vision Sensors
+Visual sensing is intended to collect ore images for QualityGuard AI. Image conditions and model applicability must be checked.
+Close
+Close
+Sensor Mast
+Sensor Mast
+Sensor Mast
+A raised mast supports the visual and scanning concept. Positioning and perception performance have not been established.
+Close
+Close
+Sample Handling
+Sample Handling
+Sample Handling
+Connect each collected sample with its task, batch and position. Tool cleaning and sample integrity need a validated procedure.
+Close
+Close
+Task Planning
+Task Planning
+Task Planning
+Staff define a sampling task and review its proposed coverage before field execution.
+Close
+Close
+Sample Records
+Sample Records
+Sample Records
+Planned records include sample identifier, time, position, batch and the corresponding laboratory result.
+Close
+Close
+Platform Link
+Platform Link
+Platform Link
+The planned QualityGuard AI connection links captured images, reviewed sampling tasks and traceable sample records.
+Close
+Close
+Remote Operation
+Remote Operation
+Remote Operation
+The hardware roadmap begins with manual or remote operation before limited-area navigation is considered.
+Close
+Close
+Image Capture
+Image Capture
+Image Capture
+Capture area-labelled ore imagery under agreed conditions. Lighting, distance, dust and moisture affect comparability.
+Close
+Close
+Coverage Review
+Coverage Review
+Coverage Review
+Review feature differences and sampling coverage. Visual clusters are not direct measurements of metal content.
+Close
+Close
+Scanning Concept
+Scanning Concept
+Scanning Concept
+The top-mounted scanner illustrates planned perception capability. Navigation and localisation remain to be validated.
+Close
+Close
+Perception & Analysis
+Capture area-labelled ore imagery under agreed conditions. Lighting, distance, dust and moisture affect comparability.
+Image Capture
+OPEN
+CLOSE
+Capture area-labelled ore imagery under agreed conditions. Lighting, distance, dust and moisture affect comparability.
+Review feature differences and sampling coverage. Visual clusters are not direct measurements of metal content.
+Coverage Review
+OPEN
+CLOSE
+Review feature differences and sampling coverage. Visual clusters are not direct measurements of metal content.
+The top-mounted scanner illustrates planned perception capability. Navigation and localisation remain to be validated.
+Scanning Concept
+OPEN
+CLOSE
+The top-mounted scanner illustrates planned perception capability. Navigation and localisation remain to be validated.
+Mobility & Records
+Staff define a sampling task and review its proposed coverage before field execution.
+Task Planning
+OPEN
+CLOSE
+Staff define a sampling task and review its proposed coverage before field execution.
+The planned QualityGuard AI connection links captured images, reviewed sampling tasks and traceable sample records.
+Platform Link
+OPEN
+CLOSE
+The planned QualityGuard AI connection links captured images, reviewed sampling tasks and traceable sample records.
+The hardware roadmap begins with manual or remote operation before limited-area navigation is considered.
+Remote Operation
+OPEN
+CLOSE
+The hardware roadmap begins with manual or remote operation before limited-area navigation is considered.
+Sampling & Handling
+An articulated arm illustrates assisted sample collection. Reach, sample mass and handling accuracy require dedicated testing.
+Sampling Arm
+OPEN
+CLOSE
+An articulated arm illustrates assisted sample collection. Reach, sample mass and handling accuracy require dedicated testing.
+A rotating storage concept keeps collected samples organised. Capacity and contamination controls remain subject to validation.
+Sample Carousel
+OPEN
+CLOSE
+A rotating storage concept keeps collected samples organised. Capacity and contamination controls remain subject to validation.
+Visual sensing is intended to collect ore images for QualityGuard AI. Image conditions and model applicability must be checked.
+Vision Sensors
+OPEN
+CLOSE
+Visual sensing is intended to collect ore images for QualityGuard AI. Image conditions and model applicability must be checked.
+A raised mast supports the visual and scanning concept. Positioning and perception performance have not been established.
+Sensor Mast
+OPEN
+CLOSE
+A raised mast supports the visual and scanning concept. Positioning and perception performance have not been established.
+Connect each collected sample with its task, batch and position. Tool cleaning and sample integrity need a validated procedure.
+Sample Handling
+OPEN
+CLOSE
+Connect each collected sample with its task, batch and position. Tool cleaning and sample integrity need a validated procedure.
+Planned records include sample identifier, time, position, batch and the corresponding laboratory result.
+Sample Records
+OPEN
+CLOSE
+Planned records include sample identifier, time, position, batch and the corresponding laboratory result.
+Platform Connection
+Six articulated wheel assemblies form the mobility concept. Terrain suitability must be verified in controlled field tests.
+Six-Wheel Chassis
+OPEN
+CLOSE
+Six articulated wheel assemblies form the mobility concept. Terrain suitability must be verified in controlled field tests.
+The exterior concept includes an emergency-stop control. Safe stopping and operating procedures require engineering validation.
+Emergency Stop
+OPEN
+CLOSE
+The exterior concept includes an emergency-stop control. Safe stopping and operating procedures require engineering validation.
+S.02
+Platform Modules
+MineFit AI supports operations, QualityGuard AI supports sampling, and CircularMine AI supports recovery assessment. The rover is a planned field interface to this modular platform.
+MineFit AI
+QualityGuard AI
+CircularMine AI
+Smart Rover
+MineFit AI
+QualityGuard AI
+CircularMine AI
+Smart Rover
+MineFit AI
+CircularMine AI
+Smart Rover
+S.03
+Development Path
+01
+02
+03
+Mechanical validation
+Controlled mobility
+Platform connection
+Begin with mechanical sampling, sample storage and reliable identifiers. Confirm sample handling and contamination controls in a controlled setting before advancing to mobility.
+Validate controlled movement and remote operation against the selected site conditions. Navigation, communications and safe stopping need dedicated engineering tests.
+Connect reviewed sampling tasks, captured images and sample records to QualityGuard AI. Validate limited-area navigation and integration only after the earlier hardware stages pass.
+S.03
+Development Path
+01
+02
+03
+Mechanical validation
+Controlled mobility
+Platform connection
+Begin with mechanical sampling, sample storage and reliable identifiers. Confirm sample handling and contamination controls in a controlled setting before advancing to mobility.
+Validate controlled movement and remote operation against the selected site conditions. Navigation, communications and safe stopping need dedicated engineering tests.
+Connect reviewed sampling tasks, captured images and sample records to QualityGuard AI. Validate limited-area navigation and integration only after the earlier hardware stages pass.
+S.08
+Next Page
+Validation
+Explore validation
+MetriX
+MetriX
+Explore
+AI Solutions
+Smart Rover
+Validation
+About MetriX
+Pilot partners
+Library
+Insights
+Information
+Data & Product Scope
+Contact
+Contact
+Product introduction
+Prepare a pilot brief
+2026 MetriX AI · Prototype & proof of concept
+site\blog\ccrm-bootcamp\index.html
+CircularMine AI: Compare Secondary Resource Value | MetriX AI
+Turn your phone for
+a better experience
+MetriX
+MetriX
+MetriX
+Menu
+Menu
+open menu
+AI Solutions
+Smart Rover
+Validation
+About MetriX
+Insights
+Contact
+Pilot Partners
+En
+En
+Guide
+Home
+Home
+Read
+Product guide
+CircularMine AI: Compare Secondary Resource Value
+Screen secondary resources
+CircularMine AI compares potential recovery options for tailings and suitable industrial by-products. Use material-specific measurements and applicable recovery trial data.
+Connect quantity, grade and recovery
+Recoverable element quantity equals dry material quantity multiplied by element mass fraction and process recovery. Units must be consistent.
+Compare revenue and operating costs
+Estimated sales revenue uses saleable quantity, the relevant product price and any payable factor. Subtract processing, energy, transport, environmental treatment and other relevant operating costs.
+Test the assumptions
+Sensitivity analysis shows how price, recovery and cost changes affect the ranking of candidate pathways. Mark assumptions clearly and prioritise additional tests where evidence is weak.
+Know the assessment boundary
+Estimated net operating value supports screening. Investment feasibility also needs capital, schedule, tax, financing and cash-flow analysis. A high element content alone does not establish profitability.
+Related articles
+No related articles yet
+MetriX
+MetriX
+Explore
+AI Solutions
+Smart Rover
+Validation
+About MetriX
+Pilot partners
+Library
+Insights
+Information
+Data & Product Scope
+Contact
+Contact
+Product introduction
+Prepare a pilot brief
+2026 MetriX AI · Prototype & proof of concept
+site\blog\open-pit-vs-underground-mining\index.html
+MineFit AI: Match Equipment, Compare Routes | MetriX AI
+Turn your phone for
+a better experience
+MetriX
+MetriX
+MetriX
+Menu
+Menu
+open menu
+AI Solutions
+Smart Rover
+Validation
+About MetriX
+Insights
+Contact
+Pilot Partners
+En
+En
+Guide
+Home
+Home
+Read
+Product guide
+MineFit AI: Match Equipment, Compare Routes
+Match equipment to the task
+MineFit AI considers payload, current position, equipment availability and road restrictions before comparing feasible assignments.
+Compare routes consistently
+Route analysis combines distance, slope, energy and congestion on a consistent scale. Estimated time and cost should show the input data and assumptions used.
+Respond to scenario changes
+A road closure, unavailable vehicle or revised task can trigger a new recommendation when the updated information is supplied. Offline analysis is not described as live dispatch.
+Validate against a baseline
+A pilot compares the current rules and module recommendations using identical tasks and fleet conditions. Route distance, task time, waiting time and constraint violations can inform acceptance.
+Keep the operator in control
+The first stage focuses on offline recommendations and simulation. Production system integration is a later scope; staff review recommendations before use.
+Related articles
+Product overview
+QualityGuard AI: Better Sampling Starts with Coverage
+QualityGuard AI connects ore variability, sampling coverage and laboratory evidence.
+Product Guide
+MetriX
+MetriX
+Explore
+AI Solutions
+Smart Rover
+Validation
+About MetriX
+Pilot partners
+Library
+Insights
+Information
+Data & Product Scope
+Contact
+Contact
+Product introduction
+Prepare a pilot brief
+2026 MetriX AI · Prototype & proof of concept
+site\blog\safety-first-how-cominvi-builds-a-culture-of-protection-underground\index.html
+QualityGuard AI: Better Sampling Starts with Coverage | MetriX AI
+Turn your phone for
+a better experience
+MetriX
+MetriX
+MetriX
+Menu
+Menu
+open menu
+AI Solutions
+Smart Rover
+Validation
+About MetriX
+Insights
+Contact
+Pilot Partners
+En
+En
+Guide
+Home
+Home
+Read
+Product overview
+QualityGuard AI: Better Sampling Starts with Coverage
+Sampling starts with coverage
+QualityGuard AI analyses visual feature differences across an ore pile and helps teams review where samples are collected. The goal is stronger evidence for quality decisions.
+What the module uses
+Area-labelled images, batch information, existing sampling points and matched laboratory results provide the input. Light, distance, dust and moisture must be controlled or documented.
+What it recommends
+Feature maps, sampling locations, suggested quantities and additional coverage help staff review a sampling plan within the agreed budget and access constraints.
+What still needs testing
+Visual clusters do not certify metal grade. Surface images cannot fully describe internal layers. Appropriate sampling methods, laboratory testing and professional review remain essential.
+The field extension
+The Smart Sampling Rover is a planned link between reviewed tasks, image collection and traceable samples. Hardware and operating conditions require separate validation.
+Related articles
+Product guide
+MineFit AI: Match Equipment, Compare Routes
+MineFit AI compares feasible equipment and routes against task requirements and operating constraints.
+Product Guide
+MetriX
+MetriX
+Explore
+AI Solutions
+Smart Rover
+Validation
+About MetriX
+Pilot partners
+Library
+Insights
+Information
+Data & Product Scope
+Contact
+Contact
+Product introduction
+Prepare a pilot brief
+2026 MetriX AI · Prototype & proof of concept

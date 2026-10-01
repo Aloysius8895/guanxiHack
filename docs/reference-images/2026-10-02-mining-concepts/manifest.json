@@ -1,0 +1,50 @@
+[
+  {
+    "file": "01-underground-scenarios-overview.png",
+    "title": "?????????????",
+    "width": 1844,
+    "height": 853,
+    "bytes": 3022801,
+    "sha256": "67a430f88fae15dbe530ce590cf5b7de852003b76f4b0da8345cd7424f229021"
+  },
+  {
+    "file": "02-qualityguard-thermal-anomaly.png",
+    "title": "QualityGuard AI ?????",
+    "width": 1672,
+    "height": 941,
+    "bytes": 2753343,
+    "sha256": "578dad6f1f5bad832d254fa2068b68123b5f2b9ffd712b422b5295eebd176624"
+  },
+  {
+    "file": "03-minefit-survey-dispatch.png",
+    "title": "MineFit AI ?????",
+    "width": 1672,
+    "height": 941,
+    "bytes": 2948731,
+    "sha256": "bfc841395037841335e85a97e2e2b9e637ab3efc8692bc748abdf6841d3b18f7"
+  },
+  {
+    "file": "04-analysis-evaluation.png",
+    "title": "???????",
+    "width": 1672,
+    "height": 941,
+    "bytes": 2897224,
+    "sha256": "3802dcb38cad82fd0891baacdf362c2df9680fb63616567416f4dd4fa7a0a6b9"
+  },
+  {
+    "file": "05-rover-fleet-sync.png",
+    "title": "???????",
+    "width": 1672,
+    "height": 941,
+    "bytes": 3135963,
+    "sha256": "25caa823fa985228cd9e4caab3c3b1afff895d6ae3676fa54f9f0d1b1f2847a0"
+  },
+  {
+    "file": "06-real-time-mine-detection.png",
+    "title": "????????",
+    "width": 1672,
+    "height": 941,
+    "bytes": 3510728,
+    "sha256": "935cf288c2214de46b2d90a9b470f2374d4bdb27fd7f48095cfdcc96aec70146"
+  }
+]

@@ -65,15 +65,7 @@
   {
     "url": "https://www.cominvi.com.mx/contact",
     "status": 200,
-    "errors": [
-      "Error: Invalid sprite URL \"/_assets/tiles.openfreemap.org/sprites/ofm_f384/ofm\", must be absolute. Modify style specification directly or use TransformStyleFunction to correct the issue dynamically\n    at nr (http://127.0.0.1:8001/_assets/cominvi.pages.dev/assets/contact.js:5:287655)\n    at http://127.0.0.1:8001/_assets/cominvi.pages.dev/assets/contact.js:804:81656\n    at Generator.next (<anonymous>)\n    at http://127.0.0.1:8001/_assets/cominvi.pages.dev/assets/contact.js:4:699\n    at new Promise (<anonymous>)\n    at Object.c [as _] (http://127.0.0.1:8001/_assets/cominvi.pages.dev/assets/contact.js:4:447)\n    at http://127.0.0.1:8001/_assets/cominvi.pages.dev/assets/contact.js:804:81530\n    at Nn._loadSprite (http://127.0.0.1:8001/_assets/cominvi.pages.dev/assets/contact.js:804:82331)\n    at Nn._load (http://127.0.0.1:8001/_assets/cominvi.pages.dev/assets/contact.js:804:80360)\n    at http://127.0.0.1:8001/_assets/cominvi.pages.dev/assets/contact.js:804:79680",
-      "Error",
-      "Error",
-      "Error",
-      "Error",
-      "Error",
-      "Error"
-    ],
+    "errors": [],
     "missing": [],
     "external": []
   },

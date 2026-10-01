@@ -1,0 +1,28 @@
+{
+  "desktop": {
+    "initial": "detection",
+    "thermal": "thermal",
+    "webgl": "ready",
+    "errors": [],
+    "pause": "true",
+    "overflow": false
+  },
+  "mobile": {
+    "initial": "detection",
+    "thermal": "thermal",
+    "webgl": "ready",
+    "errors": [],
+    "pause": "true",
+    "overflow": false
+  },
+  "scroll_fix": {
+    "wheel_delta": 300,
+    "buttons_both_directions": true,
+    "errors": []
+  },
+  "reduced_motion": true,
+  "mobile_touch": {
+    "scroll_delta": 200,
+    "passed": true
+  }
+}
