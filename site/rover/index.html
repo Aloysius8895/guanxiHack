@@ -8,10 +8,11 @@
 #parts{display:none;position:absolute;right:20px;bottom:20px;background:#101725e8;border:1px solid #60728b;border-radius:14px;padding:14px 18px;line-height:1.9;backdrop-filter:blur(8px)}#parts.visible{display:block}#parts strong{color:#83bdff}#parts span{display:block;color:#c8d5e6}@media(max-width:600px){#parts{right:8px;bottom:8px;font-size:11px;padding:8px 10px;line-height:1.5}}
 
 #ui{max-width:350px}#ui a{color:#a8caff}canvas{touch-action:none}@media(max-width:600px){#ui{max-width:none}#hint{display:block;font-size:10px}}
+#zoomhint{position:absolute;left:50%;bottom:20px;transform:translate(-50%,6px);padding:7px 13px;border:1px solid #ffffff30;border-radius:999px;background:#101725d9;color:#c8d5e6;font-size:12px;opacity:0;pointer-events:none;transition:opacity .25s,transform .25s;backdrop-filter:blur(8px)}#zoomhint:empty{display:none}#zoomhint.visible,#zoomhint.active{opacity:1;transform:translate(-50%,0)}#zoomhint.active{border-color:#8b92ff;color:#fff}@media(hover:none){#zoomhint{display:none}}
 </style>
 <script type="importmap">{"imports":{"three":"/_assets/metrix/three/build/three.module.js","three/addons/":"/_assets/metrix/three/examples/jsm/"}}</script>
 </head>
-<body><div id="ui"><h1>MetriX Smart Sampling Rover</h1><p>Six articulated wheel assemblies, a sampling arm and a sensor mast. Drag to rotate. Scroll to zoom.</p><div class="row"><button id="orbit" class="active">360° Orbit</button><button id="drive">Drive</button><button id="sample">Sample</button><button id="explode">Exploded View</button><button id="reset">Reset View</button></div><small id="hint">Hardware concept · Engineering and field validation pending.</small></div><div id="parts"><strong>Explore the Components</strong><span>01 · Circular chassis & armour</span><span>02 · Articulated suspension</span><span>03 · Six terrain wheels</span><span>04 · Sample carousel</span><span>05 · LiDAR & vision sensors</span><span>06 · Articulated sampling arm</span></div>
+<body><div id="ui"><h1>MetriX Smart Sampling Rover</h1><p id="intro">Six articulated wheel assemblies, a sampling arm and a sensor mast. Drag to rotate. Scroll to zoom.</p><div class="row"><button id="orbit" class="active">360° Orbit</button><button id="drive">Drive</button><button id="sample">Sample</button><button id="explode">Exploded View</button><button id="reset">Reset View</button></div><small id="hint">Hardware concept · Engineering and field validation pending.</small></div><div id="zoomhint" aria-live="polite"></div><div id="parts"><strong>Explore the Components</strong><span>01 · Circular chassis & armour</span><span>02 · Articulated suspension</span><span>03 · Six terrain wheels</span><span>04 · Sample carousel</span><span>05 · LiDAR & vision sensors</span><span>06 · Articulated sampling arm</span></div>
 <noscript><p>Enable JavaScript to explore the interactive rover.</p><img src="/_assets/metrix/rover-reference.webp" alt="MetriX rover concept views" width="100%"></noscript><script type="module">
 import * as THREE from 'three';
 import {OrbitControls} from 'three/addons/controls/OrbitControls.js';
@@ -187,6 +188,25 @@ const state={orbit:true,drive:false,sample:false};
 document.getElementById('explode').onclick=()=>{exploded=!exploded;document.getElementById('explode').classList.toggle('active',exploded);document.getElementById('parts').classList.toggle('visible',exploded);document.getElementById('explode').textContent=exploded?'Assemble':'Exploded View';document.getElementById('hint').textContent=exploded?'Chassis · Six wheels · Articulated suspension · Carousel · Sensors · Sampling arm':'Hardware concept · Engineering and field validation pending.';if(exploded){state.drive=false;state.sample=false;for(const id of ['drive','sample'])document.getElementById(id).classList.remove('active')}};for(const id of ['orbit','drive','sample'])document.getElementById(id).onclick=()=>{if(exploded&&id!=='orbit')return;state[id]=!state[id];document.getElementById(id).classList.toggle('active',state[id])};document.getElementById('reset').onclick=()=>{camera.position.set(7,5.2,8.4);controls.target.set(0,1.5,0);rover.rotation.y=0;controls.update()};
 // Only render while the embed is on screen and the tab is visible (the parent page keeps scrolling past it).
 let onScreen=true;try{if(window.frameElement&&window.parent.IntersectionObserver)new window.parent.IntersectionObserver(e=>{onScreen=e[0].isIntersecting},{rootMargin:'100px'}).observe(window.frameElement)}catch{}
+// Embedded: the wheel scrolls the parent page until the model is clicked, then it zooms until the pointer
+// leaves, Esc is pressed or the page takes focus. The parent's Lenis wrapper is overflow:hidden, so wheel
+// events are re-dispatched on the iframe element for Lenis to handle.
+let host=null;try{host=window.frameElement}catch{}
+if(host){
+  const canvas=renderer.domElement,zoomHint=document.getElementById('zoomhint');let zoomActive=false;
+  document.getElementById('intro').textContent='Six articulated wheel assemblies, a sampling arm and a sensor mast. Drag to rotate. Click the model, then scroll to zoom.';
+  const setZoom=on=>{zoomActive=on;controls.enableZoom=on;zoomHint.textContent=on?'Scroll to zoom · Esc to exit':'Click the model to zoom';zoomHint.classList.toggle('active',on)};
+  setZoom(false);
+  canvas.addEventListener('pointerdown',()=>setZoom(true));
+  canvas.addEventListener('pointerenter',()=>zoomHint.classList.add('visible'));
+  document.documentElement.addEventListener('mouseleave',()=>{setZoom(false);zoomHint.classList.remove('visible')});
+  addEventListener('keydown',e=>{if(e.key==='Escape')setZoom(false)});
+  addEventListener('blur',()=>setZoom(false));
+  addEventListener('wheel',e=>{
+    if(zoomActive&&e.target===canvas)return;
+    try{host.dispatchEvent(new window.parent.WheelEvent('wheel',{deltaX:e.deltaX,deltaY:e.deltaY,deltaMode:e.deltaMode,bubbles:true,cancelable:true}))}catch{}
+  },{passive:true});
+}
 const clock=new THREE.Clock();let t=0;function animate(){requestAnimationFrame(animate);if(!onScreen||document.hidden){clock.getDelta();return}let dt=Math.min(clock.getDelta(),.05);t+=dt;explodeMix+=((exploded?1:0)-explodeMix)*Math.min(1,dt*4);for(const part of movable)part.node.position.copy(part.base).addScaledVector(part.offset,explodeMix);if(state.orbit)rover.rotation.y+=dt*.23;if(state.drive){for(const w of wheels)w.rotation.x+=dt*2.6;shell.position.y=Math.sin(t*6)*.015}else shell.position.y=0;if(state.sample){
   // Forward-gap sampling path between the two diagonal front wheel assemblies.
   const cycle=(t%6)/6;
