@@ -36,3 +36,9 @@
 @media(hover:none){.metrix-component-description{opacity:1;transform:none}}
 @media(prefers-reduced-motion:reduce){.metrix-component *{transition:none!important}}
 @media(max-width:767px){.section_latest-technology .machines-grid_list{grid-template-columns:1fr!important;gap:32px!important}.section_latest-technology .machines-grid-wrapper{padding-bottom:56px}}
+
+/* Chill team logo: the PNG is a mask, so the mark keeps the colour each slot already uses. */
+.chill-logo,.chill-mark{background-color:currentColor;-webkit-mask:var(--chill-mask) center/contain no-repeat;mask:var(--chill-mask) center/contain no-repeat}
+.chill-logo{--chill-mask:url(/_assets/metrix/chill-logo.png)}
+.chill-mark{--chill-mask:url(/_assets/metrix/chill-mark.png);color:var(--primary)}
+.logo-text.chill-logo{color:var(--white,#fff)}
