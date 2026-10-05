@@ -15,3 +15,16 @@
 .metrix-story-still img{width:100%;height:100%;object-fit:cover}
 @media(max-width:991px){.metrix-solutions-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.metrix-solution-copy{padding:20px}}
 @media(max-width:600px){.metrix-solutions-grid{grid-template-columns:1fr;gap:20px}.metrix-solution-image{aspect-ratio:16/9}.metrix-solution-copy{padding:22px}.metrix-solution-copy h3{font-size:25px}}
+/* Rover scene imagery: gallery rows keep equal heights because each figure grows by its aspect ratio. */
+.section_scenes{display:flex;flex-direction:column;gap:clamp(40px,4vw,64px);padding:clamp(64px,6vw,96px) 32px;background:#151515;color:#151515}
+.section_scenes .body-xl{color:#fff}
+.metrix-scenes{display:flex;flex-direction:column;gap:16px}
+.metrix-scenes-row{display:flex;gap:16px}
+.metrix-scene{flex:1 1 0;min-width:0;margin:0}
+.metrix-scene-image{display:block;width:100%;height:auto;border-radius:8px;background:#0d0f12}
+.metrix-scene figcaption{padding-top:12px;text-align:left;color:#9aa2ac;text-transform:uppercase}
+.metrix-scenes-note{margin:0;font:11px/1.5 monospace;letter-spacing:.06em;color:#737b86}
+.metrix-fleet-scene{position:relative;background:#0d0f12;color:#f2f3f5;overflow:hidden}
+.metrix-fleet-image{display:block;width:100%;height:auto;max-height:100svh;object-fit:cover}
+@media(max-width:767px){.section_scenes{padding:56px 16px}.metrix-scenes-row{flex-direction:column;gap:24px}.metrix-scenes{gap:24px}
+ .metrix-fleet-scene{display:flex;flex-direction:column-reverse}.metrix-fleet-scene .metrix-route-top{position:static;padding:20px 16px 14px;flex-wrap:wrap;gap:6px 16px}}
