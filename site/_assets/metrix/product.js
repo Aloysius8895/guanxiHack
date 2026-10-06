@@ -44,11 +44,18 @@ if (!window.metrixProductReady) {
     event.stopImmediatePropagation();
     if (!form.reportValidity()) return;
     const data = new FormData(form);
-    const content = ['MetriX AI · Pilot enquiry brief', '',
-      'Name: ' + (data.get('name') || ''), 'Email: ' + (data.get('email') || ''),
-      '', 'Scenario:', data.get('Message') || '', '',
-      'Prepared locally. This file has not been sent to MetriX AI.',
-      'Suggested next step: agree the data, baseline and acceptance criteria.'].join('\r\n');
+    const zh = document.documentElement.lang.startsWith('zh');
+    const content = (zh
+      ? ['MetriX AI · 试点咨询简报', '',
+        '姓名：' + (data.get('name') || ''), '邮箱：' + (data.get('email') || ''),
+        '', '场景：', data.get('Message') || '', '',
+        '本文件在本地生成，尚未发送给 MetriX AI。',
+        '建议下一步：约定数据、基准与验收标准。']
+      : ['MetriX AI · Pilot enquiry brief', '',
+        'Name: ' + (data.get('name') || ''), 'Email: ' + (data.get('email') || ''),
+        '', 'Scenario:', data.get('Message') || '', '',
+        'Prepared locally. This file has not been sent to MetriX AI.',
+        'Suggested next step: agree the data, baseline and acceptance criteria.']).join('\r\n');
     const url = URL.createObjectURL(new Blob(['\ufeff' + content], {type: 'text/plain;charset=utf-8'}));
     const link = document.createElement('a');
     link.href = url;
@@ -58,6 +65,6 @@ if (!window.metrixProductReady) {
     link.remove();
     setTimeout(() => URL.revokeObjectURL(url), 1000);
     const status = form.parentElement.querySelector('.w-form-done');
-    if (status) { status.style.display = 'block'; status.textContent = 'Brief downloaded. It has not been sent; share the file with your MetriX AI contact.'; }
+    if (status) { status.style.display = 'block'; status.textContent = zh ? '简报已下载，尚未发送；请将文件分享给您的 MetriX AI 联系人。' : 'Brief downloaded. It has not been sent; share the file with your MetriX AI contact.'; }
   }, true);
 }

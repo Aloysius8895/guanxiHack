@@ -1,0 +1,16 @@
+/* Chinese pages only (/zh/). The layout is the English layout; only CJK typesetting differs. */
+
+/* The text-reveal animation wraps each space-separated word in a nowrap inline-block, each
+   character in another, and groups words into block lines. Chinese sentences have no spaces, so
+   keep all three inline: text then breaks by the normal CJK rules (no "。" or "，" at the start of
+   a line) instead of at line boxes measured before it could wrap. The reveal only fades opacity,
+   which inline spans still animate. */
+html[lang^="zh"] .line,html[lang^="zh"] .word,html[lang^="zh"] .char{display:inline!important;white-space:normal!important}
+/* The splitter only breaks lines at spaces and drops that space between its line boxes ("MetriX AI"). */
+html[lang^="zh"] .line+.line::before{content:" "}
+
+/* Display sizes use line-height:100%, which crowds CJK glyphs; give page content a little air. */
+html[lang^="zh"] main :is(h1,h2,.body-xl,.body-l){line-height:1.2}
+
+/* Latin display fonts have no CJK glyphs; name the system CJK faces so every OS picks a clean one. */
+html[lang^="zh"] body{font-family:"Helvetica Now Display","PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans SC",Arial,sans-serif}

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/>
+<title>智能采样机器人 | MetriX AI</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#111827;color:#e9eef9;font:14px system-ui,sans-serif}canvas{display:block}#ui{position:absolute;top:20px;left:20px;max-width:310px;padding:18px;border:1px solid #ffffff30;border-radius:16px;background:#101725d9;backdrop-filter:blur(12px)}h1{font-size:20px;margin:0 0 4px}p{color:#aab8ce;line-height:1.5;margin:0 0 14px}.row{display:flex;flex-wrap:wrap;gap:7px}button{background:#27334a;color:white;border:1px solid #5d7197;border-radius:8px;padding:8px 10px;cursor:pointer}button:hover,button.active{background:#4a52b3;border-color:#8b92ff}small{display:block;color:#92a2bd;margin-top:13px}@media(max-width:600px){#ui{top:8px;left:8px;right:8px;max-width:none;padding:11px}h1{font-size:16px}p,small{display:none}button{padding:6px}}
+#parts{display:none;position:absolute;right:20px;bottom:20px;background:#101725e8;border:1px solid #60728b;border-radius:14px;padding:14px 18px;line-height:1.9;backdrop-filter:blur(8px)}#parts.visible{display:block}#parts strong{color:#83bdff}#parts span{display:block;color:#c8d5e6}@media(max-width:600px){#parts{right:8px;bottom:8px;font-size:11px;padding:8px 10px;line-height:1.5}}
+
+#ui{max-width:350px}#ui a{color:#a8caff}canvas{touch-action:none}@media(max-width:600px){#ui{max-width:none}#hint{display:block;font-size:10px}}
+#zoomhint{position:absolute;left:50%;bottom:20px;transform:translate(-50%,6px);padding:7px 13px;border:1px solid #ffffff30;border-radius:999px;background:#101725d9;color:#c8d5e6;font-size:12px;opacity:0;pointer-events:none;transition:opacity .25s,transform .25s;backdrop-filter:blur(8px)}#zoomhint:empty{display:none}#zoomhint.visible,#zoomhint.active{opacity:1;transform:translate(-50%,0)}#zoomhint.active{border-color:#8b92ff;color:#fff}@media(hover:none){#zoomhint{display:none}}
+</style>
+<script type="importmap">{"imports":{"three":"/_assets/metrix/three/build/three.module.js","three/addons/":"/_assets/metrix/three/examples/jsm/"}}</script>
+<link href="/_assets/metrix/zh.css" rel="stylesheet"/><script src="/_assets/metrix/zh.js"></script></head>
+<body><div id="ui"><h1>MetriX 智能采样机器人</h1><p id="intro">六组铰接式车轮、一条采样臂和一根传感器桅杆。拖动旋转，滚动缩放。</p><div class="row"><button class="active" id="orbit">360° 环绕</button><button id="drive">行驶</button><button id="sample">采样</button><button id="explode">爆炸视图</button><button id="reset">重置视角</button></div><small id="hint">硬件概念 · 工程与现场验证待完成。</small></div><div aria-live="polite" id="zoomhint"></div><div id="parts"><strong>探索组件</strong><span>01 · 圆形底盘与护甲</span><span>02 · 铰接式悬架</span><span>03 · 六个全地形车轮</span><span>04 · 样品转盘</span><span>05 · 激光雷达与视觉传感器</span><span>06 · 多关节采样臂</span></div>
+<noscript><p>请启用 JavaScript 以浏览交互式机器人。</p><img alt="MetriX 机器人概念视图" src="/_assets/metrix/rover-reference.webp" width="100%"/></noscript><script type="module">
+import * as THREE from 'three';
+import {OrbitControls} from 'three/addons/controls/OrbitControls.js';
+import {RoundedBoxGeometry} from 'three/addons/geometries/RoundedBoxGeometry.js';
+const scene=new THREE.Scene();scene.background=new THREE.Color(0x0b1119);scene.fog=new THREE.Fog(0x0b1119,14,33);
+const camera=new THREE.PerspectiveCamera(40,innerWidth/innerHeight,.1,100);camera.position.set(7,5.2,8.4);
+const renderer=new THREE.WebGLRenderer({antialias:true});renderer.setSize(innerWidth,innerHeight);renderer.setPixelRatio(Math.min(devicePixelRatio,1.5));renderer.shadowMap.enabled=true;renderer.shadowMap.type=THREE.PCFSoftShadowMap;renderer.outputColorSpace=THREE.SRGBColorSpace;document.body.appendChild(renderer.domElement);
+const controls=new OrbitControls(camera,renderer.domElement);controls.target.set(0,1.5,0);controls.enableDamping=true;controls.minDistance=5;controls.maxDistance=20;controls.maxPolarAngle=Math.PI/2-.05;
+scene.add(new THREE.HemisphereLight(0xc8ddff,0x30313a,2));const light=new THREE.DirectionalLight(0xffffff,3);light.position.set(5,9,6);light.castShadow=true;light.shadow.mapSize.set(1024,1024);light.shadow.camera.left=-8;light.shadow.camera.right=8;light.shadow.camera.top=8;light.shadow.camera.bottom=-8;scene.add(light);
+const mat=(color,metalness=.1,roughness=.55)=>new THREE.MeshStandardMaterial({color,metalness,roughness});const white=mat(0xf1f0ed,.25,.42),black=mat(0x111b25,.72,.35),dark=mat(0x080d12,.34,.7),steel=mat(0x71889a,.84,.28),blue=new THREE.MeshStandardMaterial({color:0x006fe9,emissive:0x003b84,emissiveIntensity:.7,metalness:.45,roughness:.28}),purple=mat(0x35527e,.56,.35),red=mat(0xc83524,.35,.35),glass=mat(0x05131f,.75,.11);
+function mesh(parent,geo,m,x=0,y=0,z=0){let o=new THREE.Mesh(geo,m);o.position.set(x,y,z);o.castShadow=true;o.receiveShadow=true;parent.add(o);return o}
+function box(parent,w,h,d,m,x=0,y=0,z=0){return mesh(parent,new RoundedBoxGeometry(w,h,d,3,Math.min(w,h,d)*.11),m,x,y,z)}
+function cyl(parent,rt,rb,h,m,x=0,y=0,z=0,segments=32){return mesh(parent,new THREE.CylinderGeometry(rt,rb,h,segments),m,x,y,z)}
+function ball(parent,r,m,x=0,y=0,z=0){return mesh(parent,new THREE.SphereGeometry(r,16,12),m,x,y,z)}
+function rod(parent,a,b,r,m){const A=new THREE.Vector3(...a),B=new THREE.Vector3(...b),mid=A.clone().add(B).multiplyScalar(.5);const o=cyl(parent,r,r,A.distanceTo(B),m,...mid.toArray(),12);o.quaternion.setFromUnitVectors(new THREE.Vector3(0,1,0),B.sub(A).normalize());return o}
+const rover=new THREE.Group();scene.add(rover);const shell=new THREE.Group();rover.add(shell);
+cyl(shell,1.48,1.48,.18,black,0,1.28,0,64);
+cyl(shell,1.43,1.48,.58,white,0,1.62,0,64);
+cyl(shell,1.42,1.42,.12,black,0,1.97,0,64);
+cyl(shell,1.39,1.39,.055,steel,0,2.04,0,64);
+for(const y of [1.34,1.93]){let trim=mesh(shell,new THREE.TorusGeometry(1.455,.035,10,64),black,0,y,0);trim.rotation.x=Math.PI/2}
+let accent=mesh(shell,new THREE.TorusGeometry(1.465,.016,8,64),blue,0,1.42,0);accent.rotation.x=Math.PI/2;
+// Segmented armored perimeter rather than a smooth toy-like disk.
+const armor=mat(0xe3e5e5,.3,.4),recess=mat(0x07111a,.55,.45),titanium=mat(0x344958,.82,.3);
+for(let i=0;i<16;i++){
+  const a=i*Math.PI/8,rad=1.44;
+  const panel=box(shell,.47,.34,.075,i%4===0?titanium:armor,Math.sin(a)*rad,1.68,Math.cos(a)*rad);
+  panel.rotation.y=a;
+  const seam=box(shell,.40,.025,.08,recess,Math.sin(a)*1.49,1.83,Math.cos(a)*1.49);seam.rotation.y=a;
+  for(const d of [-.17,.17]){
+    const bolt=cyl(shell,.018,.018,.014,black,Math.sin(a)*rad+d*Math.cos(a),1.72,Math.cos(a)*rad-d*Math.sin(a),8);
+    bolt.rotation.x=Math.PI/2;
+  }
+}
+for(let ring of [1.05,1.22]){
+  let track=mesh(shell,new THREE.TorusGeometry(ring,.012,7,80),recess,0,2.084,0);track.rotation.x=Math.PI/2;
+}
+// Recessed access hatches, thermal grills and low-profile status modules.
+for(let i=0;i<8;i++){
+  const a=i*Math.PI/4;
+  const x=Math.sin(a)*1.15,z=Math.cos(a)*1.15;
+  const panel=box(shell,.32,.027,.16,i%2?black:titanium,x,2.087,z);panel.rotation.y=a;
+  for(let j=-1;j<=1;j++){const slot=box(shell,.055,.03,.013,recess,x+j*.075*Math.cos(a),2.108,z-j*.075*Math.sin(a));slot.rotation.y=a}
+}
+// Front protruding head removed; circular chassis remains continuous.
+// Side armor and decals as real canvas textures.
+const label=document.createElement('canvas');label.width=768;label.height=192;
+const ctx=label.getContext('2d');ctx.fillStyle='#14212d';ctx.fillRect(0,0,768,192);
+ctx.fillStyle='#eaf3fa';ctx.font='bold 82px Arial';ctx.fillText('MetriX AI',34,107);
+ctx.fillStyle='#68b6ff';ctx.fillRect(34,126,180,5);
+ctx.fillStyle='#a8bdce';ctx.font='29px Arial';ctx.fillText('SMART SAMPLING ROVER',34,169);
+const tex=new THREE.CanvasTexture(label);tex.colorSpace=THREE.SRGBColorSpace;
+// A recessed plaque on two short mounts stays clear of the circular side armor.
+box(shell,.09,.51,1.48,black,1.53,1.64,.02);
+for(const z of [-.48,.48])rod(shell,[1.34,1.64,z],[1.54,1.64,z],.055,steel);
+let sign=mesh(shell,new THREE.PlaneGeometry(1.43,.47),new THREE.MeshBasicMaterial({map:tex,side:THREE.DoubleSide}),1.58,1.64,.02);sign.rotation.y=Math.PI/2;
+for(const side of [-1,1]){ball(shell,.12,black,side*1.34,1.59,0);ball(shell,.055,blue,side*1.46,1.6,0)}
+// Six radial assemblies: three on each side, no center-front leg.
+const wheels=[],pods=[],legs=[];
+const legAngles=[30,90,150,210,270,330];
+for(const degrees of legAngles){
+  const a=THREE.MathUtils.degToRad(degrees),dx=Math.sin(a),dz=Math.cos(a);
+  const leg=new THREE.Group();shell.add(leg);legs.push(leg);
+  leg.rotation.y=a;leg.userData.direction=new THREE.Vector3(dx,0,dz);
+  const root=[0,1.30,1.14],knee=[0,1.47,1.54],ankle=[0,1.26,1.86];
+  rod(leg,root,knee,.16,white);rod(leg,knee,ankle,.14,white);
+  rod(leg,[-.11,1.16,1.19],[-.11,1.31,1.54],.04,steel);
+  rod(leg,[-.11,1.31,1.54],[-.11,1.10,1.86],.04,steel);
+  for(const joint of [root,knee,ankle]){
+    const hinge=cyl(leg,.13,.13,.36,black,...joint,24);hinge.rotation.z=Math.PI/2;
+    for(const side of [-1,1]){let cap=cyl(leg,.065,.065,.02,steel,side*.19,joint[1],joint[2],12);cap.rotation.z=Math.PI/2}
+  }
+  const upper=box(leg,.31,.21,.40,white,0,1.39,1.34);upper.rotation.x=-.40;
+  const lower=box(leg,.29,.20,.37,white,0,1.36,1.70);lower.rotation.x=.58;
+  rod(leg,[-.17,1.38,1.30],[-.17,1.56,1.44],.016,steel);
+  rod(leg,[-.17,1.56,1.44],[.17,1.56,1.44],.016,steel);
+  rod(leg,[.17,1.56,1.44],[.17,1.38,1.30],.016,steel);
+  const pod=new THREE.Group();pod.position.set(dx*1.84,1.3,dz*1.84);pod.rotation.y=a;shell.add(pod);pods.push(pod);
+  box(pod,.49,.42,.48,white,0,-.20,.12);box(pod,.43,.09,.46,black,0,.01,.12);
+  rod(pod,[0,-.29,.16],[0,-.81,.30],.085,black);
+  for(const side of [-1,1]){
+    box(pod,.055,.29,.40,white,side*.22,-.19,.12);
+    ball(pod,.029,steel,side*.255,-.10,.22);
+  }
+  const w=new THREE.Group();w.position.set(0,-.85,.30);pod.add(w);
+  const tyre=cyl(w,.41,.41,.31,dark);tyre.rotation.z=Math.PI/2;
+  const hub=cyl(w,.18,.18,.34,steel);hub.rotation.z=Math.PI/2;
+  const cap=cyl(w,.12,.12,.36,black);cap.rotation.z=Math.PI/2;
+  wheels.push(w);
+}
+// Undercarriage skid and angled rock deflectors on the round hull.
+cyl(shell,1.06,1.16,.075,black,0,1.16,0,48);
+for(const sx of [-1,1])for(const sz of [-1,1]){
+  const plate=box(shell,.29,.06,.43,titanium,sx*1.14,1.19,sz*.88);
+  plate.rotation.y=sx*sz*.36;
+}
+// Sample carousel and removable-looking cylindrical sample canisters.
+const tray=new THREE.Group();tray.position.set(-.64,2.1,.44);shell.add(tray);cyl(tray,.66,.66,.09,purple);cyl(tray,.61,.61,.12,black,0,.1,0);for(let i=0;i<8;i++){const a=i*Math.PI/4,x=Math.cos(a)*.43,z=Math.sin(a)*.43;cyl(tray,.105,.105,.28,steel,x,.26,z,12);cyl(tray,.108,.108,.04,white,x,.42,z,12)}cyl(tray,.17,.17,.1,white,0,.22,0);
+// Lower protected sensor pod keeps the overhead profile compact.
+const mast=new THREE.Group();mast.position.set(-.1,2.07,-.67);shell.add(mast);
+cyl(mast,.20,.24,.13,black,0,.05,0);box(mast,.17,1.28,.17,titanium,0,.73,0);
+for(const y of [.18,.79,1.17])box(mast,.23,.035,.23,steel,0,y,0);
+cyl(mast,.31,.31,.17,black,0,1.48,0);cyl(mast,.30,.30,.035,steel,0,1.59,0);
+cyl(mast,.31,.31,.025,blue,0,1.44,0);
+box(mast,.62,.15,.23,black,0,1.40,.20);
+for(const x of [-.21,.21]){let eye=cyl(mast,.065,.065,.035,glass,x,1.40,.34);eye.rotation.x=Math.PI/2}
+// Robot arm with local pivot groups: yaw -> shoulder -> elbow -> wrist / scoop.
+const yaw=new THREE.Group();yaw.position.set(0,2.07,1.22);shell.add(yaw);cyl(yaw,.39,.39,.16,black);cyl(yaw,.31,.31,.34,white,0,.2,0);const shoulder=new THREE.Group();shoulder.position.set(0,.37,0);yaw.add(shoulder);ball(shoulder,.22,black);rod(shoulder,[0,0,0],[.18,.61,0],.16,white);rod(shoulder,[.18,.61,0],[.34,.78,0],.15,black);const elbow=new THREE.Group();elbow.position.set(.34,.78,0);shoulder.add(elbow);ball(elbow,.19,black);rod(elbow,[0,0,0],[.14,-.64,0],.13,white);const wrist=new THREE.Group();wrist.position.set(.14,-.64,0);elbow.add(wrist);ball(wrist,.15,black);rod(wrist,[0,0,0],[.08,-.36,0],.11,white);const scoop=new THREE.Group();scoop.position.set(.08,-.42,0);wrist.add(scoop);box(scoop,.28,.15,.32,steel,.08,-.04,0);let lip=box(scoop,.29,.03,.35,steel,.2,-.13,0);lip.rotation.z=-.5;shoulder.rotation.z=-.95;elbow.rotation.z=1.25;wrist.rotation.z=.1;yaw.rotation.y=-Math.PI/2;
+
+const bolts=mat(0x52606c,.8,.3),rubber=mat(0x202630,.1,.86);
+// Circular perimeter service lights and upper fasteners.
+for(let k=0;k<20;k++){const a=k*Math.PI/10;cyl(shell,.027,.027,.018,bolts,Math.cos(a)*1.32,2.08,Math.sin(a)*1.32,8);if(k%2===0)ball(shell,.033,blue,Math.cos(a)*1.47,1.68,Math.sin(a)*1.47)}
+for(const wheel of wheels){
+  for(let k=0;k<24;k++){
+    const a=k*Math.PI/12;
+    for(const side of [-1,1]){let lug=box(wheel,.15,.068,.12,black,side*.1,Math.sin(a)*.42,Math.cos(a)*.42);lug.rotation.x=-a;lug.rotation.z=side*.35}
+  }
+  for(const side of [-1,1]){
+    const ring=mesh(wheel,new THREE.TorusGeometry(.29,.018,7,32),steel,side*.175,0,0);ring.rotation.y=Math.PI/2;
+    for(let i=0;i<6;i++){const a=i*Math.PI/3;ball(wheel,.025,black,side*.19,Math.cos(a)*.15,Math.sin(a)*.15)}
+  }
+}
+for(let i=0;i<8;i++){
+  const a=i*Math.PI/4,x=Math.cos(a)*.43,z=Math.sin(a)*.43;
+  cyl(tray,.115,.115,.23,new THREE.MeshPhysicalMaterial({color:0xdfe9f1,transparent:true,opacity:.54,roughness:.18,depthWrite:false}),x,.29,z,12);
+  cyl(tray,.12,.12,.025,black,x,.43,z,12);
+}
+// LiDAR optical windows belong to the mast assembly and move with it in exploded view.
+for(let k=0;k<12;k++){
+  const a=k*Math.PI/6;
+  const window=box(mast,.057,.065,.032,glass,Math.sin(a)*.303,1.48,Math.cos(a)*.303);
+  window.rotation.y=a;
+}
+for(const x of [-.07,.07])rod(mast,[x,.09,-.04],[x,1.37,-.04],.018,steel);
+for(const side of [-1,1]){
+  rod(shoulder,[side*.06,.08,side*.11],[.18+side*.06,.61,side*.11],.039,black);
+  rod(elbow,[side*.04,-.03,side*.1],[.14+side*.04,-.59,side*.1],.028,black);
+  for(const joint of [shoulder,elbow,wrist]){let axle=cyl(joint,.09,.09,.028,steel,0,0,side*.18);axle.rotation.x=Math.PI/2}
+}
+mesh(shoulder,new THREE.TubeGeometry(new THREE.CatmullRomCurve3([new THREE.Vector3(0,.08,.18),new THREE.Vector3(.1,.47,.23),new THREE.Vector3(.34,.78,.18)]),20,.026,7,false),rubber);
+mesh(elbow,new THREE.TubeGeometry(new THREE.CatmullRomCurve3([new THREE.Vector3(0,0,.18),new THREE.Vector3(.03,-.34,.22),new THREE.Vector3(.14,-.64,.17)]),20,.022,7,false),rubber);
+for(let k=0;k<4;k++)box(scoop,.05,.07,.06,steel,.25,-.16,-.12+k*.08).rotation.z=-.35;
+cyl(shell,.23,.23,.035,black,.12,2.1,.84,32);
+// Optical payload and industrial warning details.
+for(const sx of [-1,1]){
+  const optic=box(shell,.22,.16,.16,titanium,sx*1.0,2.15,.82);
+  const lens=cyl(shell,.06,.06,.035,glass,sx*1.0,2.16,.915);lens.rotation.x=Math.PI/2;
+  const iris=cyl(shell,.03,.03,.039,blue,sx*1.0,2.16,.94);iris.rotation.x=Math.PI/2;
+}
+rod(shell,[-1.18,2.02,-.28],[-1.18,2.72,-.28],.022,black);
+for(let y of [2.12,2.25,2.38])cyl(shell,.048,.048,.025,steel,-1.18,y,-.28);
+ball(shell,.04,blue,-1.18,2.74,-.28);
+for(const sx of [-1,1]){
+  for(let j=0;j<3;j++)box(shell,.13,.018,.28,recess,sx*.82,2.088,-.98+j*.12);
+}
+// Status lights and emergency stop.
+cyl(shell,.16,.16,.11,black,.24,2.07,-.75);cyl(shell,.13,.13,.13,red,.24,2.16,-.75);for(const x of [-1.37,1.37])box(shell,.12,.045,.26,blue,x,1.93,.7);
+// Group the built model into detachable assemblies without changing their assembled coordinates.
+const assemblies=[...pods,...legs,tray,mast,yaw];
+const coreGroup=new THREE.Group();shell.add(coreGroup);
+for(const child of [...shell.children])if(child!==coreGroup&&!assemblies.includes(child))coreGroup.add(child);
+const movable=[
+  {node:coreGroup,base:coreGroup.position.clone(),offset:new THREE.Vector3(0,-.28,0)},
+  ...pods.map(node=>({node,base:node.position.clone(),offset:new THREE.Vector3(Math.sign(node.position.x)*.72,-.08,Math.sign(node.position.z)*.56)})),
+  ...legs.map(node=>({node,base:node.position.clone(),offset:node.userData.direction.clone().multiplyScalar(.60).add(new THREE.Vector3(0,-.10,0))})),
+  {node:tray,base:tray.position.clone(),offset:new THREE.Vector3(-.28,.75,.22)},
+  {node:mast,base:mast.position.clone(),offset:new THREE.Vector3(-.12,1.02,-.20)},
+  {node:yaw,base:yaw.position.clone(),offset:new THREE.Vector3(0,.38,.75)}
+];
+let exploded=false,explodeMix=0;
+const ground=mesh(scene,new THREE.PlaneGeometry(200,200),mat(0x202a33,.15,.9),0,-.01,0);ground.rotation.x=-Math.PI/2;ground.castShadow=false;const grid=new THREE.GridHelper(16,32,0x37506a,0x263542);grid.position.y=.002;scene.add(grid);
+const state={orbit:true,drive:false,sample:false};
+document.getElementById('explode').onclick=()=>{exploded=!exploded;document.getElementById('explode').classList.toggle('active',exploded);document.getElementById('parts').classList.toggle('visible',exploded);document.getElementById('explode').textContent=exploded?'组装':'爆炸视图';document.getElementById('hint').textContent=exploded?'底盘 · 六个车轮 · 铰接式悬架 · 转盘 · 传感器 · 采样臂':'硬件概念 · 工程与现场验证待完成。';if(exploded){state.drive=false;state.sample=false;for(const id of ['drive','sample'])document.getElementById(id).classList.remove('active')}};for(const id of ['orbit','drive','sample'])document.getElementById(id).onclick=()=>{if(exploded&&id!=='orbit')return;state[id]=!state[id];document.getElementById(id).classList.toggle('active',state[id])};document.getElementById('reset').onclick=()=>{camera.position.set(7,5.2,8.4);controls.target.set(0,1.5,0);rover.rotation.y=0;controls.update()};
+// Only render while the embed is on screen and the tab is visible (the parent page keeps scrolling past it).
+let onScreen=true;try{if(window.frameElement&&window.parent.IntersectionObserver)new window.parent.IntersectionObserver(e=>{onScreen=e[0].isIntersecting},{rootMargin:'100px'}).observe(window.frameElement)}catch{}
+// Embedded: the wheel scrolls the parent page until the model is clicked, then it zooms until the pointer
+// leaves, Esc is pressed or the page takes focus. The parent's Lenis wrapper is overflow:hidden, so wheel
+// events are re-dispatched on the iframe element for Lenis to handle.
+let host=null;try{host=window.frameElement}catch{}
+if(host){
+  const canvas=renderer.domElement,zoomHint=document.getElementById('zoomhint');let zoomActive=false;
+  document.getElementById('intro').textContent='六组铰接式车轮、一条采样臂和一根传感器桅杆。拖动旋转，点击模型后滚动缩放。';
+  const setZoom=on=>{zoomActive=on;controls.enableZoom=on;zoomHint.textContent=on?'滚动缩放 · 按 Esc 退出':'点击模型以缩放';zoomHint.classList.toggle('active',on)};
+  setZoom(false);
+  canvas.addEventListener('pointerdown',()=>setZoom(true));
+  canvas.addEventListener('pointerenter',()=>zoomHint.classList.add('visible'));
+  document.documentElement.addEventListener('mouseleave',()=>{setZoom(false);zoomHint.classList.remove('visible')});
+  addEventListener('keydown',e=>{if(e.key==='Escape')setZoom(false)});
+  addEventListener('blur',()=>setZoom(false));
+  addEventListener('wheel',e=>{
+    if(zoomActive&&e.target===canvas)return;
+    try{host.dispatchEvent(new window.parent.WheelEvent('wheel',{deltaX:e.deltaX,deltaY:e.deltaY,deltaMode:e.deltaMode,bubbles:true,cancelable:true}))}catch{}
+  },{passive:true});
+}
+const clock=new THREE.Clock();let t=0;function animate(){requestAnimationFrame(animate);if(!onScreen||document.hidden){clock.getDelta();return}let dt=Math.min(clock.getDelta(),.05);t+=dt;explodeMix+=((exploded?1:0)-explodeMix)*Math.min(1,dt*4);for(const part of movable)part.node.position.copy(part.base).addScaledVector(part.offset,explodeMix);if(state.orbit)rover.rotation.y+=dt*.23;if(state.drive){for(const w of wheels)w.rotation.x+=dt*2.6;shell.position.y=Math.sin(t*6)*.015}else shell.position.y=0;if(state.sample){
+  // Forward-gap sampling path between the two diagonal front wheel assemblies.
+  const cycle=(t%6)/6;
+  const smooth=v=>{v=Math.max(0,Math.min(1,v));return v*v*(3-2*v)};
+  const reach=cycle<.42?smooth(cycle/.42):cycle<.62?1:1-smooth((cycle-.62)/.38);
+  yaw.rotation.y=-Math.PI/2;
+  shoulder.rotation.z=-.95-.75*reach;
+  elbow.rotation.z=1.25+.30*reach;
+  wrist.rotation.z=.10+.18*reach;
+  tray.rotation.y+=dt*.15;
+}else{
+  yaw.rotation.y=-Math.PI/2;shoulder.rotation.z=-.95;elbow.rotation.z=1.25;wrist.rotation.z=.10;
+}controls.update();renderer.render(scene,camera)}animate();addEventListener('resize',()=>{camera.aspect=innerWidth/innerHeight;camera.updateProjectionMatrix();renderer.setSize(innerWidth,innerHeight)});
+</script></body></html>

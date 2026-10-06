@@ -416,7 +416,7 @@ def page_specific(s, route):
             set_copy(p, scope[i] if i < len(scope) else 'Scope and acceptance criteria are established for each proposed pilot before wider deployment.')
         # Remove obsolete legal list text not contained in the original paragraph elements.
         for el in s.select('li'):
-            if el.select('.p-notice'): continue
+            if el.select('.p-notice') or el.find_parent('ul', class_=['links', 'footer-links']): continue
             set_copy(el, 'Data use and delivery scope are agreed for each pilot.')
 
 def adapt(source, route):

@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+
+<!-- This site was created in Webflow. https://webflow.com --><!-- Last Published: Thu Aug 27 2026 11:29:09 GMT+0000 (Coordinated Universal Time) --><html data-wf-domain="www.cominvi.com.mx" data-wf-page="68b83ca09f1dc47c6e7d29ec" data-wf-site="6899a2f3f7995d5e3e31b7c6" lang="zh-CN"><head><meta charset="utf-8"/><link crossorigin="anonymous" href="/_assets/cdn.prod.website-files.com" rel="preconnect"/><title>验证与人工复核 | MetriX AI</title><meta content="MetriX AI 连接设备与路线优化、采样支持以及二次资源价值评估。探索我们的原型平台与智能采样机器人概念。" name="description"/><meta content="验证与人工复核 | MetriX AI" property="og:title"/><meta content="MetriX AI 连接设备与路线优化、采样支持以及二次资源价值评估。探索我们的原型平台与智能采样机器人概念。" property="og:description"/><meta content="/_assets/metrix/rover-reference.webp" property="og:image"/><meta content="验证与人工复核 | MetriX AI" name="twitter:title"/><meta content="MetriX AI 连接设备与路线优化、采样支持以及二次资源价值评估。探索我们的原型平台与智能采样机器人概念。" name="twitter:description"/><meta content="website" property="og:type"/><meta content="summary_large_image" name="twitter:card"/><meta content="width=device-width, initial-scale=1" name="viewport"/><meta content="Webflow" name="generator"/><link crossorigin="anonymous" href="/_assets/cdn.prod.website-files.com/6899a2f3f7995d5e3e31b7c6/css/cominvi-staging.webflow.shared.451204bcb.min.css" rel="stylesheet" type="text/css"/><script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script><link href="/_assets/metrix/chill-favicon-32.png" rel="shortcut icon" type="image/png"/><link href="/_assets/metrix/chill-favicon-180.png" rel="apple-touch-icon"/><link crossorigin="" href="/_assets/d3e54v103j8qbb.cloudfront.net" rel="preconnect"/>
+<style>
+  .w-background-video > video {
+    inset: 0;
+  }
+
+  .hero-background {
+    overflow: hidden;
+  }
+
+  .hero-background .background-inner {
+    width: 120%;
+    height: 120%;
+    flex: 0 0 auto;
+    transform-origin: 50% 50%;
+    will-change: transform;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    transform-style: preserve-3d;
+  }
+
+  .hero-background .background_video,
+  .hero-background .background_video video {
+    width: 100%;
+    height: 100%;
+    backface-visibility: visible;
+    -webkit-backface-visibility: visible;
+    will-change: auto;
+  }
+
+  .hero-background .background_video video {
+    object-fit: cover;
+  }
+</style><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "name": "MetriX AI", "description": "Prototype decision-support platform for mining operations, sampling and secondary resource assessment.", "slogan": "Mine Smarter. Verify Better. Recover More."}</script><script defer="" src="/_assets/metrix/product.js"></script><link href="/_assets/metrix/sections.css" rel="stylesheet"/><link href="/_assets/metrix/experience.css" rel="stylesheet"/><link href="/_assets/metrix/zh.css" rel="stylesheet"/><script src="/_assets/metrix/zh.js"></script></head><body data-barba="wrapper"><div class="m-overlay"><svg class="rotate-icon" fill="none" viewbox="0 0 72 101" width="100%" xmlns="http://www.w3.org/2000/svg"><rect height="70" rx="5" stroke="white" stroke-width="2" width="40" x="16" y="16"></rect><rect height="70" rx="5" stroke="white" stroke-dasharray="4 4" stroke-opacity="0.2" stroke-width="2" transform="rotate(90 71 31)" width="40" x="71" y="31"></rect><path class="is-path-white" d="M48.8706 95.6103C48.6039 95.6818 48.4456 95.9559 48.517 96.2227L49.6817 100.569C49.7532 100.836 50.0274 100.994 50.2941 100.923C50.5608 100.851 50.7191 100.577 50.6476 100.311L49.6124 96.4468L53.4761 95.4115C53.7428 95.3401 53.9011 95.0659 53.8296 94.7992C53.7582 94.5324 53.484 94.3741 53.2173 94.4456L48.8706 95.6103ZM64.75 87H64.25C64.25 88.7554 63.7879 90.4798 62.9103 92L63.3433 92.25L63.7763 92.5C64.7417 90.8278 65.25 88.9309 65.25 87H64.75ZM63.3433 92.25L62.9103 92C62.0326 93.5202 60.7702 94.7826 59.25 95.6603L59.5 96.0933L59.75 96.5263C61.4222 95.5608 62.8108 94.1722 63.7763 92.5L63.3433 92.25ZM59.5 96.0933L59.25 95.6603C57.7298 96.5379 56.0054 97 54.25 97V97.5V98C56.1809 98 58.0778 97.4917 59.75 96.5263L59.5 96.0933ZM54.25 97.5V97C52.4946 97 50.7702 96.5379 49.25 95.6603L49 96.0933L48.75 96.5263C50.4222 97.4917 52.3191 98 54.25 98V97.5Z" fill="currentColor"></path><path class="is-path-white" d="M22.8794 5.8897C23.1461 5.81823 23.3044 5.54406 23.233 5.27733L22.0683 0.930659C21.9968 0.663925 21.7226 0.505634 21.4559 0.577105C21.1892 0.648576 21.0309 0.922744 21.1024 1.18948L22.1376 5.05318L18.2739 6.08846C18.0072 6.15993 17.8489 6.4341 17.9204 6.70083C17.9918 6.96756 18.266 7.12585 18.5327 7.05438L22.8794 5.8897ZM7 14.5L7.5 14.5C7.5 12.7446 7.96206 11.0202 8.83975 9.5L8.40673 9.25L7.97372 9C7.00827 10.6722 6.5 12.5691 6.5 14.5L7 14.5ZM8.40673 9.25L8.83975 9.5C9.71743 7.97981 10.9798 6.71743 12.5 5.83974L12.25 5.40673L12 4.97372C10.3278 5.93917 8.93917 7.32779 7.97372 9L8.40673 9.25ZM12.25 5.40673L12.5 5.83974C14.0202 4.96206 15.7446 4.5 17.5 4.5L17.5 4L17.5 3.5C15.5691 3.5 13.6722 4.00827 12 4.97372L12.25 5.40673ZM17.5 4L17.5 4.5C19.2554 4.5 20.9798 4.96206 22.5 5.83975L22.75 5.40673L23 4.97372C21.3278 4.00827 19.4309 3.5 17.5 3.5L17.5 4Z" fill="currentColor"></path></svg><p class="body-m is-white">请旋转手机 <br/>以获得更佳体验</p></div><div class="loader" data-wf--loader--variant="base"><div class="loader_inner"><div class="loader_mask"></div><div class="loader-logo_wrap"><div class="logo-inner"><div class="is-logo-icon"><svg aria-label="Chill" class="logo-icon chill-mark" fill="none" role="img" viewbox="0 0 32 33" width="100%" xmlns="http://www.w3.org/2000/svg"></svg><div class="logo-square"></div></div><div class="is-logo-text"><svg aria-label="Chill" class="logo-text chill-logo" fill="none" role="img" viewbox="0 0 98 18" width="100%" xmlns="http://www.w3.org/2000/svg"></svg></div></div></div></div></div><div class="site-grid"><div class="grid-column"></div><div class="grid-column"></div><div class="grid-column"></div><div class="grid-column"></div><div class="grid-column"></div><div class="grid-column"></div><div class="grid-column"></div><div class="grid-column"></div><div class="grid-column"></div><div class="grid-column"></div><div class="grid-column"></div><div class="grid-column"></div></div><div class="site-grid is-tablet"><div class="grid-column"></div><div class="grid-column"></div><div class="grid-column"></div><div class="grid-column"></div><div class="grid-column"></div><div class="grid-column"></div><div class="grid-column"></div><div class="grid-column"></div></div><div class="global"><div class="css-styles w-embed"><style>
+/* ------------------------- Scaling System by Osmo [https://osmo.supply/] -------------------------  */
+
+:root {
+  --size-unit: 16; 
+  --size-container-ideal: 1440;
+  --size-container-min: 992px;
+  --size-container-max: 1920px;
+  --size-container: clamp(var(--size-container-min), 100vw, var(--size-container-max));
+  --size-font: calc(var(--size-container) / (var(--size-container-ideal) / var(--size-unit)));
+}
+
+/* Tablet */
+@media screen and (max-width: 991px) {
+  :root {
+    --size-container-ideal: 834;
+    --size-container-min: 768px;
+    --size-container-max: 991px;
+  }
+}
+
+/* Mobile Landscape */
+@media screen and (max-width: 767px) {
+  :root {
+    --size-container-ideal: 550; 
+    --size-container-min: 480px;
+    --size-container-max: 767px;
+  }
+}
+
+/* Mobile Portrait */
+@media screen and (max-width: 479px) {
+  :root {
+    --size-container-ideal: 390;
+    --size-container-min: 320px;
+    --size-container-max: 479px;
+  }
+}
+  
+body {font-size: var(--size-font);}
+
+html, body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* ------------------------- Hide Scrollbar -------------------------------------------------- */
+
+body ::-webkit-scrollbar{display: none;}
+body {-ms-overflow-style: none;}
+html {scrollbar-width: none;} 
+
+/* ------------------------- body -------------------------------------------------- */
+
+*, *:after, *:before { 
+-webkit-box-sizing: border-box; 
+-moz-box-sizing: border-box; 
+box-sizing: border-box;}
+
+html {
+scroll-behavior: initial;
+height: 100vh;
+background-color: var(--primary);
+}
+
+svg {
+max-width: none; height: auto; box-sizing: border-box; vertical-align: middle;
+}
+
+button{
+padding: 0px; background: transparent;text-align:inherit;
+}
+
+::selection{
+   background-color: black;
+   color: white;
+   text-shadow: none;
+}
+
+a{
+	color: inherit;
+	text-decoration: none;
+}
+
+a, button{
+	cursor: pointer;
+}
+
+textarea{
+	resize: none;
+}
+
+.is-eyebrow.is-black > .eyebrow-s {
+	color: var(--white);
+}
+
+.section_hero .body-xl {
+	opacity: 0;
+}
+
+.section_safety{
+	padding-top: 0rem;
+}
+
+.svg-text{
+	width: 100%;
+  height: 100%;
+}
+
+.section_values > .intro.p-top{
+	border: none;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+  .w-webflow-badge {
+  display: none !important;
+  visibility: hidden;
+}
+
+.navlink_label, .stat_number{
+  text-box: trim-both cap alphabetic;
+}
+
+.navlink-locale .navlink_label{
+  color: inherit;
+}
+
+.machines-grid_close-button_row:nth-child(1) {
+  padding-left: 1.5em;
+}
+
+.machines-grid_close-button_row:nth-child(2) {
+  padding-right: 1.5em;
+}
+</style></div><div class="css-animations w-embed"><style>
+.video-inner {
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.toggle.is-green > .toggle-option > .toggle-id{
+	color: var(--primary);
+}
+
+.toggle.is-green > .toggle-option > .toggle-id.is-active{
+	color: var(--white);
+}
+
+.toggle.is-white>.toggle-option>.toggle-id,
+.toggle.is-black>.toggle-option>.toggle-id.is-active {
+  color: var(--primary);
+}
+
+.toggle.is-white>.toggle-option>.toggle-id.is-active,
+.toggle.is-black>.toggle-option>.toggle-id {
+  color: var(--white);
+}
+
+.toggle.is-white>.toggle-indicator {
+  background-color: var(--primary);
+}
+
+.toggle.is-black>.toggle-indicator {
+  background-color: var(--white);
+}
+
+.toggle.is-white,
+.toggle.is-black {
+  width: 8.75em;
+}
+
+.toggle.is-white>.toggle-option,
+.toggle.is-white>.toggle-indicator,
+.toggle.is-black>.toggle-option,
+.toggle.is-black>.toggle-indicator {
+  width: 4em;
+}
+
+html.wf-design-mode > body > div.page-wrap > div > div.section_latest-technology > div.content > div {
+  overflow: hidden;
+}
+
+html.wf-design-mode > body > div.page-wrap .is-h1-span, 
+html.wf-design-mode > body > div.page-wrap .content_right-row .eyebrow-l,
+html.wf-design-mode > body > div.page-wrap .card
+  {
+  opacity: 1;
+}
+  
+html.wf-design-mode > body > .loader {
+  display: none;
+}
+
+.section_positions .sissmac_inner > .sissmac-row:last-child{
+	padding-bottom: 0em;
+}
+
+.scroll-item-h .body-xxl{
+	opacity: 0.15;
+}
+
+.scroll-item-h .body-s{
+	opacity: 0;
+}
+
+.scroll-item-h.is-active .body-xxl{
+	opacity: 1;
+}
+
+.scroll-item-h.is-active .body-s{
+	opacity: 1;
+}
+/*
+.section_safety-2 .char{
+	margin-right:0.005em;
+}*/
+
+.section_safety-2 .body-xl.is-black .word:first-of-type > .char:first-of-type{
+	margin-right:-0.125em;
+}
+
+.sticky-wrap .body-m{
+  position: sticky;
+  top: 2em;
+}
+
+.section_minerals:has(.minerals-slider_sequence canvas) .minerals-slider_sequence:has(canvas) .minerals_canvas{
+  filter:brightness(1.1);
+}
+
+.story_intro_inner .mask-fill.is-w-l{
+  background-color: var(--white);
+}
+</style></div><div class="css-responsive w-embed"><style>
+@media screen and (max-width: 991px) {
+  .section_values .body-xxl{
+  	font-size: 4em;
+  }
+  
+  .workshops .body-xl{
+  	font-size: 3.5em;
+  }
+  
+  .workshops .body-s{
+  	font-size: 1em;
+  }
+  
+  .section_projects .intro{
+  	padding-right: 1em;
+    padding-left: 1em;
+  }
+    
+  .section_projects .content{
+  	position: relative;  
+  }
+
+  .minerals-inner .eyebrows{
+    padding-left: 1em;
+    padding-top: 1em;
+  }
+}
+
+
+@media (max-width: 767px) {
+	.section_services .card-inner{
+  	gap: 1em;
+  }
+
+	.section_services .body-s{
+  	opacity: 0.5;
+    font-weight: 500;
+  }
+  
+  .section_services .service-card{
+  	padding-top: 1.5em;
+    padding-bottom: 1.5em;
+  }
+
+	.services-viewer .button{
+		margin-top: 3em;
+	}
+
+	.minerals_right .button{
+		display: none;
+	}
+
+	.minerals_left .body-xl{
+		font-size: 3.5em;
+	}
+
+	.section_safety .content > .content_column:nth-of-type(2){
+		order: 2;
+	}
+
+	.section_technology .text-button{
+		padding: 0 1em;
+	}
+
+	.footer .is-eyebrow{
+	  padding: 0.25em;
+	}
+
+	.footer-links_col .eyebrow-s{
+		font-size: 0.75em;
+	}
+
+	.section_about .button{
+		margin-bottom: 5em;
+	}
+
+  .workshops .body-xl{
+  	font-size: 2em;
+  }
+  
+  .workshops .body-s{
+  	font-size: 0.875em;
+    font-weight: 500;
+  }
+  
+  .machine-grid_mobile .machine_button{
+  	background-color: var(--light-green);
+  }
+  
+  .workshops-sm-wrap .body-xl,
+  .workshops-sm-wrap p{
+  	text-align: left;
+  }
+
+  .workshops-sm-wrap .body-xl{
+		font-size: 2em;
+  }
+  
+  .workshops-sm-wrap .body-s{
+		font-size: 0.75em;
+  }
+  
+  .minerals-inner .col-3:nth-child(2){
+  	order: 3;
+  }
+  
+  .minerals-inner .col-6{
+  	order: 2;
+    flex: 1;
+  }
+  
+  .minerals-inner .col-3:last-of-type{
+  	order: 1;
+  }
+  
+  .minerals-names .body-xl{
+  	padding-bottom: 0.125em;
+  }
+  
+  .section_partners > .content.is-12-col{
+  	display: flex;
+    flex-direction: row;
+    align-items: stretch;
+  }
+  
+  .section_work-team > .content.is-12-col{
+  	display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    gap: 0em;
+  }
+  
+  .is-stat > .eyebrow-m{
+  	font-size: 13px;
+  }
+  
+  .processes .process:nth-child(10){
+  	height: auto;
+  }
+  
+  .section_positions .sissmac_p-wrap{
+  	padding-left: 0;
+  }
+  
+  .section_positions .sissmac_title{
+  	padding-bottom: 1em;
+  }
+  
+  .section_work-team .body-xxl{
+  	font-size: 3.5em
+  }
+  
+  .section_about-us .intro.p-2{
+  	padding-bottom: 12em;
+  }
+  
+  .section_about-us .image-wrapper{
+  	width: 100%;
+  }
+
+  .section_improvement .body-s{
+  	font-weight: 500;
+    opacity: 50%;
+  }
+  
+  .minerals-inner .col-6{
+  	padding: 2em;
+  }
+  
+  .minerals-list .eyebrow-wrapper{
+  	padding-left: 1em
+  }
+  
+  .content.is-base .content_column{
+  	display:none;
+  }
+  
+}
+
+/* end max landscape mobile */
+
+@media (max-width: 767px) and (min-width: 479px){
+  .equity-inner{
+  	display: flex;
+    justify-content: space-between;
+  }
+  /*
+  .minerals-inner .col-6{
+  	padding: 1em;
+  }
+  
+  .minerals-inner .col-6{
+  	display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .minerals_content{
+  max-width: 70%;
+  }*/
+}
+
+/* end onlylandscape mobile */
+
+@media (max-width: 479px) {
+  .workshops-sm-wrap .body-xl,
+  .workshops-sm-wrap p{
+  	text-align: center;
+  }
+  
+  .section_work-team .body-xxl{
+  	font-size: 2.5em;
+  }
+  
+  .section_safety-2{
+  	padding-bottom: 4em;
+  }
+  
+  .section_safety-2 .image-p{
+  height: 29.625em;
+  }
+  
+  .image-wrapper.is-w-5{
+  width: 100%;
+  }
+  
+  .story_intro_inner .body-4xl{
+  	font-size: 4em;
+  }
+  
+  .story_intro_inner .mask-fill.is-w-r > .eyebrow-m{
+  	text-align: right;
+  }
+
+  .map-wrapper{
+    width: 120%;
+  }
+  
+  .equity-inner .col-6{
+  	flex: 0;
+    width: 100%;
+  }
+  
+  .workshops_left_bottom .body-s{
+  	font-size: 14px;
+  }
+  
+  .section_improvement .content-bottom{
+  	margin-top: 10em;
+  }
+
+  .story_video-infos_desc .body-s{
+    font-size: 0.813em;
+  }
+}
+
+@media (hover: none) and (pointer: coarse) and (max-width: 768px) {
+  .workshops{
+  	height: 250vh;
+  }
+}
+
+@media (min-width: 991px) and (max-width: 1439px) {
+  /*
+  .hero-bottom_cards-wrapper, #w-node-_42ea3a62-822e-6ecd-fc2c-be4898e5c13c-3e31b7cd{
+    grid-area: 1/9/2/13;
+  }
+
+  #w-node-_42ea3a62-822e-6ecd-fc2c-be4898e5c13c-3e31b7cd .card{
+    height: 9em;
+  }
+
+  #w-node-_33e34690-9048-f1cc-5996-0de4203dfa95-3e31b7cd{
+    grid-area: 1/1/1/9;
+  }
+  */
+}
+</style></div></div><nav class="navbar"><a aria-label="首页" class="is-link w-inline-block" href="/zh/"><svg aria-label="Chill" class="is-logo_main chill-logo" fill="none" role="img" viewbox="0 0 100 27" width="100%" xmlns="http://www.w3.org/2000/svg"></svg><svg aria-label="Chill" class="is-logo chill-logo" fill="none" role="img" viewbox="0 0 100 27" width="100%" xmlns="http://www.w3.org/2000/svg"></svg></a><link href="/zh/" rel="prefetch"/><button aria-controls="nav-inner" aria-expanded="false" aria-label="打开菜单" class="is-menu"><div class="is-menu_label-wrap"><div class="is-menu_label-inner"><span class="is-label is-menu">菜单</span><span class="is-label is-menu">菜单</span></div></div><div class="menu-icon"><div class="menu-icon_bar is-1"></div><div class="menu-icon_bar is-2"></div></div><span class="sr-only">打开菜单</span></button></nav><div class="nav-inner" id="nav-inner"><ul class="links" role="list"><li class="link-item"><a class="navlink w-inline-block" href="/zh/our-services"><svg class="navlink_icon" fill="none" viewbox="0 0 32 32" width="100%" xmlns="http://www.w3.org/2000/svg"><rect class="icon-bg" fill="currentColor" height="32" rx="4" width="32"></rect><path class="icon--inner" d="M14 10.9388C14 10.5487 14.4767 10.3533 14.7556 10.6292L19.8704 15.6903C20.0432 15.8614 20.0432 16.1386 19.8704 16.3097L14.7556 21.3708C14.4767 21.6467 14 21.4513 14 21.0612V10.9388Z" fill="currentColor"></path></svg><span class="navlink_label">AI 解决方案</span></a><link href="/zh/our-services" rel="prefetch"/></li><li class="link-item"><a class="navlink w-inline-block" href="/zh/technology"><svg class="navlink_icon" fill="none" viewbox="0 0 32 32" width="100%" xmlns="http://www.w3.org/2000/svg"><rect class="icon-bg" fill="currentColor" height="32" rx="4" width="32"></rect><path class="icon--inner" d="M14 10.9388C14 10.5487 14.4767 10.3533 14.7556 10.6292L19.8704 15.6903C20.0432 15.8614 20.0432 16.1386 19.8704 16.3097L14.7556 21.3708C14.4767 21.6467 14 21.4513 14 21.0612V10.9388Z" fill="currentColor"></path></svg><span class="navlink_label">技术</span></a><link href="/zh/technology" rel="prefetch"/></li><li class="link-item"><a aria-current="page" class="navlink w-inline-block w--current" href="/zh/safety"><svg class="navlink_icon" fill="none" viewbox="0 0 32 32" width="100%" xmlns="http://www.w3.org/2000/svg"><rect class="icon-bg" fill="currentColor" height="32" rx="4" width="32"></rect><path class="icon--inner" d="M14 10.9388C14 10.5487 14.4767 10.3533 14.7556 10.6292L19.8704 15.6903C20.0432 15.8614 20.0432 16.1386 19.8704 16.3097L14.7556 21.3708C14.4767 21.6467 14 21.4513 14 21.0612V10.9388Z" fill="currentColor"></path></svg><span class="navlink_label">人工复核</span></a><link href="/zh/safety" rel="prefetch"/></li></ul><ul class="links" role="list"><li class="link-item"><a class="navlink w-inline-block" href="/zh/about-us"><svg class="navlink_icon" fill="none" viewbox="0 0 32 32" width="100%" xmlns="http://www.w3.org/2000/svg"><rect class="icon-bg" fill="currentColor" height="32" rx="4" width="32"></rect><path class="icon--inner" d="M14 10.9388C14 10.5487 14.4767 10.3533 14.7556 10.6292L19.8704 15.6903C20.0432 15.8614 20.0432 16.1386 19.8704 16.3097L14.7556 21.3708C14.4767 21.6467 14 21.4513 14 21.0612V10.9388Z" fill="currentColor"></path></svg><span class="navlink_label">关于 MetriX</span></a><link href="/zh/about-us" rel="prefetch"/></li><li class="link-item"><a class="navlink w-inline-block" href="/zh/blog"><svg class="navlink_icon" fill="none" viewbox="0 0 32 32" width="100%" xmlns="http://www.w3.org/2000/svg"><rect class="icon-bg" fill="currentColor" height="32" rx="4" width="32"></rect><path class="icon--inner" d="M14 10.9388C14 10.5487 14.4767 10.3533 14.7556 10.6292L19.8704 15.6903C20.0432 15.8614 20.0432 16.1386 19.8704 16.3097L14.7556 21.3708C14.4767 21.6467 14 21.4513 14 21.0612V10.9388Z" fill="currentColor"></path></svg><span class="navlink_label">洞察</span></a><link href="/zh/blog" rel="prefetch"/></li></ul><ul class="links" role="list"><li class="link-item"><div class="locale-switch w-dropdown" data-delay="0" data-hover="false"><div class="navlink locale-switch_toggle w-dropdown-toggle"><div class="w-icon-dropdown-toggle"></div><span class="navlink_label"><div>CN</div></span></div><nav class="locale-switch_menu w-dropdown-list"><div class="w-locales-list"><div class="locales-list w-locales-items" role="list"><div class="w-locales-item" role="listitem"><a aria-label="Switch to English" class="navlink-locale w-inline-block w--current" href="/safety" hreflang="en"><span class="navlink_label">CN</span></a></div><div class="w-locales-item" role="listitem"><a class="navlink-locale w-inline-block" download="MetriX-AI-Product-Introduction-CN.docx" href="/_assets/metrix/MetriX-AI-Product-Introduction-CN.docx" hreflang="es"><span class="navlink_label">指南</span></a></div></div></div></nav></div></li></ul></div><div class="page-info"><div class="page-info_wrap"><div class="page-info_inner"><div class="page-info__inner_row"><span class="body-xl" id="page-from">首页</span></div><div class="page-info__inner_row"><span class="body-xl" id="page-to">首页</span></div></div></div></div><div class="page-wrap" data-barba="container" data-barba-namespace="safety"><main class="content-wrap metrix-editorial"><div bg="hero" class="section_hero is-safety"><div class="hero-content"><div class="hero-content_left" id="w-node-_33e34690-9048-f1cc-5996-0de4203dfa95-6e7d29ec"><h1 class="h1"><div class="is-h1-span-wrap"><span class="is-h1-span">证据优先。</span></div><div class="is-h1-span-wrap"><span class="is-h1-span">人始终掌控。</span></div></h1></div><div class="hero-content_right" id="w-node-_71f0f5f4-69d5-22f9-d97f-4036c42db11c-6e7d29ec"><div class="content_right-row"><div class="is-h1-span-wrap"><span class="eyebrow-l">决策平台</span></div></div><div class="content_right-row"><div class="is-h1-span-wrap"><span class="eyebrow-l">原型与概念验证</span></div></div></div></div><div class="hero-bottom"></div><div class="hero-background"><div class="background-inner"><img alt="样品实验室中的人工复核（概念图）" class="background_image" loading="lazy" src="/_assets/metrix/visuals/review.webp"/></div></div></div><div bg="white" class="section_testimonial is-safety"><div class="w-layout-vflex testimonials-2" id="w-node-_396c7693-91cf-d6de-8d06-b55fa0269255-6e7d29ec"><div class="w-layout-vflex testimonial-2" id="w-node-_396c7693-91cf-d6de-8d06-b55fa0269260-6e7d29ec"><p class="body-xl is-black is-center" tr="1">“解释证据，复核建议，验证结果。”<strong></strong></p><div class="w-layout-vflex testimonial_infos"><p class="body-xl is-o-30 is-center" tr="1">MetriX AI</p><p class="eyebrow-m is-o-40 is-center" tr="1">产品原则</p></div></div></div></div><div bg="white" class="section_ccrm"><div class="intro"><div class="eyebrows"><div class="is-eyebrow"><span class="eyebrow-s">S.01</span></div><div class="is-eyebrow is-black"><h2 class="eyebrow-s">证据与复核</h2></div></div><p class="body-xl is-black" tr="1">MetriX AI 处于原型与概念验证阶段。每个模块都旨在通过可解释的建议与可追溯的输入来辅助专业判断。</p></div><div class="content is-safety"><div class="content_column"><div class="image-wrapper is-w-5 is-safety"><img alt="MetriX 样品采集与溯源概念" class="image-p is-rect is-safety" loading="lazy" src="/_assets/metrix/components/sample-records.webp"/></div></div><div class="content_column"><div class="text-cta is-w-5 is-sticky-50"><p class="body-m">试点前明确基准、输入质量与验收标准。在同等任务下比较结果，并区分仿真值与实测结果。</p></div></div></div></div><div bg="white" class="section_testimonial is-safety"><div class="w-layout-vflex testimonials-2" id="w-node-_06a66c93-082a-401f-adea-670d990e32bf-6e7d29ec"><div class="w-layout-vflex testimonial-2 is-s" id="w-node-_06a66c93-082a-401f-adea-670d990e32c0-6e7d29ec"><p class="body-xl is-black is-center" tr="1">人工复核是核心产品原则。证据不足的建议应请求更多数据或暂停。</p></div></div></div><div bg="white" class="section_commitment"><div class="intro"><div class="eyebrows"><div class="is-eyebrow"><span class="eyebrow-s">S.02</span></div><div class="is-eyebrow is-black"><h2 class="eyebrow-s">人工监督</h2></div></div><p class="body-xl is-black" tr="1">重要的运营、采样和回收决策由具备资质的人员做出。平台帮助比较方案、理解约束。</p></div><div class="content is-grid-12"><div class="content_column is-right" id="w-node-_8fa6e410-5cea-e888-863b-555fc3afb7a4-6e7d29ec"><div class="text-cta is-w-5 is-sticky-50"><p class="body-m">正式的采样方案与实验室方法仍是确认成分与质量的关键。</p></div></div><div class="content_column is-right" id="w-node-_8fa6e410-5cea-e888-863b-555fc3afb7a1-6e7d29ec"><div class="image-wrapper is-w-5"><img alt="对 MetriX 机器人概念的人工监督" class="image-p is-rect is-safety" loading="lazy" src="/_assets/metrix/components/remote-operation.webp"/></div></div></div></div><div bg="white" class="section_testimonial is-safety"><div class="w-layout-vflex testimonials-2" id="w-node-_86084d0a-18e3-54c6-cfb1-948d1bf0e230-6e7d29ec"><div class="w-layout-vflex testimonial-2 is-s" id="w-node-_86084d0a-18e3-54c6-cfb1-948d1bf0e231-6e7d29ec"><p class="body-xl is-black is-center" tr="1">每个结果都应说明其适用范围以及仍需补充的证据。</p></div></div></div><div class="section_img is-big-safety"><img alt="工程师比对样品与证据（概念图）" class="image-p is-safety" loading="lazy" src="/_assets/metrix/visuals/review.webp"/></div><div bg="white" class="section_improvement"><div class="intro"><div class="eyebrows"><div class="is-eyebrow"><span class="eyebrow-s">S.03</span></div><div class="is-eyebrow is-black"><h2 class="eyebrow-s">验证与学习</h2></div></div><p class="body-xl is-black" tr="1">验证将可重复的离线分析、专业复核与约定的有限现场范围相结合。实际结果与异常情况将为下一轮迭代提供依据。</p></div><div class="content is-v"><div class="content_column" id="w-node-_221f293b-c274-62f7-bfea-e95ba27f4781-6e7d29ec"><div class="image-wrapper is-w-6"><img alt="采样覆盖复核概念" class="image-h-p is-rect is-safety" loading="lazy" src="/_assets/metrix/components/coverage-review.webp"/></div></div><div class="content_column is-right" id="w-node-_221f293b-c274-62f7-bfea-e95ba27f477d-6e7d29ec"><div class="text-cta is-w-6"><p class="body-m">根据所选模块，跟踪路线成本与约束违规、采样覆盖与检测差异，或回收计算的一致性。</p><p class="body-m">将仿真输入与实测数据分开管理。每个结果都应同时记录来源、单位、版本与假设。</p></div></div></div><div class="content-bottom is-safety"><div class="intro"><p class="body-xl is-black" tr="1">拟议的产品化方案串联起四项实用控制：</p></div><div class="content_column" id="w-node-_7dd08cf0-b7c8-669a-d733-49f81a43c254-6e7d29ec"><div class="sissmac"><div class="sissmac_inner"><div class="sissmac-row"><div class="eyebrow-wrapper p-t"><span class="eyebrow-m is-o-60">01</span></div><div class="sissmac_title" id="w-node-_5242e2d4-d780-2fd5-0990-111f58a3c343-6e7d29ec"><h3 class="body-l">数据溯源</h3></div><div class="sissmac_p-wrap" id="w-node-_7238c132-74f5-1722-4979-fcbbff20123f-6e7d29ec"><h3 class="body-s">为每项输入记录来源、采集时间、单位与适用范围。</h3></div></div><div class="sissmac-row"><div class="eyebrow-wrapper p-t"><span class="eyebrow-m is-o-60">02</span></div><div class="sissmac_title" id="w-node-cc0fab1a-d136-1973-0d50-faa3b9a6d5a7-6e7d29ec"><h3 class="body-l">样品追溯</h3></div><div class="sissmac_p-wrap" id="w-node-cc0fab1a-d136-1973-0d50-faa3b9a6d5aa-6e7d29ec"><h3 class="body-s">关联样品编号、批次、位置与实验室结果。</h3></div></div><div class="sissmac-row"><div class="eyebrow-wrapper p-t"><span class="eyebrow-m is-o-60">03</span></div><div class="sissmac_title" id="w-node-f3fd1bc6-aa76-8eba-46dd-bb492bdb3520-6e7d29ec"><h3 class="body-l">模型复核</h3></div><div class="sissmac_p-wrap" id="w-node-f3fd1bc6-aa76-8eba-46dd-bb492bdb3523-6e7d29ec"><h3 class="body-s">保存模型版本、假设与专业复核决定。</h3></div></div><div class="sissmac-row"><div class="eyebrow-wrapper p-t"><span class="eyebrow-m is-o-60">04</span></div><div class="sissmac_title" id="w-node-ff37f68e-317b-57c7-8803-8db4628f3299-6e7d29ec"><h3 class="body-l">数据与假设</h3></div><div class="sissmac_p-wrap" id="w-node-ff37f68e-317b-57c7-8803-8db4628f329c-6e7d29ec"><h3 class="body-s">记录数据来源、单位、日期与模型假设。比较各场景结果；当输入超出已验证的工况范围时，须进行复核。</h3></div></div></div></div></div></div></div><div bg="black" class="section_next"><div class="intro_next"><div class="eyebrows is-white"><div class="is-eyebrow"><span class="eyebrow-s">S.04</span></div><div class="is-eyebrow"><span class="eyebrow-s">下一页</span></div></div></div><div class="next-button-scroll"><div class="next-button-scroll_inner"><div class="next-button-wrapper"><a aria-label="关于 MetriX AI 项目" class="button w-variant-a211fbf9-8f10-d13e-69e9-810a5e3873c2 w-inline-block" data-wf--button--variant="button-white" href="/zh/about-us" pt-next=""><div class="button_inner"><div class="w-layout-hflex button-inner_content"><svg class="is-arrow-square is-left" fill="none" viewbox="0 0 32 32" width="100%" xmlns="http://www.w3.org/2000/svg"><rect class="arrow-white-1_bg" fill="currentColor" height="32" rx="4" width="32"></rect><path class="arrow-white-1_arrow" d="M14 10.9388C14 10.5487 14.4767 10.3533 14.7556 10.6292L19.8704 15.6903C20.0432 15.8614 20.0432 16.1386 19.8704 16.3097L14.7556 21.3708C14.4767 21.6467 14 21.4513 14 21.0612V10.9388Z" fill="currentColor"></path></svg><div class="label-wrap"><span class="button_label-small w-variant-a211fbf9-8f10-d13e-69e9-810a5e3873c2">关于 MetriX</span></div><span class="sr-only">关于 MetriX AI 项目</span><svg class="button-arrow" fill="none" viewbox="0 0 32 32" width="100%" xmlns="http://www.w3.org/2000/svg"><rect class="arrow-bg w-variant-a211fbf9-8f10-d13e-69e9-810a5e3873c2" fill="currentColor" height="32" rx="4" width="32"></rect><path class="arrow-arrow w-variant-a211fbf9-8f10-d13e-69e9-810a5e3873c2" d="M14 10.9388C14 10.5487 14.4767 10.3533 14.7556 10.6292L19.8704 15.6903C20.0432 15.8614 20.0432 16.1386 19.8704 16.3097L14.7556 21.3708C14.4767 21.6467 14 21.4513 14 21.0612V10.9388Z" fill="currentColor"></path></svg></div></div></a><link href="/zh/about-us" rel="prefetch"/></div></div></div><div class="next_background-wrap"><div class="next_background"><img alt="机器人研究工作坊概念图" class="background" loading="lazy" src="/_assets/metrix/visuals/research.webp"/></div></div></div><div class="footer"><div class="footer-inner"><div class="footer_left" id="w-node-_1f5661f6-8f20-019f-338a-f39a75305b7c-75305b7a"><a aria-label="首页" class="is-link w-inline-block" href="/zh/" pt-inner=""><svg aria-label="Chill" class="is-logo_main is-black chill-logo" fill="none" role="img" viewbox="0 0 100 27" width="100%" xmlns="http://www.w3.org/2000/svg"></svg><svg aria-label="Chill" class="is-logo is-black chill-logo" fill="none" role="img" viewbox="0 0 100 27" width="100%" xmlns="http://www.w3.org/2000/svg"></svg></a><link href="/zh/" rel="prefetch"/></div><div class="footer_right" id="w-node-_1f5661f6-8f20-019f-338a-f39a75305b95-75305b7a"><div class="footer-links_col" id="w-node-_1f5661f6-8f20-019f-338a-f39a75305b96-75305b7a"><div class="is-eyebrow"><span class="eyebrow-s">探索</span></div><ul class="footer-links w-list-unstyled" role="list"><li><a class="footer-link" href="/zh/our-services" pt-inner="">AI 解决方案</a></li><li><a class="footer-link" href="/zh/technology" pt-inner="">技术</a></li><li><a aria-current="page" class="footer-link w--current" href="/zh/safety" pt-inner="">人工复核</a></li><li><a class="footer-link" href="/zh/about-us" pt-inner="">关于 MetriX</a></li></ul></div><div class="footer-links_col"><div class="is-eyebrow"><span class="eyebrow-s">资料库</span></div><ul class="footer-links w-list-unstyled" role="list"><li><a class="footer-link" href="/zh/blog" pt-inner="">洞察</a><link href="/zh/blog" rel="prefetch"/></li></ul></div><div class="footer-links_col" id="w-node-_1f5661f6-8f20-019f-338a-f39a75305bb5-75305b7a"><div class="is-eyebrow"><span class="eyebrow-s">信息</span></div><ul class="footer-links w-list-unstyled" role="list"><li><a class="footer-link" href="/zh/notice-of-privacy" pt-inner="">数据与产品范围</a></li></ul></div><div class="footer-links_col"><div class="is-eyebrow"><span class="eyebrow-s">联系</span></div><ul class="footer-links w-list-unstyled" role="list"><li><a class="footer-link" download="MetriX-AI-Product-Introduction-CN.docx" href="/_assets/metrix/MetriX-AI-Product-Introduction-CN.docx">产品介绍</a></li><li><p class="footer-link">准备试点简报</p></li></ul></div></div></div><div class="footer-bottom"><p class="footer-p">2026 Chill · MetriX AI 原型与概念验证</p></div></div></main></div><script crossorigin="anonymous" src="/_assets/d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8__644a61a495.js" type="text/javascript"></script><script crossorigin="anonymous" src="/_assets/cdn.prod.website-files.com/6899a2f3f7995d5e3e31b7c6/js/webflow.schunk.380a9cc3d7b92fe0.js" type="text/javascript"></script><script crossorigin="anonymous" src="/_assets/cdn.prod.website-files.com/6899a2f3f7995d5e3e31b7c6/js/webflow.45db7ba0.6a7654b6d67a8b28.js" type="text/javascript"></script><!--
+<script type="module" src="http://localhost:3000/@vite/client"></script>
+<script type="module" src="http://localhost:3000/src/main.js"></script>
+<script rel="preconnect" type="module" src="/_assets/cominvi.netlify.app/main.js"></script>
+-->
+<script rel="preconnect" src="/_assets/cominvi.pages.dev/main.js" type="module"></script>
+</body></html>

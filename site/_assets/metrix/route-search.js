@@ -1,3 +1,21 @@
+// Chinese pages (/zh/) declare <html lang="zh-CN">; canvas labels and status text follow it.
+const zh=()=>document.documentElement.lang.startsWith('zh');
+const ZH={
+  'OPEN PIT · PHASE 2': '露天采坑 · 二期',
+  'STEEP BENCHES / HIGH COST': '陡峭台阶 / 高成本',
+  'HAUL RAMP 10%': '运输坡道 10%',
+  'WASTE DUMP': '排土场',
+  'ROM PAD / CRUSHER': '原矿堆场 / 破碎站',
+  'UNDERGROUND DECLINE': '井下斜坡道',
+  'START / R01': '起点 / R01',
+  'TARGET / S06': '目标 / S06',
+  'OPTIMAL ROUTE / READY': '最优路线 / 就绪',
+  'LOWEST-COST PATH FOUND': '已找到最低成本路径',
+  'SEARCHING CANDIDATE ROUTES': '正在搜索候选路线',
+  'Resume animation ▷': '继续动画 ▷',
+  'Pause animation Ⅱ': '暂停动画 Ⅱ'
+};
+const L=s=>zh()&&ZH[s]||s;
 // A weighted graph: cost = segment length * illustrative terrain resistance.
 // Dijkstra supplies both the search order and the lowest-cost connected path.
 function network() {
@@ -52,18 +70,18 @@ export function initRouteSearch(){
     });
     // Haul ramp spiralling down the benches.
     for(const off of [-.035,.035]){const pts=[];for(let k=0;k<=60;k++){const f=k/60,a=Math.PI*.3+f*Math.PI*1.8,s=1.04-f*.74+off;pts.push(project(PIT.x+Math.cos(a)*PIT.rx*s,PIT.y+Math.sin(a)*PIT.ry*s,t));}poly(pts,'rgba(232,206,156,.5)',1.2,[2,4]);}
-    const rim=ring(PIT,1,1.3,t);tag({x:rim[40].x-150,y:rim[40].y},'OPEN PIT · PHASE 2');tag({x:rim[40].x-150,y:rim[40].y+13},'STEEP BENCHES / HIGH COST','rgba(244,121,32,.7)',8);
-    const ramp=project(PIT.x+Math.cos(Math.PI*.3)*PIT.rx*1.1,PIT.y+Math.sin(Math.PI*.3)*PIT.ry*1.1,t);tag({x:ramp.x+10,y:ramp.y-6},'HAUL RAMP 10%','rgba(226,200,150,.62)',8);
+    const rim=ring(PIT,1,1.3,t);tag({x:rim[40].x-150,y:rim[40].y},L('OPEN PIT · PHASE 2'));tag({x:rim[40].x-150,y:rim[40].y+13},L('STEEP BENCHES / HIGH COST'),'rgba(244,121,32,.7)',8);
+    const ramp=project(PIT.x+Math.cos(Math.PI*.3)*PIT.rx*1.1,PIT.y+Math.sin(Math.PI*.3)*PIT.ry*1.1,t);tag({x:ramp.x+10,y:ramp.y-6},L('HAUL RAMP 10%'),'rgba(226,200,150,.62)',8);
     // Waste dump: stacked lifts of a stockpile mound.
     const dump={x:.2,y:.13,rx:.08,ry:.1};[1,.68,.38].forEach((s,i)=>poly(ring(dump,s,4,t),`rgba(196,206,218,${.26-i*.05})`,1,[3,4],'rgba(150,164,182,.03)'));
-    const d=project(dump.x-.06,dump.y-.14,t);tag(d,'WASTE DUMP');
+    const d=project(dump.x-.06,dump.y-.14,t);tag(d,L('WASTE DUMP'));
     // ROM pad and crusher near the haul destination.
     const pad=[[.8,.74],[.95,.74],[.95,.9],[.8,.9],[.8,.74]].map(([x,y])=>project(x,y,t));poly(pad,'rgba(196,206,218,.3)',1,[5,4],'rgba(150,164,182,.035)');
     for(let k=1;k<4;k++)poly([project(.8+k*.0375,.74,t),project(.8+k*.0375-.03,.9,t)],'rgba(196,206,218,.12)',1,[2,5]);
-    tag({x:pad[3].x,y:pad[3].y+16},'ROM PAD / CRUSHER');
+    tag({x:pad[3].x,y:pad[3].y+16},L('ROM PAD / CRUSHER'));
     // Underground decline running out from a portal on the pit wall.
     for(const off of [-.012,.012])poly([project(.74,.62+off,t),project(.88,.56+off,t),project(1.02,.6+off,t)],'rgba(120,170,220,.3)',1,[8,6]);
-    const portal=project(.74,.62,t);tag({x:portal.x+6,y:portal.y+22},'UNDERGROUND DECLINE','rgba(140,180,220,.6)',8);
+    const portal=project(.74,.62,t);tag({x:portal.x+6,y:portal.y+22},L('UNDERGROUND DECLINE'),'rgba(140,180,220,.6)',8);
   }
   function draw(){
     const t=reduced.matches?10:elapsed/1000,phase=t%16,found=phase>=6||reduced.matches;
@@ -97,19 +115,19 @@ export function initRouteSearch(){
       const onPath=found&&graph.path.includes(i),endpoint=i===graph.start||i===graph.end;
       ctx.fillStyle=onPath?'#ff9a46':explored.has(i)?'#e4e8ee':'#6f7884';
       ctx.beginPath();ctx.arc(p.x,p.y,endpoint?5:2.7,0,Math.PI*2);ctx.fill();
-      if(endpoint){ctx.strokeStyle=onPath?'#ff9a4680':'#aab4c266';ctx.beginPath();ctx.arc(p.x,p.y,12+Math.sin(t*2)*2,0,Math.PI*2);ctx.stroke();ctx.font='10px monospace';ctx.fillStyle='#dde2e8';ctx.fillText(i===graph.start?'START / R01':'TARGET / S06',Math.min(width-90,Math.max(12,p.x-26)),p.y-23);}
+      if(endpoint){ctx.strokeStyle=onPath?'#ff9a4680':'#aab4c266';ctx.beginPath();ctx.arc(p.x,p.y,12+Math.sin(t*2)*2,0,Math.PI*2);ctx.stroke();ctx.font='10px monospace';ctx.fillStyle='#dde2e8';ctx.fillText(i===graph.start?L('START / R01'):L('TARGET / S06'),Math.min(width-90,Math.max(12,p.x-26)),p.y-23);}
       else if(i%4===0){ctx.font='8px monospace';ctx.fillStyle='#7c8591';ctx.fillText('N'+String(i+1).padStart(2,'0'),p.x+9,p.y-7);}
     });
     const shade=ctx.createLinearGradient(0,height*.55,0,height);shade.addColorStop(0,'transparent');shade.addColorStop(1,'#0a0c0f');ctx.fillStyle=shade;ctx.fillRect(0,height*.55,width,height*.45);
-    const label=found?(phase>=8?'OPTIMAL ROUTE / READY':'LOWEST-COST PATH FOUND'):'SEARCHING CANDIDATE ROUTES';
+    const label=found?(phase>=8?L('OPTIMAL ROUTE / READY'):L('LOWEST-COST PATH FOUND')):L('SEARCHING CANDIDATE ROUTES');
     if(status.textContent!==label)status.textContent=label;
-    const value=found?`${graph.path.length} WAYPOINTS / COST ${graph.cost.toFixed(2)} AU`:`${explored.size} / ${graph.nodes.length} NODES EVALUATED`;
+    const value=found?(zh()?`${graph.path.length} 个路点 / 成本 ${graph.cost.toFixed(2)} AU`:`${graph.path.length} WAYPOINTS / COST ${graph.cost.toFixed(2)} AU`):(zh()?`已评估 ${explored.size} / ${graph.nodes.length} 个节点`:`${explored.size} / ${graph.nodes.length} NODES EVALUATED`);
     if(metric.textContent!==value)metric.textContent=value;
     section.dataset.routePhase=found?'optimal':'searching';
   }
   function tick(now){raf=0;if(!section.isConnected){observer.disconnect();resizer.disconnect();document.removeEventListener('visibilitychange',sync);reduced.removeEventListener('change',sync);return;}if(last)elapsed+=Math.min(now-last,80);last=now;draw();if(visible&&!paused&&!document.hidden&&!reduced.matches)raf=requestAnimationFrame(tick);}
   function sync(){cancelAnimationFrame(raf);raf=0;last=0;draw();if(visible&&!paused&&!document.hidden&&!reduced.matches)raf=requestAnimationFrame(tick);}
-  button.addEventListener('click',()=>{paused=!paused;button.setAttribute('aria-pressed',String(paused));button.textContent=paused?'Resume animation ▷':'Pause animation Ⅱ';sync();});
+  button.addEventListener('click',()=>{paused=!paused;button.setAttribute('aria-pressed',String(paused));button.textContent=paused?L('Resume animation ▷'):L('Pause animation Ⅱ');sync();});
   const observer=new IntersectionObserver(entries=>{visible=entries[0].isIntersecting;sync();});observer.observe(section);
   const resizer=new ResizeObserver(resize);resizer.observe(section);
   document.addEventListener('visibilitychange',sync);reduced.addEventListener('change',sync);resize();
